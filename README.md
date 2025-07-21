@@ -1,4 +1,4 @@
-# 🛠️ Tools & Resources Repository - Structure & Categories
+# 🛠️ Tools & Resources Repository - Structure & categories
 
 ## Overview
 
@@ -13,7 +13,7 @@ The tools repository is structured to provide practical resources that enable bu
 
 ## 📊 Category Structure Framework
 
-### Macro Categories (Primary Divisions)
+### Macro Categories
 
 The repository is organized into **8 primary macro categories**, each aligned with key aspects of digital transformation:
 
