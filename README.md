@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document outlines the comprehensive structure for the **diShine Tools & Resources Repository**, designed to serve as a curated hub of digital transformation tools, applications, and resources.
+This document outlines the comprehensive structure for the **diShine Tools & Resources Repository**, designed to serve as a curated hub of digital tools, applications, and resources.
 
 ## 🎯 Repository Philosophy
 
