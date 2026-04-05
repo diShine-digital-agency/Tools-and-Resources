@@ -41,4 +41,4 @@ We evaluate tools based on their **Learning Curve**, mark **Alternatives To** in
 
 ## 📄 License & Maintenance
 
-Built and maintained by [diShine Digital Agency](https://github.com/diShine-digital-agency). Licensed under the MIT License.
+Built and maintained by Kevin Escoda | [diShine Digital Agency](https://github.com/diShine-digital-agency). Licensed under the MIT License (Open Source).
