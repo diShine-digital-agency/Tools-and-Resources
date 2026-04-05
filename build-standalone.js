@@ -118,8 +118,8 @@ const html = `<!DOCTYPE html>
   </div>
 
   <script>
-    // Magic Database available client-side for auto-swapping
-    window.ALL_TOOLS = ${JSON.stringify(tools.map(t=>({name: t.name, url: t.url, desc: t.description, isFree: t.isFree, cat: t.category, alt: t.alternativeTo})))};
+    // We attach the parsed JSON directly to window so vanilla JS inside the browser has access to the full DB to do AI Alt swapping!
+    window.ALL_TOOLS = ${JSON.stringify(tools.map(t=>({name: t.name, url: t.url, desc: t.description, isFree: t.isFree, cat: t.category, alt: t.alternativeTo, tags: t.tags || []})))};
     
     // Core references
     const searchInput = document.getElementById('searchInput');
@@ -135,16 +135,35 @@ const html = `<!DOCTYPE html>
     const stackCounter = document.getElementById('stackCounter');
     const exportBtn = document.getElementById('exportMdBtn');
     
-    // AI Alternative Logic
+    function findBestAlternative(originalToolName, needFree) {
+      const originalTool = window.ALL_TOOLS.find(t => t.name === originalToolName);
+      if (!originalTool) return null;
+      
+      let explicit = window.ALL_TOOLS.find(t => t.isFree === needFree && t.name !== originalTool.name && (t.alt === originalTool.name || originalTool.alt === t.name));
+      if (explicit) return explicit;
+      
+      let pool = window.ALL_TOOLS.filter(t => t.isFree === needFree && t.name !== originalTool.name && t.cat === originalTool.cat);
+      if (pool.length === 0) return null;
+      
+      let bestAlt = pool[0];
+      let maxScore = -1;
+      const originalTags = (originalTool.tags || []).map(tg => Math.abs(tg.length)); 
+      const targetTagVals = (originalTool.tags || []).map(t => t.toLowerCase());
+      
+      pool.forEach(t => {
+          const candidateTags = (t.tags || []).map(tg => tg.toLowerCase());
+          let score = candidateTags.filter(tg => targetTagVals.includes(tg)).length;
+          if (score > maxScore) { maxScore = score; bestAlt = t; }
+      });
+      return bestAlt;
+    }
+
     document.getElementById('btnConvertFree').addEventListener('click', () => {
         if(myStack.length === 0) return;
         myStack = myStack.map(st => {
-           if(st.free === 'true') return st; // already free
-           // Find a free tool in the SAME category
-           let alt = window.ALL_TOOLS.find(t => t.isFree && t.name !== st.name && t.cat === st.cat);
-           if(!alt) alt = window.ALL_TOOLS.find(t => t.isFree && t.alt && t.alt.includes(st.name));
-           
-           if(alt) return {name: alt.name, url: alt.url, desc: alt.description, free: 'true', cat: alt.cat};
+           if(st.free === 'true') return st; 
+           let alt = findBestAlternative(st.name, true);
+           if(alt) return {name: alt.name, url: alt.url, desc: alt.desc, free: 'true', cat: alt.cat};
            return st;
         });
         renderStack();
@@ -154,8 +173,8 @@ const html = `<!DOCTYPE html>
         if(myStack.length === 0) return;
         myStack = myStack.map(st => {
            if(st.free === 'false') return st; 
-           let alt = window.ALL_TOOLS.find(t => !t.isFree && t.name !== st.name && t.cat === st.cat);
-           if(alt) return {name: alt.name, url: alt.url, desc: alt.description, free: 'false', cat: alt.cat};
+           let alt = findBestAlternative(st.name, false);
+           if(alt) return {name: alt.name, url: alt.url, desc: alt.desc, free: 'false', cat: alt.cat};
            return st;
         });
         renderStack();

@@ -116,7 +116,7 @@ const categories = [...new Set(toolsData.map((t: any) => t.category))];
 
   <script define:vars={{ toolsData }}>
     // We attach the Astro parsed JSON directly to window so vanilla JS inside the browser has access to the full DB to do AI Alt swapping!
-    window.ALL_TOOLS = toolsData.map(t => ({name: t.name, url: t.url, desc: t.description, isFree: t.isFree, cat: t.category, alt: t.alternativeTo}));
+    window.ALL_TOOLS = toolsData.map(t => ({name: t.name, url: t.url, desc: t.description, isFree: t.isFree, cat: t.category, alt: t.alternativeTo, tags: t.tags || []}));
   </script>
 
   <script>
@@ -126,18 +126,40 @@ const categories = [...new Set(toolsData.map((t: any) => t.category))];
     const sections = document.querySelectorAll('.category-section');
     const tagBadges = document.querySelectorAll('.tag-badge');
     
-    let myStack = [];
+    let myStack: any[] = [];
     const stackItemsContainer = document.getElementById('stackItems');
     const emptyStackMsg = document.getElementById('emptyStackMsg');
     const stackCounter = document.getElementById('stackCounter');
     const exportBtn = document.getElementById('exportMdBtn');
     
+    function findBestAlternative(originalToolName: string, needFree: boolean) {
+      const originalTool = (window as any).ALL_TOOLS.find((t: any) => t.name === originalToolName);
+      if (!originalTool) return null;
+      
+      let explicit = (window as any).ALL_TOOLS.find((t: any) => t.isFree === needFree && t.name !== originalTool.name && (t.alt === originalTool.name || originalTool.alt === t.name));
+      if (explicit) return explicit;
+      
+      let pool = (window as any).ALL_TOOLS.filter((t: any) => t.isFree === needFree && t.name !== originalTool.name && t.cat === originalTool.cat);
+      if (pool.length === 0) return null;
+      
+      let bestAlt = pool[0];
+      let maxScore = -1;
+      const originalTags = (originalTool.tags || []).map((tg: string) => Math.abs(tg.length)); // Simple string weight logic
+      const targetTagVals = (originalTool.tags || []).map((t: string) => t.toLowerCase());
+      
+      pool.forEach((t: any) => {
+          const candidateTags = (t.tags || []).map((tg: string) => tg.toLowerCase());
+          let score = candidateTags.filter((tg: string) => targetTagVals.includes(tg)).length;
+          if (score > maxScore) { maxScore = score; bestAlt = t; }
+      });
+      return bestAlt;
+    }
+
     document.getElementById('btnConvertFree')?.addEventListener('click', () => {
         if(myStack.length === 0) return;
         myStack = myStack.map(st => {
            if(st.free === 'true') return st; 
-           let alt = window.ALL_TOOLS.find(t => t.isFree && t.name !== st.name && t.cat === st.cat);
-           if(!alt) alt = window.ALL_TOOLS.find(t => t.isFree && t.alt && t.alt.includes(st.name));
+           let alt = findBestAlternative(st.name, true);
            if(alt) return {name: alt.name, url: alt.url, desc: alt.desc, free: 'true', cat: alt.cat};
            return st;
         });
@@ -148,7 +170,7 @@ const categories = [...new Set(toolsData.map((t: any) => t.category))];
         if(myStack.length === 0) return;
         myStack = myStack.map(st => {
            if(st.free === 'false') return st; 
-           let alt = window.ALL_TOOLS.find(t => !t.isFree && t.name !== st.name && t.cat === st.cat);
+           let alt = findBestAlternative(st.name, false);
            if(alt) return {name: alt.name, url: alt.url, desc: alt.desc, free: 'false', cat: alt.cat};
            return st;
         });

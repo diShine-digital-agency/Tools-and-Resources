@@ -6080,5 +6080,475 @@
       "Design",
       "Diagrams"
     ]
+  },
+  {
+    "name": "Adobe Premiere Pro",
+    "url": "https://www.adobe.com/",
+    "category": "Design & Visual",
+    "type": "[$]",
+    "description": "Industry standard video editing software.",
+    "learningCurve": "Steep",
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Video",
+      "Editing",
+      "Creative"
+    ]
+  },
+  {
+    "name": "Kdenlive",
+    "url": "https://kdenlive.org/",
+    "category": "Design & Visual",
+    "type": "[OS][F]",
+    "description": "Open source video editor.",
+    "learningCurve": "Medium",
+    "alternativeTo": "Adobe Premiere Pro",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Video",
+      "Editing"
+    ]
+  },
+  {
+    "name": "Google Chrome",
+    "url": "https://www.google.com/chrome/",
+    "category": "Privacy & Security Analytics",
+    "type": "[F]",
+    "description": "The most popular web browser.",
+    "learningCurve": "Easy",
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Browser",
+      "Internet"
+    ]
+  },
+  {
+    "name": "Brave",
+    "url": "https://brave.com/",
+    "category": "Privacy & Security Analytics",
+    "type": "[OS][F]",
+    "description": "Secure, fast, and private web browser with built-in ad blocker.",
+    "learningCurve": "Easy",
+    "alternativeTo": "Google Chrome",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Browser",
+      "Privacy",
+      "Crypto"
+    ]
+  },
+  {
+    "name": "Firefox",
+    "url": "https://www.mozilla.org/",
+    "category": "Privacy & Security Analytics",
+    "type": "[OS][F]",
+    "description": "Free and open-source web browser developed by the Mozilla Foundation.",
+    "learningCurve": "Easy",
+    "alternativeTo": "Google Chrome",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Browser",
+      "Privacy",
+      "Open-Source"
+    ]
+  },
+  {
+    "name": "Mullvad Browser",
+    "url": "https://mullvad.net/en/browser",
+    "category": "Privacy & Security Analytics",
+    "type": "[OS][F]",
+    "description": "A privacy-focused browser built in collaboration with Tor.",
+    "learningCurve": "Medium",
+    "alternativeTo": "Google Chrome",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Browser",
+      "Privacy",
+      "Anonymous"
+    ]
+  },
+  {
+    "name": "Odoo",
+    "url": "https://www.odoo.com/",
+    "category": "Data & Business Intelligence",
+    "type": "[OS][F]",
+    "description": "Open Source ERP and CRM.",
+    "learningCurve": "Steep",
+    "alternativeTo": "HubSpot CRM",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "CRM",
+      "ERP",
+      "Business"
+    ]
+  },
+  {
+    "name": "Adobe Illustrator",
+    "url": "https://adobe.com/",
+    "category": "Design & Visual",
+    "type": "[$]",
+    "description": "Industry standard vector graphics software.",
+    "learningCurve": "Steep",
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Design",
+      "Vector",
+      "Creative"
+    ]
+  },
+  {
+    "name": "Inkscape",
+    "url": "https://inkscape.org/",
+    "category": "Design & Visual",
+    "type": "[OS][F]",
+    "description": "Professional quality vector graphics software.",
+    "learningCurve": "Medium",
+    "alternativeTo": "Adobe Illustrator",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Design",
+      "Vector",
+      "Open-Source"
+    ]
+  },
+  {
+    "name": "Adobe Photoshop",
+    "url": "https://adobe.com/",
+    "category": "Design & Visual",
+    "type": "[$]",
+    "description": "Standard for image editing and digital art.",
+    "learningCurve": "Steep",
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Design",
+      "Image Editing",
+      "Creative"
+    ]
+  },
+  {
+    "name": "Krita",
+    "url": "https://krita.org/",
+    "category": "Design & Visual",
+    "type": "[OS][F]",
+    "description": "Professional free and open source painting program.",
+    "learningCurve": "Medium",
+    "alternativeTo": "Adobe Photoshop",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Design",
+      "Image Editing",
+      "Painting"
+    ]
+  },
+  {
+    "name": "Adobe Audition",
+    "url": "https://adobe.com/",
+    "category": "Design & Visual",
+    "type": "[$]",
+    "description": "Professional audio workstation for mixing and editing.",
+    "learningCurve": "Steep",
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Audio",
+      "Editing",
+      "Creative"
+    ]
+  },
+  {
+    "name": "Tenacity",
+    "url": "https://tenacityaudio.org/",
+    "category": "Design & Visual",
+    "type": "[OS][F]",
+    "description": "Privacy-focused fork of Audacity.",
+    "learningCurve": "Medium",
+    "alternativeTo": "Adobe Audition",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Audio",
+      "Editing",
+      "Privacy"
+    ]
+  },
+  {
+    "name": "Jira",
+    "url": "https://www.atlassian.com/software/jira",
+    "category": "Automation & Integration",
+    "type": "[$]",
+    "description": "Enterprise agile project management.",
+    "learningCurve": "Steep",
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Project Management",
+      "Agile",
+      "Enterprise"
+    ]
+  },
+  {
+    "name": "OpenProject",
+    "url": "https://www.openproject.org/",
+    "category": "Automation & Integration",
+    "type": "[OS][F]",
+    "description": "Open source project management software.",
+    "learningCurve": "Medium",
+    "alternativeTo": "Jira",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Project Management",
+      "Open-Source"
+    ]
+  },
+  {
+    "name": "Focalboard",
+    "url": "https://www.focalboard.com/",
+    "category": "Automation & Integration",
+    "type": "[OS][F]",
+    "description": "Open source alternative to Trello, Notion, and Asana.",
+    "learningCurve": "Easy",
+    "alternativeTo": "Asana",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Project Management",
+      "Kanban"
+    ]
+  },
+  {
+    "name": "Mattermost",
+    "url": "https://mattermost.com/",
+    "category": "Automation & Integration",
+    "type": "[OS][F]",
+    "description": "Open-source, self-hostable Slack alternative.",
+    "learningCurve": "Medium",
+    "alternativeTo": "Slack",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Chat",
+      "Communication",
+      "Self-Hosted"
+    ]
+  },
+  {
+    "name": "Superhuman",
+    "url": "https://superhuman.com/",
+    "category": "Email Marketing & CRM",
+    "type": "[$]",
+    "description": "The fastest email experience made for professionals.",
+    "learningCurve": "Medium",
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Email",
+      "Productivity"
+    ]
+  },
+  {
+    "name": "Thunderbird",
+    "url": "https://www.thunderbird.net/",
+    "category": "Email Marketing & CRM",
+    "type": "[OS][F]",
+    "description": "Free, open-source email client backed by Mozilla.",
+    "learningCurve": "Medium",
+    "alternativeTo": "Superhuman",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Email",
+      "Client",
+      "Open-Source"
+    ]
+  },
+  {
+    "name": "Mailspring",
+    "url": "https://getmailspring.com/",
+    "category": "Email Marketing & CRM",
+    "type": "[OS][F]",
+    "description": "Beautiful, fast email client.",
+    "learningCurve": "Easy",
+    "alternativeTo": "Superhuman",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Email",
+      "Client"
+    ]
+  },
+  {
+    "name": "Microsoft 365",
+    "url": "https://www.office.com/",
+    "category": "Automation & Integration",
+    "type": "[$]",
+    "description": "Standard enterprise productivity suite.",
+    "learningCurve": "Medium",
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Office",
+      "Productivity",
+      "Enterprise"
+    ]
+  },
+  {
+    "name": "LibreOffice",
+    "url": "https://www.libreoffice.org/",
+    "category": "Automation & Integration",
+    "type": "[OS][F]",
+    "description": "Free and powerful office suite.",
+    "learningCurve": "Medium",
+    "alternativeTo": "Microsoft 365",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Office",
+      "Productivity",
+      "Open-Source"
+    ]
+  },
+  {
+    "name": "OnlyOffice",
+    "url": "https://www.onlyoffice.com/",
+    "category": "Automation & Integration",
+    "type": "[OS][F]",
+    "description": "Secure online office apps highly compatible with MS formats.",
+    "learningCurve": "Medium",
+    "alternativeTo": "Microsoft 365",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Office",
+      "Collaboration"
+    ]
+  },
+  {
+    "name": "Obsidian",
+    "url": "https://obsidian.md/",
+    "category": "Automation & Integration",
+    "type": "[F]",
+    "description": "Private and flexible writing app that adapts to the way you think.",
+    "learningCurve": "Steep",
+    "alternativeTo": "Notion",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Notes",
+      "Markdown",
+      "Local"
+    ]
+  },
+  {
+    "name": "AppFlowy",
+    "url": "https://www.appflowy.io/",
+    "category": "Automation & Integration",
+    "type": "[OS][F]",
+    "description": "Open Source Alternative to Notion.",
+    "learningCurve": "Medium",
+    "alternativeTo": "Notion",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Notes",
+      "Wiki",
+      "Open-Source"
+    ]
+  },
+  {
+    "name": "WinRAR",
+    "url": "https://www.win-rar.com/",
+    "category": "Web Development",
+    "type": "[$]",
+    "description": "Popular file archiver utility.",
+    "learningCurve": "Easy",
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Utility",
+      "Archive"
+    ]
+  },
+  {
+    "name": "7-Zip",
+    "url": "https://www.7-zip.org/",
+    "category": "Web Development",
+    "type": "[OS][F]",
+    "description": "Free file archiver with high compression ratio.",
+    "learningCurve": "Easy",
+    "alternativeTo": "WinRAR",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Utility",
+      "Archive",
+      "Open-Source"
+    ]
+  },
+  {
+    "name": "PeaZip",
+    "url": "https://peazip.github.io/",
+    "category": "Web Development",
+    "type": "[OS][F]",
+    "description": "Free Zip / Rar extractor.",
+    "learningCurve": "Easy",
+    "alternativeTo": "WinRAR",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Utility",
+      "Archive"
+    ]
+  },
+  {
+    "name": "Rufus",
+    "url": "https://rufus.ie/",
+    "category": "Web Development",
+    "type": "[OS][F]",
+    "description": "Create bootable USB drives the easy way.",
+    "learningCurve": "Medium",
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Utility",
+      "System"
+    ]
+  },
+  {
+    "name": "Ventoy",
+    "url": "https://www.ventoy.net/",
+    "category": "Web Development",
+    "type": "[OS][F]",
+    "description": "A new approach to creating bootable USB drives.",
+    "learningCurve": "Medium",
+    "alternativeTo": "Rufus",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Utility",
+      "System",
+      "Open-Source"
+    ]
   }
 ]

@@ -2,7 +2,7 @@
 
 Welcome to the **diShine Tools & Resources** directory!
 
-This repository contains an extensively vetted dataset of exactly **392 digital tools**, platforms, and resources curated for agencies, consultants, and digital teams. 
+This repository contains an extensively vetted dataset of exactly **422 digital tools**, platforms, and resources curated for agencies, consultants, and digital teams. 
 
 We have completely rebuilt this repository from a static list into a highly interactive, consulting-grade dataset powered by NLP tags, explicit pricing algorithms, and scalable accordion layouts.
 
@@ -17,7 +17,7 @@ If you don't want to deal with Node.js or terminal commands, just open the **[`s
 - **Consultant Tech-Stack Builder**: A cart system allowing you to combine tools for client proposals.
 - **Budget Automation**: Magical internal scripts that can instantly hot-swap tools in your stack for 100% Free / Open Source alternatives at the click of a button!
 - **Client Cover Notes**: An input field to write a greeting note before seamlessly exporting your entire built stack into cleanly formatted Markdown.
-- **Dynamic NLP Tags**: Filter the 392 tools instantly by clicking intelligently assigned tags like `#seo`, `#gdpr`, or `#automation`.
+- **Dynamic NLP Tags**: Filter the 422 tools instantly by clicking intelligently assigned tags like `#seo`, `#gdpr`, or `#automation`.
 
 ### 2. The Pure Markdown List (Classic Reading)
 If you just want to scroll through a simple text document on your phone or locally, click on **[`DIRECTORY.md`](DIRECTORY.md)**. It is automatically generated and contains every tool beautifully categorized in standard Markdown format.

@@ -23,6 +23,8 @@ This is a statically generated list of all tools available in the diShine toolki
 18. [Conversion Optimization](#conversion-optimization)
 19. [Video & Audio](#video-audio)
 20. [Learning & Certifications](#learning-certifications)
+21. [Privacy & Security Analytics](#privacy-security-analytics)
+22. [Email Marketing & CRM](#email-marketing-crm)
 
 ---
 
@@ -175,6 +177,16 @@ This is a statically generated list of all tools available in the diShine toolki
 | **[Mockup World](https://www.mockupworld.co)** | Free/Freemium | Medium | Free PSD mockups for presentations<br>*Tags: #Design* |
 | **[Shots.so](https://shots.so)** | Free/Freemium | Medium | Beautiful mockups for screenshots<br>*Tags: #Design* |
 | **[Remove.bg](https://remove.bg)** | Free/Freemium | Medium | Background removal from images<br>*Tags: #Design* |
+| **[Penpot](https://penpot.app/)** | Free/Freemium<br>OSS | Medium | Open-source design and prototyping platform.<br>**Alt to:** Figma<br>*Tags: #Design, #UI* |
+| **[Draw.io](https://draw.io/)** | Free/Freemium<br>OSS | Easy | Free online diagram software.<br>**Alt to:** Lucidchart<br>*Tags: #Design, #Diagrams* |
+| **[Adobe Premiere Pro](https://www.adobe.com/)** | Paid | Steep | Industry standard video editing software.<br>*Tags: #Video, #Editing, #Creative* |
+| **[Kdenlive](https://kdenlive.org/)** | Free/Freemium<br>OSS | Medium | Open source video editor.<br>**Alt to:** Adobe Premiere Pro<br>*Tags: #Video, #Editing* |
+| **[Adobe Illustrator](https://adobe.com/)** | Paid | Steep | Industry standard vector graphics software.<br>*Tags: #Design, #Vector, #Creative* |
+| **[Inkscape](https://inkscape.org/)** | Free/Freemium<br>OSS | Medium | Professional quality vector graphics software.<br>**Alt to:** Adobe Illustrator<br>*Tags: #Design, #Vector, #Open-Source* |
+| **[Adobe Photoshop](https://adobe.com/)** | Paid | Steep | Standard for image editing and digital art.<br>*Tags: #Design, #Image Editing, #Creative* |
+| **[Krita](https://krita.org/)** | Free/Freemium<br>OSS | Medium | Professional free and open source painting program.<br>**Alt to:** Adobe Photoshop<br>*Tags: #Design, #Image Editing, #Painting* |
+| **[Adobe Audition](https://adobe.com/)** | Paid | Steep | Professional audio workstation for mixing and editing.<br>*Tags: #Audio, #Editing, #Creative* |
+| **[Tenacity](https://tenacityaudio.org/)** | Free/Freemium<br>OSS | Medium | Privacy-focused fork of Audacity.<br>**Alt to:** Adobe Audition<br>*Tags: #Audio, #Editing, #Privacy* |
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -320,6 +332,17 @@ This is a statically generated list of all tools available in the diShine toolki
 | **[Tray.io](https://tray.io)** | Paid | Steep | Enterprise automation platform<br>*Tags: #Automation* |
 | **[Windmill](https://windmill.dev)** | Free/Freemium<br>OSS | Medium | Open-source alternative to Retool + Temporal<br>*Tags: #OSS, #Automation* |
 | **[Temporal](https://temporal.io)** | Free/Freemium<br>OSS | Medium | Durable workflow orchestration<br>*Tags: #Automation* |
+| **[LocalSend](https://localsend.org/)** | Free/Freemium<br>OSS | Easy | Share files to nearby devices. Free, open source, cross-platform.<br>**Alt to:** AirDrop<br>*Tags: #Utility, #Transfer* |
+| **[Syncthing](https://syncthing.net/)** | Free/Freemium<br>OSS | Medium | Continuous file synchronization program.<br>**Alt to:** Dropbox / Google Drive<br>*Tags: #Storage, #Sync, #Self-Hosted* |
+| **[Jira](https://www.atlassian.com/software/jira)** | Paid | Steep | Enterprise agile project management.<br>*Tags: #Project Management, #Agile, #Enterprise* |
+| **[OpenProject](https://www.openproject.org/)** | Free/Freemium<br>OSS | Medium | Open source project management software.<br>**Alt to:** Jira<br>*Tags: #Project Management, #Open-Source* |
+| **[Focalboard](https://www.focalboard.com/)** | Free/Freemium<br>OSS | Easy | Open source alternative to Trello, Notion, and Asana.<br>**Alt to:** Asana<br>*Tags: #Project Management, #Kanban* |
+| **[Mattermost](https://mattermost.com/)** | Free/Freemium<br>OSS | Medium | Open-source, self-hostable Slack alternative.<br>**Alt to:** Slack<br>*Tags: #Chat, #Communication, #Self-Hosted* |
+| **[Microsoft 365](https://www.office.com/)** | Paid | Medium | Standard enterprise productivity suite.<br>*Tags: #Office, #Productivity, #Enterprise* |
+| **[LibreOffice](https://www.libreoffice.org/)** | Free/Freemium<br>OSS | Medium | Free and powerful office suite.<br>**Alt to:** Microsoft 365<br>*Tags: #Office, #Productivity, #Open-Source* |
+| **[OnlyOffice](https://www.onlyoffice.com/)** | Free/Freemium<br>OSS | Medium | Secure online office apps highly compatible with MS formats.<br>**Alt to:** Microsoft 365<br>*Tags: #Office, #Collaboration* |
+| **[Obsidian](https://obsidian.md/)** | Free/Freemium | Steep | Private and flexible writing app that adapts to the way you think.<br>**Alt to:** Notion<br>*Tags: #Notes, #Markdown, #Local* |
+| **[AppFlowy](https://www.appflowy.io/)** | Free/Freemium<br>OSS | Medium | Open Source Alternative to Notion.<br>**Alt to:** Notion<br>*Tags: #Notes, #Wiki, #Open-Source* |
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -358,6 +381,13 @@ This is a statically generated list of all tools available in the diShine toolki
 | **[Postman](https://postman.com)** | Free/Freemium | Medium | API testing and documentation<br>*Tags: #DevTools* |
 | **[Insomnia](https://insomnia.rest)** | Free/Freemium<br>OSS | Medium | REST/GraphQL API client<br>*Tags: #DevTools* |
 | **[Bruno](https://usebruno.com)** | Free/Freemium<br>OSS | Medium | Offline-first, git-friendly API client<br>*Tags: #DevTools* |
+| **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** | Free/Freemium<br>OSS | Medium | A fancy self-hosted monitoring tool.<br>**Alt to:** UptimeRobot<br>*Tags: #DevTools, #Monitoring, #Self-Hosted* |
+| **[Coolify](https://coolify.io/)** | Free/Freemium<br>OSS | Steep | An open-source & self-hostable Heroku / Netlify / Vercel alternative.<br>**Alt to:** Vercel / Heroku<br>*Tags: #DevTools, #Hosting, #Self-Hosted* |
+| **[WinRAR](https://www.win-rar.com/)** | Paid | Easy | Popular file archiver utility.<br>*Tags: #Utility, #Archive* |
+| **[7-Zip](https://www.7-zip.org/)** | Free/Freemium<br>OSS | Easy | Free file archiver with high compression ratio.<br>**Alt to:** WinRAR<br>*Tags: #Utility, #Archive, #Open-Source* |
+| **[PeaZip](https://peazip.github.io/)** | Free/Freemium<br>OSS | Easy | Free Zip / Rar extractor.<br>**Alt to:** WinRAR<br>*Tags: #Utility, #Archive* |
+| **[Rufus](https://rufus.ie/)** | Free/Freemium<br>OSS | Medium | Create bootable USB drives the easy way.<br>*Tags: #Utility, #System* |
+| **[Ventoy](https://www.ventoy.net/)** | Free/Freemium<br>OSS | Medium | A new approach to creating bootable USB drives.<br>**Alt to:** Rufus<br>*Tags: #Utility, #System, #Open-Source* |
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -385,6 +415,7 @@ This is a statically generated list of all tools available in the diShine toolki
 | **[NocoDB](https://nocodb.com)** | Free/Freemium<br>OSS | Medium | Open-source Airtable alternative<br>**Alt to:** Mailchimp / Airtable<br>*Tags: #OSS* |
 | **[Grist](https://getgrist.com)** | Free/Freemium<br>OSS | Medium | Powerful spreadsheet with Python formulas |
 | **[Rows](https://rows.com)** | Free/Freemium | Medium | Spreadsheets with built-in integrations<br>*Tags: #Design* |
+| **[Odoo](https://www.odoo.com/)** | Free/Freemium<br>OSS | Steep | Open Source ERP and CRM.<br>**Alt to:** HubSpot CRM<br>*Tags: #CRM, #ERP, #Business* |
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -583,6 +614,35 @@ This is a statically generated list of all tools available in the diShine toolki
 | **[Hacker News](https://news.ycombinator.com)** | Free/Freemium | Medium | Tech news and discussion |
 | **[Growth Design](https://growth.design)** | Free/Freemium | Medium | UX case studies as comic strips<br>*Tags: #Design* |
 | **[Stratechery](https://stratechery.com)** | Paid | Medium | Deep tech/business strategy analysis |
+
+[⬆ Back to Top](#table-of-contents)
+
+---
+
+## Privacy & Security Analytics
+
+| Tool | Philosophy | Curve | Description & Metadata |
+|------|------------|-------|------------------------|
+| **[uBlock Origin](https://ublockorigin.com/)** | Free/Freemium<br>OSS | Easy | An efficient, CPU and memory-friendly wide-spectrum content blocker.<br>**Alt to:** Adblock Plus<br>*Tags: #Privacy, #Browser, #Adblocker* |
+| **[Pi-hole](https://pi-hole.net/)** | Free/Freemium<br>OSS | Medium | A black hole for Internet advertisements, running as a DNS sinkhole.<br>**Alt to:** NextDNS<br>*Tags: #Privacy, #DNS, #Self-Hosted* |
+| **[AdGuard Home](https://adguard.com/en/adguard-home/overview.html)** | Free/Freemium<br>OSS | Medium | Network-wide software for blocking ads & tracking.<br>**Alt to:** Pi-hole<br>*Tags: #Privacy, #DNS, #Self-Hosted* |
+| **[Bitwarden](https://bitwarden.com/)** | Free/Freemium<br>OSS | Easy | Open source password manager.<br>**Alt to:** 1Password / LastPass<br>*Tags: #Privacy, #Security* |
+| **[Google Chrome](https://www.google.com/chrome/)** | Free/Freemium | Easy | The most popular web browser.<br>*Tags: #Browser, #Internet* |
+| **[Brave](https://brave.com/)** | Free/Freemium<br>OSS | Easy | Secure, fast, and private web browser with built-in ad blocker.<br>**Alt to:** Google Chrome<br>*Tags: #Browser, #Privacy, #Crypto* |
+| **[Firefox](https://www.mozilla.org/)** | Free/Freemium<br>OSS | Easy | Free and open-source web browser developed by the Mozilla Foundation.<br>**Alt to:** Google Chrome<br>*Tags: #Browser, #Privacy, #Open-Source* |
+| **[Mullvad Browser](https://mullvad.net/en/browser)** | Free/Freemium<br>OSS | Medium | A privacy-focused browser built in collaboration with Tor.<br>**Alt to:** Google Chrome<br>*Tags: #Browser, #Privacy, #Anonymous* |
+
+[⬆ Back to Top](#table-of-contents)
+
+---
+
+## Email Marketing & CRM
+
+| Tool | Philosophy | Curve | Description & Metadata |
+|------|------------|-------|------------------------|
+| **[Superhuman](https://superhuman.com/)** | Paid | Medium | The fastest email experience made for professionals.<br>*Tags: #Email, #Productivity* |
+| **[Thunderbird](https://www.thunderbird.net/)** | Free/Freemium<br>OSS | Medium | Free, open-source email client backed by Mozilla.<br>**Alt to:** Superhuman<br>*Tags: #Email, #Client, #Open-Source* |
+| **[Mailspring](https://getmailspring.com/)** | Free/Freemium<br>OSS | Easy | Beautiful, fast email client.<br>**Alt to:** Superhuman<br>*Tags: #Email, #Client* |
 
 [⬆ Back to Top](#table-of-contents)
 
