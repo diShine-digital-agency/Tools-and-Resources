@@ -1,6 +1,6 @@
 # User Guide: diShine Tools & Resources
 
-Welcome! We designed this repository to be accessible for both casual users and developers. There are three primary ways to leverage this toolkit:
+Welcome! We designed this repository to be accessible for both casual users and developers. There are three primary ways to leverage this toolkit of **392** curated tools:
 
 ## 1. Interactive Access (No Code Required)
 
@@ -8,8 +8,17 @@ If you are a consultant, marketer, or agency member who wants maximum functional
 
 **Simply double-click the `standalone.html` file!**
 
-- **What it is:** A completely independent, fully-styled HTML file containing the entire database of tools.
-- **Features:** It features a Tech-Stack "Cart" builder, NLP tag-based searching, category breakdown, and color-coded metadata. It fetches styling via CDN, so be online!
+This is an incredibly powerful offline application that functions seamlessly. 
+
+### Core Features:
+- **Scalable Accordions**: The 392 tools are tucked away into nested categories that auto-expand, ensuring you never have to scroll endlessly.
+- **Pricing & Philosophy Filters**: Big toggles at the top let you instantly view only "Free/Freemium" or strictly "Open Source" tools across the whole directory.
+
+### The Consultant "Stack Builder":
+Every tool has a `+ Stack` button. As you browse, add tools to your My Stack sidebar.
+- **Budget Hot-Swapping**: In your Stack sidebar, you will see a button to `🪄 Find Free Alts`. If you added premium tools to your stack, clicking this button tells the algorithm to scan the 392 tools and instantly replace your premium selections with Open Source/Free tools that accomplish the same task! (e.g. Swapping *Ahrefs* for a free alternative).
+- **Pro Upgrades**: Similarly, click `💎 Upgrade Stack` to swap simple free tools with enterprise-grade premium suggestions.
+- **Exporting**: Type a client greeting in the note box and click `Export Markdown`. The system automatically categorizes your selected tools and copies a beautifully formatted guide to your clipboard!
 
 ## 2. Text-Only Access (The Classic Way)
 
@@ -17,12 +26,12 @@ If you prefer simply reading through a structured document without interactive s
 
 **Click on `DIRECTORY.md`**.
 
-- **What it is:** A compiled, static Markdown file. It reads just like standard GitHub documentation.
-- **Features:** Fully categorized with table of contents. Includes pricing, descriptions, learning curves, and tags compiled into the text.
+- **What it is:** A compiled, static Markdown file containing all 392 tools. It reads just like standard GitHub documentation.
+- **Features:** Fully categorized with an interactive table of contents. Includes pricing, descriptions, learning curves, and tags compiled directly into the text.
 
 ## 3. Developer Access (The Astro Site)
 
-If you want to run the full, scalable, static site environment locally or deploy it to a server:
+If you want to run the full, scalable, static site environment locally or deploy it to a server (this architecture perfectly matches the standalone HTML capabilities):
 
 ### Prerequisites
 Make sure you have [Node.js](https://nodejs.org) installed on your system (v18+ recommended).

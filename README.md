@@ -2,9 +2,9 @@
 
 Welcome to the **diShine Tools & Resources** directory!
 
-This repository contains over 400 digital tools, platforms, and resources curated and vetted for agencies, consultants, and digital teams. 
+This repository contains an extensively vetted dataset of exactly **392 digital tools**, platforms, and resources curated for agencies, consultants, and digital teams. 
 
-We have completely rebuilt this repository from a static list into a highly interactive dataset powered by NLP tags and explicit pricing data.
+We have completely rebuilt this repository from a static list into a highly interactive, consulting-grade dataset powered by NLP tags, explicit pricing algorithms, and scalable accordion layouts.
 
 ---
 
@@ -13,7 +13,11 @@ We have completely rebuilt this repository from a static list into a highly inte
 We've designed this repository so anyone can use it, no matter their technical skill level.
 
 ### 1. The Interactive Standalone HTML (Recommended)
-If you don't want to deal with Node.js or terminal commands, just open the **[`standalone.html`](standalone.html)** file in any web browser! It immediately loads the entire toolkit, complete with our Consultant Tech-Stack Builder cart system, fast search, and tag filters.
+If you don't want to deal with Node.js or terminal commands, just open the **[`standalone.html`](standalone.html)** file in any web browser! It immediately loads the entire toolkit, featuring:
+- **Consultant Tech-Stack Builder**: A cart system allowing you to combine tools for client proposals.
+- **Budget Automation**: Magical internal scripts that can instantly hot-swap tools in your stack for 100% Free / Open Source alternatives at the click of a button!
+- **Client Cover Notes**: An input field to write a greeting note before seamlessly exporting your entire built stack into cleanly formatted Markdown.
+- **Dynamic NLP Tags**: Filter the 392 tools instantly by clicking intelligently assigned tags like `#seo`, `#gdpr`, or `#automation`.
 
 ### 2. The Pure Markdown List (Classic Reading)
 If you just want to scroll through a simple text document on your phone or locally, click on **[`DIRECTORY.md`](DIRECTORY.md)**. It is automatically generated and contains every tool beautifully categorized in standard Markdown format.
@@ -31,14 +35,14 @@ npm run dev
 
 ## 📈 What's Inside?
 
-Our dataset (`src/data/tools.json`) covers 20 distinct categories, heavily focused on:
+Our dataset (`src/data/tools.json`) covers dozens of distinct categories, heavily influenced by the `FMHY` privacy compendium and agency standards:
 - **Technical SEO, Search & Automation**
 - **Web Performance & Web Vitals**
-- **Privacy-First Analytics & Tag Management** (GDPR compliant alternatives)
-- **Open Source Frontend & Cloud Providers**
+- **Privacy-First Analytics & Tag Management** (GDPR compliant alternatives like Plausible or Pi-Hole)
+- **Open Source Frontend & Cloud Integrations** (Self-hosted apps like Coolify & Uptime Kuma)
 
 We evaluate tools based on their **Learning Curve**, mark **Alternatives To** industry staples, and clearly designate `diShine` Agency top-picks.
 
 ## 📄 License & Maintenance
 
-Built and maintained by Kevin Escoda | [diShine Digital Agency](https://github.com/diShine-digital-agency). Licensed under the MIT License (Open Source).
+Built and maintained by [diShine Digital Agency](https://github.com/diShine-digital-agency). Licensed under the MIT License.

@@ -1,13 +1,13 @@
-## What's new in v1.1.0: The Consulting & Curation Upgrade!
+## What's new in v1.2.0: The FMHY Content Expansion & Smart Stacks
 
-This release elevates our tools directory from a simple categorized index into a highly interactive, consulting-grade tech aggregator. 
+This is a massive content and scale upgrade for the diShine Tools directory! As our database grows over 400+, we have introduced advanced architectural changes to handle immense capacity.
 
-### 🌟 Major New Features
-- **The Tech-Stack Builder (Cart System)**: You can now curate your own lists! Click **"+ Stack"** on any tool to add it to your "My Stack" sidebar. Once curated, click **"Export Markdown"** to instantly copy a formatted tech proposal to your clipboard.
-- **Dynamic NLP Tagging**: Tools are no longer strictly bound to one category. We now auto-extract contextual tags (like `#seo`, `#oss`, `#gdpr`, `#automation`). Clicking any tag instantly filters the directory!
-- **Pricing & Philosophy Toggles**: Two new prominent 1-click toggles allow you to instantly filter the entire 400+ tool directory to display *only* **Open Source** or **Free/Freemium** tooling.
+### 🌟 New Features & Scale UI
+- **Magical Budget Options**: The "My Stack" consultancy cart now features **🪄 Find Free Alts** and **💎 Upgrade Stack** buttons! Clicking these buttons instantly analyzes your current stack and swaps out tools for completely Free (Open Source) alternatives or Premium "Agency Quality" alternatives.
+- **Client Consultant Notes**: You can now attach professional client greeting notes directly inside the Cart UI which will automatically append to the top of your Markdown Export.
+- **Accordion Scale Layout**: Categories are now built using high-performance CSS collapsible Accordions. Only the categories you're interested in will remain open, saving immense scrolling distance.
 
-### 🛠 Architecture Sync
-All feature upgrades apply equally to both our developer-centric **Astro Application** (which handles standard deployments) and our zero-dependency **Standalone HTML** version.
+### 📚 FMHY Data Inject
+- **Massive Privacy Injection**: We scoured the legendary `FMHY` repository and securely added an array of top-tier Privacy, Self-hosted, and Open Source system utility tools directly into our data pipeline! (e.g. Pi-hole, Coolify, Uptime Kuma)
 
 *Maintained with ❤️ by diShine Digital Agency.*
