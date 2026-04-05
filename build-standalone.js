@@ -136,11 +136,7 @@ const html = `<!DOCTYPE html>
   </div>
 
   <script>
-    window.ALL_TOOLS = JSON.parse(document.querySelector('[data-all-tools]')?.dataset?.allTools || '[]');
-  <\/script>
-  <div data-all-tools="${escAttr(JSON.stringify(tools.map(t=>({name: t.name, url: t.url, desc: t.description, isFree: t.isFree, pricing: t.pricing, cat: t.category, alt: t.alternativeTo, tags: t.tags || []}))))}" style="display:none"></div>
-  <script>
-    window.ALL_TOOLS = JSON.parse(document.querySelector('[data-all-tools]').dataset.allTools);
+    window.ALL_TOOLS = ${JSON.stringify(tools.map(t=>({name: t.name, url: t.url, desc: t.description, isFree: t.isFree, pricing: t.pricing, cat: t.category, alt: t.alternativeTo, tags: t.tags || []})))};
 
     const searchInput = document.getElementById('searchInput');
     const sections = document.querySelectorAll('.category-section');
@@ -302,22 +298,22 @@ const html = `<!DOCTYPE html>
     exportBtn.addEventListener('click', function() {
       if (myStack.length === 0) return;
       var notes = document.getElementById('stackNotes').value.trim();
-      var md = '# Digital Agency Tech Stack\n\n';
-      if (notes) md += '> ' + notes + '\n\n';
+      var md = '# Digital Agency Tech Stack\\n\\n';
+      if (notes) md += '> ' + notes + '\\n\\n';
       var counts = {free: 0, freemium: 0, 'open-source': 0, paid: 0};
       myStack.forEach(function(t) { counts[t.pricing] = (counts[t.pricing]||0)+1; });
-      md += '**Stack overview:** ' + myStack.length + ' tools - ' + counts.free + ' free, ' + counts['open-source'] + ' open-source, ' + counts.freemium + ' freemium, ' + counts.paid + ' paid\n\n';
+      md += '**Stack overview:** ' + myStack.length + ' tools - ' + counts.free + ' free, ' + counts['open-source'] + ' open-source, ' + counts.freemium + ' freemium, ' + counts.paid + ' paid\\n\\n';
       var grouped = {};
       myStack.forEach(function(t) {
         if (!grouped[t.cat]) grouped[t.cat] = [];
         grouped[t.cat].push(t);
       });
       Object.keys(grouped).forEach(function(cat) {
-        md += '### ' + cat + '\n';
+        md += '### ' + cat + '\\n';
         grouped[cat].forEach(function(t) {
-          md += '- **[' + t.name + '](' + t.url + ')** [' + pricingLabel(t.pricing) + ']: ' + t.desc + '\n';
+          md += '- **[' + t.name + '](' + t.url + ')** [' + pricingLabel(t.pricing) + ']: ' + t.desc + '\\n';
         });
-        md += '\n';
+        md += '\\n';
       });
       navigator.clipboard.writeText(md).then(function() {
         var orig = exportBtn.textContent;
