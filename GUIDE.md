@@ -1,77 +1,128 @@
 # User Guide: diShine Tools & Resources
 
-Welcome! We designed this repository to be accessible for both casual users and developers. There are three primary ways to leverage this toolkit of **422** curated tools:
-
-## 1. Interactive Access (No Code Required)
-
-If you are a consultant, marketer, or agency member who wants maximum functionality without touching a terminal:
-
-**Simply double-click the `standalone.html` file!**
-
-This is an incredibly powerful offline application that functions seamlessly. 
-
-### Core Features:
-- **Scalable Accordions**: The 422 tools are tucked away into nested categories that auto-expand, ensuring you never have to scroll endlessly.
-- **Pricing & Philosophy Filters**: Big toggles at the top let you instantly view only "Free/Freemium" or strictly "Open Source" tools across the whole directory.
-
-### The Consultant "Stack Builder":
-Every tool has a `+ Stack` button. As you browse, add tools to your My Stack sidebar.
-- **Budget Hot-Swapping**: In your Stack sidebar, you will see a button to `🪄 Find Free Alts`. If you added premium tools to your stack, clicking this button tells the algorithm to scan the 422 tools and instantly replace your premium selections with Open Source/Free tools that accomplish the same task! (e.g. Swapping *Ahrefs* for a free alternative).
-- **Pro Upgrades**: Similarly, click `💎 Upgrade Stack` to swap simple free tools with enterprise-grade premium suggestions.
-- **Exporting**: Type a client greeting in the note box and click `Export Markdown`. The system automatically categorizes your selected tools and copies a beautifully formatted guide to your clipboard!
-
-## 2. Text-Only Access (The Classic Way)
-
-If you prefer simply reading through a structured document without interactive scripts:
-
-**Click on `DIRECTORY.md`**.
-
-- **What it is:** A compiled, static Markdown file containing all 422 tools. It reads just like standard GitHub documentation.
-- **Features:** Fully categorized with an interactive table of contents. Includes pricing, descriptions, learning curves, and tags compiled directly into the text.
-
-## 3. Developer Access (The Astro Site)
-
-If you want to run the full, scalable, static site environment locally or deploy it to a server (this architecture perfectly matches the standalone HTML capabilities):
-
-### Prerequisites
-Make sure you have [Node.js](https://nodejs.org) installed on your system (v18+ recommended).
-
-### Running the App
-1. Clone the repository and navigate into it:
-   ```bash
-   git clone https://github.com/diShine-digital-agency/Tools-and-Resources.git
-   cd Tools-and-Resources
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the application:
-   ```bash
-   npm run dev
-   ```
-4. Open your browser and go to **`http://localhost:4321`**.
+A practical guide to the **422-tool** diShine digital toolkit.
 
 ---
 
-## How to Contribute / Add a Tool
+## 1. Interactive Access (No Code Required)
 
-We have separated the *data* from the *display*. This means you don't need to know HTML or Astro to add a tool.
+Double-click **`standalone.html`** to open the full toolkit in any browser. No install, no server, works offline.
 
-1. Open `src/data/tools.json`.
-2. Paste a new tool chunk into the JSON array:
+### Browsing
+
+- **Search bar** -- type any keyword to filter by name, description, or tags
+- **Tag badges** -- click any `#tag` on a tool card to filter the entire directory by that tag. Click again to clear.
+- **Pricing filter bar** -- five buttons at the top: All / Free / Freemium / Open Source / Paid. Each shows an exact count. Click to filter instantly.
+- **Accordions** -- categories are collapsed by default. Click to open, click again to close. When searching or filtering, matching categories auto-expand.
+
+### Stack Builder
+
+Every tool card has a **`+ Stack`** button. Click to add tools to the "My Stack" sidebar on the right.
+
+- **Toggle add/remove**: once a tool is in your stack, the button turns red and reads **`- Remove`**. Click to remove directly from the card.
+- **Sidebar remove**: each item in the stack sidebar has a **x** button.
+- **Pricing summary**: the sidebar shows a live breakdown like `2 free / 1 OS / 3 freemium / 1 paid`.
+
+### Alternative Matching
+
+Two action buttons in the sidebar header transform your stack:
+
+| Button | Action |
+|--------|--------|
+| **Free Alts** | Replaces paid and freemium tools with the best free or open-source match |
+| **Upgrade** | Replaces free and freemium tools with the best paid premium match |
+| **Reset** | Appears after any swap -- restores your original hand-picked stack |
+
+The algorithm uses a multi-signal weighted scoring system. It prioritizes tools in the **same subcategory** (e.g., Screen Recording, Audio & Podcasting) over broad category matches, so a screen recorder gets matched with another screen recorder -- not a video editor. See the [README](README.md) for the full scoring breakdown.
+
+Your original stack is always preserved in memory. Swapping to free alts or premium upgrades changes the view but never destroys your picks. Click **Reset** to return.
+
+### Triple Export
+
+Click **Export Markdown** to copy a complete consulting report to your clipboard. The export always includes three sections:
+
+1. **Chosen Stack** -- your original hand-picked tools, grouped by category with pricing labels and links
+2. **Free & Open-Source Alternatives** -- a comparison table: each of your tools alongside the algorithm's best free/OS match
+3. **Premium Upgrade Alternatives** -- a comparison table: each tool alongside the best paid alternative
+
+Add an optional client note in the textarea before exporting. The markdown is ready to paste into proposals, Notion, Slack, or email.
+
+---
+
+## 2. Text-Only Access
+
+Open **[`DIRECTORY.md`](DIRECTORY.md)** for a static Markdown list of all 422 tools with categories, descriptions, pricing, learning curves, and tags.
+
+---
+
+## 3. Developer Access (Astro Site)
+
+### Prerequisites
+
+[Node.js](https://nodejs.org) v18+.
+
+### Setup
+
+```bash
+git clone https://github.com/diShine-digital-agency/Tools-and-Resources.git
+cd Tools-and-Resources
+npm install
+npm run dev
+```
+
+Open `http://localhost:4321`.
+
+### Build scripts
+
+| Script | Output | Purpose |
+|--------|--------|---------|
+| `node build-standalone.js` | `standalone.html` | Regenerates the interactive single-file toolkit |
+| `node build-md.js` | `DIRECTORY.md` | Regenerates the Markdown directory |
+
+Run both after modifying `src/data/tools.json`.
+
+---
+
+## Contributing a Tool
+
+1. Open `src/data/tools.json`
+2. Add a new object:
    ```json
    {
-      "name": "My New Tool",
-      "url": "https://example.com",
-      "category": "Web Analytics & Tag Management",
-      "type": "[OS][F]",
-      "description": "Short description of the platform.",
-      "learningCurve": "Easy",
-      "agencyPick": false,
-      "alternativeTo": "Google Analytics"
+     "name": "Tool Name",
+     "url": "https://example.com",
+     "category": "Category Name",
+     "subCategory": "SubCategory Name",
+     "type": "[F]",
+     "description": "What it does.",
+     "learningCurve": "Easy",
+     "agencyPick": false,
+     "alternativeTo": "",
+     "isFree": true,
+     "isOpenSource": false,
+     "tags": ["tag1", "tag2"],
+     "pricing": "free"
    }
    ```
-3. Save the file.
+3. Run `node build-standalone.js && node build-md.js`
+4. Commit the updated outputs.
 
-*(Note: If you want the `standalone.html` and `DIRECTORY.md` to reflect this new tool, a maintainer must run `node build-standalone.js` and `node build-md.js` before committing).*
+### Pricing field values
+
+| Value | Meaning |
+|-------|---------|
+| `free` | Completely free, no paid plan exists |
+| `freemium` | Free tier available, paid upgrades exist |
+| `open-source` | Source code is public, self-hostable |
+| `paid` | No free tier, subscription or license only |
+
+### Tips for good alternative matching
+
+- Always set `subCategory` -- this is the strongest matching signal (+50 points)
+- Add relevant `tags` -- each shared tag adds +10 points
+- Set `alternativeTo` for direct competitor pairs -- these get matched instantly before scoring
+- Use existing subcategory names when possible (check the [README](README.md) for the full list)
+
+---
+
+*Built by [diShine Digital Agency](https://dishine.it)*

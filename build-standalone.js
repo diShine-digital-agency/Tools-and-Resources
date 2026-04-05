@@ -115,9 +115,10 @@ const html = `<!DOCTYPE html>
              </h2>
              <span id="stackCounter" class="bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded-full">0</span>
           </div>
-          <div class="grid grid-cols-2 gap-2 mt-2">
-             <button id="btnConvertFree" class="text-[10px] font-bold py-1.5 px-2 bg-emerald-900/30 text-emerald-400 border border-emerald-800/50 hover:bg-emerald-800 transition rounded shadow-sm">Find Free Alts</button>
-             <button id="btnConvertPro" class="text-[10px] font-bold py-1.5 px-2 bg-purple-900/30 text-purple-400 border border-purple-800/50 hover:bg-purple-800 transition rounded shadow-sm">Upgrade Stack</button>
+          <div class="grid grid-cols-3 gap-2 mt-2">
+             <button id="btnConvertFree" class="text-[10px] font-bold py-1.5 px-2 bg-emerald-900/30 text-emerald-400 border border-emerald-800/50 hover:bg-emerald-800 transition rounded shadow-sm">Free Alts</button>
+             <button id="btnConvertPro" class="text-[10px] font-bold py-1.5 px-2 bg-purple-900/30 text-purple-400 border border-purple-800/50 hover:bg-purple-800 transition rounded shadow-sm">Upgrade</button>
+             <button id="btnResetStack" class="text-[10px] font-bold py-1.5 px-2 bg-gray-800 text-gray-400 border border-gray-700 hover:bg-gray-700 transition rounded shadow-sm" style="display:none;">Reset</button>
           </div>
         </div>
 
@@ -136,13 +137,17 @@ const html = `<!DOCTYPE html>
   </div>
 
   <script>
-    window.ALL_TOOLS = ${JSON.stringify(tools.map(t=>({name: t.name, url: t.url, desc: t.description, isFree: t.isFree, pricing: t.pricing, cat: t.category, alt: t.alternativeTo, tags: t.tags || []})))};
+    window.ALL_TOOLS = ${JSON.stringify(tools.map(t=>({name: t.name, url: t.url, desc: t.description, isFree: t.isFree, pricing: t.pricing, cat: t.category, sub: t.subCategory || '', alt: t.alternativeTo, tags: t.tags || []})))};
 
     const searchInput = document.getElementById('searchInput');
     const sections = document.querySelectorAll('.category-section');
     const tagBadges = document.querySelectorAll('.tag-badge');
 
     let myStack = [];
+    var originalStack = [];
+    var freeAltStack = [];
+    var proAltStack = [];
+    var activeView = 'original';
     const stackItemsContainer = document.getElementById('stackItems');
     const emptyStackMsg = document.getElementById('emptyStackMsg');
     const stackCounter = document.getElementById('stackCounter');
@@ -161,44 +166,87 @@ const html = `<!DOCTYPE html>
       return 'Free';
     }
 
-    function findBestAlternative(originalToolName, needFree) {
-      const originalTool = window.ALL_TOOLS.find(function(t) { return t.name === originalToolName; });
+    function findBestAlternative(originalToolName, wantFreeOrPaid) {
+      var originalTool = window.ALL_TOOLS.find(function(t) { return t.name === originalToolName; });
       if (!originalTool) return null;
-      var explicit = window.ALL_TOOLS.find(function(t) { return t.isFree === needFree && t.name !== originalTool.name && (t.alt === originalTool.name || originalTool.alt === t.name); });
-      if (explicit) return explicit;
-      var pool = window.ALL_TOOLS.filter(function(t) { return t.isFree === needFree && t.name !== originalTool.name && t.cat === originalTool.cat; });
-      if (pool.length === 0) return null;
-      var bestAlt = pool[0];
-      var maxScore = -1;
-      var targetTagVals = (originalTool.tags || []).map(function(t) { return t.toLowerCase(); });
-      pool.forEach(function(t) {
-        var candidateTags = (t.tags || []).map(function(tg) { return tg.toLowerCase(); });
-        var score = candidateTags.filter(function(tg) { return targetTagVals.indexOf(tg) !== -1; }).length;
-        if (score > maxScore) { maxScore = score; bestAlt = t; }
+      var pricingMatch = (wantFreeOrPaid === 'free')
+        ? function(t) { return t.pricing === 'free' || t.pricing === 'open-source'; }
+        : function(t) { return t.pricing === 'paid'; };
+      var explicit = window.ALL_TOOLS.find(function(t) {
+        return pricingMatch(t) && t.name !== originalTool.name && (t.alt === originalTool.name || originalTool.alt === t.name);
       });
-      return bestAlt;
+      if (explicit) return explicit;
+      var origSub = (originalTool.sub || '').toLowerCase();
+      var origTags = (originalTool.tags || []).map(function(tg) { return tg.toLowerCase(); });
+      var candidates = window.ALL_TOOLS.filter(function(t) {
+        return pricingMatch(t) && t.name !== originalTool.name && t.cat === originalTool.cat;
+      });
+      if (candidates.length === 0) {
+        candidates = window.ALL_TOOLS.filter(function(t) {
+          return pricingMatch(t) && t.name !== originalTool.name;
+        });
+      }
+      if (candidates.length === 0) return null;
+      var best = null;
+      var bestScore = -1;
+      candidates.forEach(function(c) {
+        var score = 0;
+        var cSub = (c.sub || '').toLowerCase();
+        if (origSub && cSub && cSub === origSub) score += 50;
+        else if (c.cat === originalTool.cat && origSub && cSub && cSub !== origSub) score += 5;
+        else if (c.cat === originalTool.cat) score += 15;
+        var cTags = (c.tags || []).map(function(tg) { return tg.toLowerCase(); });
+        var tagOverlap = cTags.filter(function(tg) { return origTags.indexOf(tg) !== -1; }).length;
+        score += tagOverlap * 10;
+        if (origSub && cSub && c.cat === originalTool.cat) {
+          var subWords = origSub.split(/[\\s&,]+/).filter(function(w) { return w.length > 5; });
+          subWords.forEach(function(w) { if (cSub.indexOf(w) !== -1) score += 20; });
+        }
+        if (score > bestScore) { bestScore = score; best = c; }
+      });
+      if (bestScore < 5) return null;
+      return best;
+    }
+
+    function computeAlts(stack, mode) {
+      return stack.map(function(st) {
+        if (mode === 'free' && (st.pricing === 'free' || st.pricing === 'open-source')) return {original: st, alt: null};
+        if (mode === 'paid' && st.pricing === 'paid') return {original: st, alt: null};
+        var alt = findBestAlternative(st.name, mode);
+        return {original: st, alt: alt ? {name: alt.name, url: alt.url, desc: alt.desc, pricing: alt.pricing, cat: alt.cat, sub: alt.sub} : null};
+      });
     }
 
     document.getElementById('btnConvertFree').addEventListener('click', function() {
       if (myStack.length === 0) return;
-      myStack = myStack.map(function(st) {
-        if (st.pricing === 'free' || st.pricing === 'open-source') return st;
-        var alt = findBestAlternative(st.name, true);
-        if (alt) return {name: alt.name, url: alt.url, desc: alt.desc, pricing: alt.pricing || 'free', cat: alt.cat};
-        return st;
-      });
+      if (originalStack.length === 0) originalStack = myStack.map(function(t) { return Object.assign({}, t); });
+      freeAltStack = computeAlts(originalStack, 'free');
+      activeView = 'free';
+      myStack = freeAltStack.map(function(r) { return r.alt ? r.alt : Object.assign({}, r.original); });
       renderStack();
       syncButtons();
+      showResetBtn();
     });
 
     document.getElementById('btnConvertPro').addEventListener('click', function() {
       if (myStack.length === 0) return;
-      myStack = myStack.map(function(st) {
-        if (st.pricing === 'paid') return st;
-        var alt = findBestAlternative(st.name, false);
-        if (alt) return {name: alt.name, url: alt.url, desc: alt.desc, pricing: alt.pricing || 'paid', cat: alt.cat};
-        return st;
-      });
+      if (originalStack.length === 0) originalStack = myStack.map(function(t) { return Object.assign({}, t); });
+      proAltStack = computeAlts(originalStack, 'paid');
+      activeView = 'paid';
+      myStack = proAltStack.map(function(r) { return r.alt ? r.alt : Object.assign({}, r.original); });
+      renderStack();
+      syncButtons();
+      showResetBtn();
+    });
+
+    function showResetBtn() {
+      document.getElementById('btnResetStack').style.display = originalStack.length > 0 ? 'block' : 'none';
+    }
+
+    document.getElementById('btnResetStack').addEventListener('click', function() {
+      if (originalStack.length === 0) return;
+      myStack = originalStack.map(function(t) { return Object.assign({}, t); });
+      activeView = 'original';
       renderStack();
       syncButtons();
     });
@@ -224,6 +272,14 @@ const html = `<!DOCTYPE html>
       if (counts['open-source']) parts.push(counts['open-source'] + ' OS');
       if (counts.freemium) parts.push(counts.freemium + ' freemium');
       if (counts.paid) parts.push(counts.paid + ' paid');
+
+      if (activeView !== 'original') {
+        var viewLabel = document.createElement('div');
+        var viewColor = activeView === 'free' ? 'bg-emerald-900/40 text-emerald-400 border-emerald-800/50' : 'bg-purple-900/40 text-purple-400 border-purple-800/50';
+        viewLabel.className = 'stack-item text-[10px] text-center font-bold rounded p-1.5 mb-1 border ' + viewColor;
+        viewLabel.textContent = activeView === 'free' ? '\\uD83C\\uDF4F Viewing Free Alternatives' : '\\uD83D\\uDC8E Viewing Premium Alternatives';
+        stackItemsContainer.appendChild(viewLabel);
+      }
 
       var statsDiv = document.createElement('div');
       statsDiv.className = 'stack-item text-[10px] text-center font-bold bg-gray-800 rounded p-1.5 mb-2';
@@ -252,6 +308,11 @@ const html = `<!DOCTYPE html>
         removeBtn.dataset.idx = index;
         removeBtn.addEventListener('click', function(e) {
           myStack.splice(parseInt(e.target.dataset.idx), 1);
+          originalStack = [];
+          freeAltStack = [];
+          proAltStack = [];
+          activeView = 'original';
+          showResetBtn();
           renderStack();
           syncButtons();
         });
@@ -290,24 +351,27 @@ const html = `<!DOCTYPE html>
         } else {
           myStack.push(toolData);
         }
+        originalStack = [];
+        freeAltStack = [];
+        proAltStack = [];
+        activeView = 'original';
+        showResetBtn();
         renderStack();
         syncButtons();
       });
     }
 
-    exportBtn.addEventListener('click', function() {
-      if (myStack.length === 0) return;
-      var notes = document.getElementById('stackNotes').value.trim();
-      var md = '# Digital Agency Tech Stack\\n\\n';
-      if (notes) md += '> ' + notes + '\\n\\n';
-      var counts = {free: 0, freemium: 0, 'open-source': 0, paid: 0};
-      myStack.forEach(function(t) { counts[t.pricing] = (counts[t.pricing]||0)+1; });
-      md += '**Stack overview:** ' + myStack.length + ' tools - ' + counts.free + ' free, ' + counts['open-source'] + ' open-source, ' + counts.freemium + ' freemium, ' + counts.paid + ' paid\\n\\n';
+    function stackSummary(stack) {
+      var c = {free:0, freemium:0, 'open-source':0, paid:0};
+      stack.forEach(function(t) { c[t.pricing] = (c[t.pricing]||0)+1; });
+      return stack.length + ' tools \\u2014 ' + c.free + ' free, ' + c['open-source'] + ' open-source, ' + c.freemium + ' freemium, ' + c.paid + ' paid';
+    }
+
+    function renderStackSection(title, stack) {
+      var md = '## ' + title + '\\n\\n';
+      md += '> ' + stackSummary(stack) + '\\n\\n';
       var grouped = {};
-      myStack.forEach(function(t) {
-        if (!grouped[t.cat]) grouped[t.cat] = [];
-        grouped[t.cat].push(t);
-      });
+      stack.forEach(function(t) { if (!grouped[t.cat]) grouped[t.cat] = []; grouped[t.cat].push(t); });
       Object.keys(grouped).forEach(function(cat) {
         md += '### ' + cat + '\\n';
         grouped[cat].forEach(function(t) {
@@ -315,6 +379,49 @@ const html = `<!DOCTYPE html>
         });
         md += '\\n';
       });
+      return md;
+    }
+
+    exportBtn.addEventListener('click', function() {
+      if (myStack.length === 0) return;
+      var notes = document.getElementById('stackNotes').value.trim();
+      var baseStack = originalStack.length > 0 ? originalStack : myStack;
+      var md = '# Digital Agency Tech Stack\\n\\n';
+      if (notes) md += '> ' + notes + '\\n\\n';
+      md += renderStackSection('\\uD83D\\uDCCB Chosen Stack', baseStack);
+      var freeAlts = computeAlts(baseStack, 'free');
+      var hasAnyFreeAlt = freeAlts.some(function(r) { return r.alt !== null; });
+      if (hasAnyFreeAlt) {
+        md += '---\\n\\n## \\uD83C\\uDF4F Free & Open-Source Alternatives\\n\\n';
+        md += '| Chosen Tool | Pricing | Free Alternative | Pricing |\\n';
+        md += '|---|---|---|---|\\n';
+        freeAlts.forEach(function(r) {
+          var origLabel = pricingLabel(r.original.pricing);
+          if (r.alt) {
+            md += '| ' + r.original.name + ' | ' + origLabel + ' | **' + r.alt.name + '** | ' + pricingLabel(r.alt.pricing) + ' |\\n';
+          } else {
+            md += '| ' + r.original.name + ' | ' + origLabel + ' | \\u2014 (already free/OS) | |\\n';
+          }
+        });
+        md += '\\n';
+      }
+      var proAlts = computeAlts(baseStack, 'paid');
+      var hasAnyProAlt = proAlts.some(function(r) { return r.alt !== null; });
+      if (hasAnyProAlt) {
+        md += '---\\n\\n## \\uD83D\\uDC8E Premium Upgrade Alternatives\\n\\n';
+        md += '| Chosen Tool | Pricing | Premium Alternative | Pricing |\\n';
+        md += '|---|---|---|---|\\n';
+        proAlts.forEach(function(r) {
+          var origLabel = pricingLabel(r.original.pricing);
+          if (r.alt) {
+            md += '| ' + r.original.name + ' | ' + origLabel + ' | **' + r.alt.name + '** | ' + pricingLabel(r.alt.pricing) + ' |\\n';
+          } else {
+            md += '| ' + r.original.name + ' | ' + origLabel + ' | \\u2014 (already premium) | |\\n';
+          }
+        });
+        md += '\\n';
+      }
+      md += '---\\n\\n*Generated with [diShine Toolkit](https://github.com/diShine-digital-agency/Tools-and-Resources)*\\n';
       navigator.clipboard.writeText(md).then(function() {
         var orig = exportBtn.textContent;
         exportBtn.textContent = 'Copied!';
