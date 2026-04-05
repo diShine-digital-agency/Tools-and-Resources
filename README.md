@@ -1,6 +1,6 @@
 # Ressource&Apps Toolkit | Your Tech Stack Companion
 
-**422 digital tools. 4-tier pricing. Intelligent alternative matching (v1.4). One HTML file.**
+**417 digital tools. 4-tier pricing. Intelligent alternative matching (v1.4). One HTML file.**
 
 An interactive toolkit for companies, agencies, consultants, and digital teams. Browse, filter, build tech stacks, and export client-ready reports in Markdown or plain text -- all offline, all in a single HTML file with zero dependencies.
 
@@ -136,16 +136,29 @@ When no good alternative exists in the database (e.g., no paid-only Communicatio
 
 ## Dataset
 
-`src/data/tools.json` -- 422 tools across 27 categories and 60+ subcategories.
+`src/data/tools.json` -- 417 tools across 21 categories and 60+ subcategories.
+
+### Match quality (v1.4)
+
+Tested against the full dataset (417 tools x 2 modes = 834 match attempts):
+
+| Quality | Count | % |
+|---------|-------|---|
+| Good (same subCategory) | 614 | 73.6% |
+| Acceptable (same category) | 177 | 21.2% |
+| Cross-category | 2 | 0.2% |
+| Null (no match exists) | 41 | 4.9% |
+
+The 2 cross-category matches are Hunter.io (intentionally listed in two categories). The 41 nulls are legitimate data gaps (no free ad platforms, no paid browsers, etc.).
 
 ### Pricing tiers
 
 | Tier | Count | Definition |
 |------|-------|------------|
-| **Free** | 90 | No paid plan exists at all |
-| **Freemium** | 94 | Functional free tier with paid upgrades |
-| **Open Source** | 112 | Source code is public, self-hostable |
-| **Paid** | 126 | No free tier -- subscription or license only |
+| **Free** | ~88 | No paid plan exists at all |
+| **Freemium** | ~93 | Free tier available, paid upgrades exist |
+| **Open Source** | ~110 | Source code is public, self-hostable |
+| **Paid** | ~126 | No free tier -- subscription or license only |
 
 ### Sources
 

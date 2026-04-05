@@ -1,6 +1,20 @@
 ## What's new in v1.2.0: pricing overhaul, intelligent matching & triple export
 
-This release reworks pricing, rebuilds the alternative matching algorithm, and adds stack preservation with triple-section consulting exports.
+This release reworks pricing, rebuilds the alternative matching algorithm, adds stack preservation with triple-section consulting exports, and performs a major data quality cleanup.
+
+### Data quality overhaul (v1.2.0b)
+- **5 duplicate entries removed**: Penpot, Coolify, Descript (AI duplicate), Loom, Tella. Cross-category duplicates (Hunter.io, PostHog, Notion) kept intentionally.
+- **40 missing subCategories filled**: every tool now has a subCategory for precise matching.
+- **10 misclassified tools moved**: Adobe Premiere Pro, Kdenlive → Video & Audio. Jira, Focalboard, OpenProject → Project Management. Obsidian, AppFlowy → PM Documentation. Mattermost → PM Communication. Odoo → CRM & Sales.
+- **"Email Marketing & CRM" category merged** into Email Marketing & Automation (3 tools: Superhuman, Thunderbird, Mailspring → new "Email Clients" sub).
+- **129 empty tag arrays filled** with 2-4 relevant tags per tool.
+- **"Open-Source" / "OSS" tag consolidated** into "OSS" (was split across 31 tools).
+- **Cross-category fallback removed** from matching algorithm. Now returns null instead of forcing a bad match from an unrelated category. Bad match rate: 5.1% → 0.2%.
+- **Final dataset**: 417 tools, 21 categories, 60+ subcategories. Match quality: 73.6% good (same sub), 21.2% acceptable (same cat), 0.2% cross-category, 4.9% null (legitimate data gaps).
+
+### Export formats (v1.2.0b)
+- **Three export buttons**: Copy (clipboard), .md (file download), .txt (file download with Markdown stripped). Replaces single clipboard button.
+- **Renamed**: Ressource&Apps_Toolkit. Subtitle: Consulting Edition (v1.2.0) — 417 tools | Matching model v1.4.
 
 ### Pricing clarity
 - **4-tier pricing model**: every tool now carries one of four explicit labels -- `100% Free` (no paid plan exists), `Freemium` (free tier with paid upgrades), `Open Source` (code is public, self-hostable), or `Paid only` (no free tier at all). Previously most tools were just "Free" or "Paid", which hid the fact that tools like Canva, Figma, Mailchimp, and ChatGPT all have significant paid tiers.

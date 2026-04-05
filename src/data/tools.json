@@ -1018,7 +1018,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "SEO",
+      "Performance"
+    ],
     "pricing": "free"
   },
   {
@@ -1050,7 +1053,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Performance",
+      "DevTools"
+    ],
     "pricing": "free"
   },
   {
@@ -1065,7 +1071,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Performance",
+      "SEO"
+    ],
     "pricing": "free"
   },
   {
@@ -1080,7 +1089,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Performance",
+      "Monitoring"
+    ],
     "pricing": "paid"
   },
   {
@@ -1095,7 +1107,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Performance",
+      "Analytics"
+    ],
     "pricing": "paid"
   },
   {
@@ -1110,7 +1125,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Performance",
+      "Monitoring"
+    ],
     "pricing": "paid"
   },
   {
@@ -1125,7 +1143,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Performance",
+      "Analytics"
+    ],
     "pricing": "free"
   },
   {
@@ -1140,7 +1161,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Performance",
+      "Analytics"
+    ],
     "pricing": "free"
   },
   {
@@ -1155,7 +1179,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "Performance",
+      "SEO",
+      "OSS"
+    ],
     "pricing": "open-source"
   },
   {
@@ -1170,7 +1198,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Performance",
+      "Design"
+    ],
     "pricing": "free"
   },
   {
@@ -1185,7 +1216,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Performance",
+      "Design",
+      "OSS"
+    ],
     "pricing": "free"
   },
   {
@@ -1200,7 +1235,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "AI",
+      "Writing"
+    ],
     "pricing": "freemium"
   },
   {
@@ -1215,7 +1253,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Writing",
+      "Productivity"
+    ],
     "pricing": "free"
   },
   {
@@ -1230,7 +1271,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "AI",
+      "Writing"
+    ],
     "pricing": "paid"
   },
   {
@@ -1245,7 +1289,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Writing",
+      "SEO"
+    ],
     "pricing": "paid"
   },
   {
@@ -1277,7 +1324,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "AI",
+      "Writing"
+    ],
     "pricing": "freemium"
   },
   {
@@ -1343,7 +1393,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "AI",
+      "SEO"
+    ],
     "pricing": "paid"
   },
   {
@@ -1358,7 +1411,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "SEO",
+      "AI"
+    ],
     "pricing": "paid"
   },
   {
@@ -1373,7 +1429,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "SEO",
+      "Writing"
+    ],
     "pricing": "paid"
   },
   {
@@ -1388,7 +1447,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Analytics"
+    ],
     "pricing": "paid"
   },
   {
@@ -1420,7 +1482,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Automation"
+    ],
     "pricing": "freemium"
   },
   {
@@ -1435,7 +1500,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Productivity",
+      "Marketing"
+    ],
     "pricing": "freemium"
   },
   {
@@ -1878,7 +1946,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Automation"
+    ],
     "pricing": "freemium"
   },
   {
@@ -1893,7 +1964,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Analytics"
+    ],
     "pricing": "paid"
   },
   {
@@ -1925,7 +1999,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Writing"
+    ],
     "pricing": "freemium"
   },
   {
@@ -1940,7 +2017,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "LinkedIn"
+    ],
     "pricing": "paid"
   },
   {
@@ -1972,7 +2052,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Analytics"
+    ],
     "pricing": "paid"
   },
   {
@@ -1987,7 +2070,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "SEO"
+    ],
     "pricing": "free"
   },
   {
@@ -2019,7 +2105,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Automation"
+    ],
     "pricing": "free"
   },
   {
@@ -2515,7 +2604,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Advertising"
+    ],
     "pricing": "paid"
   },
   {
@@ -2530,7 +2622,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Advertising"
+    ],
     "pricing": "paid"
   },
   {
@@ -2545,7 +2640,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Advertising"
+    ],
     "pricing": "paid"
   },
   {
@@ -2560,7 +2658,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Advertising"
+    ],
     "pricing": "paid"
   },
   {
@@ -2575,7 +2676,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Advertising"
+    ],
     "pricing": "paid"
   },
   {
@@ -2624,7 +2728,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Analytics",
+      "Automation"
+    ],
     "pricing": "paid"
   },
   {
@@ -2707,7 +2814,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Design"
+    ],
     "pricing": "paid"
   },
   {
@@ -2722,7 +2832,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Design",
+      "Marketing"
+    ],
     "pricing": "freemium"
   },
   {
@@ -2986,23 +3099,6 @@
       "AI"
     ],
     "pricing": "paid"
-  },
-  {
-    "name": "Descript",
-    "url": "https://descript.com",
-    "category": "AI & LLM Tools",
-    "subCategory": "AI for Content & Marketing",
-    "type": "[F]",
-    "description": "AI video/audio editing",
-    "learningCurve": "Medium",
-    "agencyPick": false,
-    "alternativeTo": "",
-    "isFree": true,
-    "isOpenSource": false,
-    "tags": [
-      "AI"
-    ],
-    "pricing": "freemium"
   },
   {
     "name": "ElevenLabs",
@@ -3398,7 +3494,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "React",
+      "Framework"
+    ],
     "pricing": "open-source"
   },
   {
@@ -3413,7 +3513,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Vue",
+      "Framework"
+    ],
     "pricing": "open-source"
   },
   {
@@ -3445,7 +3549,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Svelte",
+      "Framework"
+    ],
     "pricing": "open-source"
   },
   {
@@ -3460,7 +3568,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "CMS",
+      "SEO",
+      "OSS"
+    ],
     "pricing": "open-source"
   },
   {
@@ -3475,7 +3587,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "CMS",
+      "Publishing",
+      "OSS"
+    ],
     "pricing": "open-source"
   },
   {
@@ -3507,7 +3623,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "CMS",
+      "DevTools",
+      "OSS"
+    ],
     "pricing": "open-source"
   },
   {
@@ -3522,7 +3642,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "CMS",
+      "DevTools",
+      "OSS"
+    ],
     "pricing": "open-source"
   },
   {
@@ -3537,7 +3661,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "Documentation",
+      "DevTools",
+      "OSS"
+    ],
     "pricing": "open-source"
   },
   {
@@ -3552,7 +3680,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "CSS",
+      "Design"
+    ],
     "pricing": "open-source"
   },
   {
@@ -3635,7 +3767,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Performance"
+    ],
     "pricing": "open-source"
   },
   {
@@ -3650,7 +3785,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Testing",
+      "Automation"
+    ],
     "pricing": "open-source"
   },
   {
@@ -3665,7 +3804,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Testing"
+    ],
     "pricing": "open-source"
   },
   {
@@ -3680,7 +3822,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Testing"
+    ],
     "pricing": "open-source"
   },
   {
@@ -3712,7 +3857,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Monitoring"
+    ],
     "pricing": "freemium"
   },
   {
@@ -3778,7 +3926,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Backend",
+      "OSS"
+    ],
     "pricing": "open-source"
   },
   {
@@ -3793,7 +3945,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Backend",
+      "OSS"
+    ],
     "pricing": "open-source"
   },
   {
@@ -3859,7 +4015,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Analytics",
+      "Marketing"
+    ],
     "pricing": "free"
   },
   {
@@ -3874,7 +4033,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Analytics",
+      "Enterprise"
+    ],
     "pricing": "free"
   },
   {
@@ -3889,7 +4051,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Analytics",
+      "Enterprise"
+    ],
     "pricing": "paid"
   },
   {
@@ -3955,7 +4120,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "Analytics",
+      "OSS"
+    ],
     "pricing": "open-source"
   },
   {
@@ -3970,7 +4138,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Analytics",
+      "OSS"
+    ],
     "pricing": "open-source"
   },
   {
@@ -4002,7 +4174,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Automation",
+      "Analytics"
+    ],
     "pricing": "paid"
   },
   {
@@ -4017,7 +4192,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Analytics",
+      "OSS"
+    ],
     "pricing": "open-source"
   },
   {
@@ -4032,7 +4211,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Analytics",
+      "OSS"
+    ],
     "pricing": "open-source"
   },
   {
@@ -4064,7 +4247,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Productivity",
+      "Analytics"
+    ],
     "pricing": "free"
   },
   {
@@ -4079,7 +4265,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Productivity",
+      "Automation"
+    ],
     "pricing": "freemium"
   },
   {
@@ -4111,7 +4300,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "Productivity",
+      "OSS"
+    ],
     "pricing": "open-source"
   },
   {
@@ -4589,7 +4781,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Project Management",
+      "Productivity"
+    ],
     "pricing": "freemium"
   },
   {
@@ -4621,7 +4816,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Productivity",
+      "Documentation"
+    ],
     "pricing": "freemium"
   },
   {
@@ -4636,7 +4834,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Project Management",
+      "Productivity"
+    ],
     "pricing": "freemium"
   },
   {
@@ -4651,7 +4852,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Project Management",
+      "Enterprise"
+    ],
     "pricing": "paid"
   },
   {
@@ -4700,7 +4904,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Communication",
+      "Productivity"
+    ],
     "pricing": "freemium"
   },
   {
@@ -4715,7 +4922,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Communication",
+      "Enterprise"
+    ],
     "pricing": "free"
   },
   {
@@ -4730,38 +4940,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Communication",
+      "Community"
+    ],
     "pricing": "freemium"
-  },
-  {
-    "name": "Loom",
-    "url": "https://loom.com",
-    "category": "Project Management & Collaboration",
-    "subCategory": "Communication",
-    "type": "[F]",
-    "description": "Async video messaging",
-    "learningCurve": "Medium",
-    "agencyPick": false,
-    "alternativeTo": "",
-    "isFree": true,
-    "isOpenSource": false,
-    "tags": [],
-    "pricing": "freemium"
-  },
-  {
-    "name": "Tella",
-    "url": "https://tella.tv",
-    "category": "Project Management & Collaboration",
-    "subCategory": "Communication",
-    "type": "[*][F]",
-    "description": "Screen recordings with beautiful presentations",
-    "learningCurve": "Medium",
-    "agencyPick": false,
-    "alternativeTo": "",
-    "isFree": true,
-    "isOpenSource": false,
-    "tags": [],
-    "pricing": "free"
   },
   {
     "name": "Krisp",
@@ -4792,7 +4975,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Productivity",
+      "Documentation"
+    ],
     "pricing": "freemium"
   },
   {
@@ -4807,7 +4993,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Documentation",
+      "Enterprise"
+    ],
     "pricing": "free"
   },
   {
@@ -4822,7 +5011,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Documentation",
+      "DevTools"
+    ],
     "pricing": "freemium"
   },
   {
@@ -4889,7 +5081,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Hosting"
+    ],
     "pricing": "freemium"
   },
   {
@@ -4904,7 +5099,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Hosting"
+    ],
     "pricing": "freemium"
   },
   {
@@ -4919,7 +5117,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Hosting"
+    ],
     "pricing": "freemium"
   },
   {
@@ -4934,7 +5135,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Hosting"
+    ],
     "pricing": "freemium"
   },
   {
@@ -4949,7 +5153,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Hosting"
+    ],
     "pricing": "freemium"
   },
   {
@@ -4964,7 +5171,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Hosting"
+    ],
     "pricing": "freemium"
   },
   {
@@ -4979,7 +5189,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Hosting",
+      "Self-Hosted"
+    ],
     "pricing": "open-source"
   },
   {
@@ -4994,7 +5208,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "Hosting",
+      "Self-Hosted"
+    ],
     "pricing": "open-source"
   },
   {
@@ -5009,7 +5227,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Cloud",
+      "Enterprise"
+    ],
     "pricing": "paid"
   },
   {
@@ -5024,7 +5245,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Cloud",
+      "AI"
+    ],
     "pricing": "paid"
   },
   {
@@ -5039,7 +5263,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Cloud",
+      "Enterprise"
+    ],
     "pricing": "paid"
   },
   {
@@ -5054,7 +5281,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Cloud",
+      "Hosting"
+    ],
     "pricing": "paid"
   },
   {
@@ -5069,7 +5299,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Cloud",
+      "Hosting"
+    ],
     "pricing": "paid"
   },
   {
@@ -5101,7 +5334,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "CDN",
+      "Security",
+      "DNS"
+    ],
     "pricing": "freemium"
   },
   {
@@ -5116,7 +5353,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "CDN",
+      "Performance"
+    ],
     "pricing": "paid"
   },
   {
@@ -5131,7 +5371,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "CDN",
+      "Performance"
+    ],
     "pricing": "paid"
   },
   {
@@ -5146,7 +5389,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "CRM",
+      "Automation"
+    ],
     "pricing": "freemium"
   },
   {
@@ -5161,7 +5407,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "CRM",
+      "Enterprise"
+    ],
     "pricing": "paid"
   },
   {
@@ -5176,7 +5425,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "CRM",
+      "Marketing"
+    ],
     "pricing": "freemium"
   },
   {
@@ -5191,7 +5443,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "CRM",
+      "Marketing"
+    ],
     "pricing": "paid"
   },
   {
@@ -5206,7 +5461,11 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "CRM",
+      "AI",
+      "Automation"
+    ],
     "pricing": "paid"
   },
   {
@@ -5238,7 +5497,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Automation",
+      "Marketing"
+    ],
     "pricing": "paid"
   },
   {
@@ -5427,7 +5689,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Analytics",
+      "Marketing"
+    ],
     "pricing": "freemium"
   },
   {
@@ -5442,7 +5707,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Analytics",
+      "Marketing"
+    ],
     "pricing": "paid"
   },
   {
@@ -5457,7 +5725,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Analytics",
+      "Enterprise"
+    ],
     "pricing": "paid"
   },
   {
@@ -5523,7 +5794,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Design"
+    ],
     "pricing": "freemium"
   },
   {
@@ -5572,7 +5846,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Analytics"
+    ],
     "pricing": "freemium"
   },
   {
@@ -5587,7 +5864,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Analytics",
+      "Marketing"
+    ],
     "pricing": "freemium"
   },
   {
@@ -5619,7 +5899,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "CRM",
+      "Automation"
+    ],
     "pricing": "paid"
   },
   {
@@ -5651,7 +5934,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "CRM",
+      "OSS"
+    ],
     "pricing": "freemium"
   },
   {
@@ -5666,7 +5952,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "CRM",
+      "Marketing"
+    ],
     "pricing": "free"
   },
   {
@@ -5698,7 +5987,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Video",
+      "Creative"
+    ],
     "pricing": "freemium"
   },
   {
@@ -5730,7 +6022,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "AI",
+      "Video",
+      "Audio"
+    ],
     "pricing": "freemium"
   },
   {
@@ -5796,7 +6092,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "Video",
+      "DevTools",
+      "OSS"
+    ],
     "pricing": "open-source"
   },
   {
@@ -5828,7 +6128,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "Video",
+      "Streaming",
+      "OSS"
+    ],
     "pricing": "open-source"
   },
   {
@@ -5843,7 +6147,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Video",
+      "Design"
+    ],
     "pricing": "paid"
   },
   {
@@ -5858,7 +6165,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Video",
+      "Communication"
+    ],
     "pricing": "free"
   },
   {
@@ -5890,7 +6200,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": [],
+    "tags": [
+      "Audio",
+      "OSS"
+    ],
     "pricing": "open-source"
   },
   {
@@ -5905,7 +6218,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Audio",
+      "Podcasting"
+    ],
     "pricing": "freemium"
   },
   {
@@ -5920,7 +6236,11 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "AI",
+      "Video",
+      "Audio"
+    ],
     "pricing": "freemium"
   },
   {
@@ -5935,7 +6255,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Audio",
+      "Podcasting"
+    ],
     "pricing": "freemium"
   },
   {
@@ -5967,7 +6290,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Audio",
+      "AI"
+    ],
     "pricing": "free"
   },
   {
@@ -6051,7 +6377,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Certification"
+    ],
     "pricing": "free"
   },
   {
@@ -6101,7 +6430,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "DevTools",
+      "OSS"
+    ],
     "pricing": "free"
   },
   {
@@ -6133,7 +6465,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Education",
+      "Certification"
+    ],
     "pricing": "paid"
   },
   {
@@ -6148,7 +6483,9 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Education"
+    ],
     "pricing": "paid"
   },
   {
@@ -6163,7 +6500,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Education",
+      "Marketing"
+    ],
     "pricing": "paid"
   },
   {
@@ -6178,7 +6518,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Education",
+      "DevTools"
+    ],
     "pricing": "paid"
   },
   {
@@ -6210,7 +6553,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Education"
+    ],
     "pricing": "paid"
   },
   {
@@ -6225,7 +6571,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Community",
+      "Marketing"
+    ],
     "pricing": "free"
   },
   {
@@ -6240,7 +6589,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Community",
+      "Marketing"
+    ],
     "pricing": "free"
   },
   {
@@ -6272,7 +6624,10 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Community",
+      "DevTools"
+    ],
     "pricing": "free"
   },
   {
@@ -6304,7 +6659,10 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": [],
+    "tags": [
+      "Marketing",
+      "Analytics"
+    ],
     "pricing": "paid"
   },
   {
@@ -6322,7 +6680,8 @@
       "Browser",
       "Adblocker"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Ad & Tracker Blocking"
   },
   {
     "name": "Pi-hole",
@@ -6339,7 +6698,8 @@
       "DNS",
       "Self-Hosted"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Ad & Tracker Blocking"
   },
   {
     "name": "AdGuard Home",
@@ -6356,7 +6716,8 @@
       "DNS",
       "Self-Hosted"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Ad & Tracker Blocking"
   },
   {
     "name": "LocalSend",
@@ -6372,7 +6733,8 @@
       "Utility",
       "Transfer"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "File Sharing & Sync"
   },
   {
     "name": "Syncthing",
@@ -6389,7 +6751,8 @@
       "Sync",
       "Self-Hosted"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "File Sharing & Sync"
   },
   {
     "name": "Bitwarden",
@@ -6405,7 +6768,8 @@
       "Privacy",
       "Security"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Password Management"
   },
   {
     "name": "Uptime Kuma",
@@ -6422,40 +6786,8 @@
       "Monitoring",
       "Self-Hosted"
     ],
-    "pricing": "open-source"
-  },
-  {
-    "name": "Coolify",
-    "url": "https://coolify.io/",
-    "category": "Web Development",
-    "type": "[OS][F]",
-    "description": "An open-source & self-hostable Heroku / Netlify / Vercel alternative.",
-    "learningCurve": "Steep",
-    "alternativeTo": "Vercel / Heroku",
-    "isFree": true,
-    "isOpenSource": true,
-    "tags": [
-      "DevTools",
-      "Hosting",
-      "Self-Hosted"
-    ],
-    "pricing": "open-source"
-  },
-  {
-    "name": "Penpot",
-    "url": "https://penpot.app/",
-    "category": "Design & Visual",
-    "type": "[OS][F]",
-    "description": "Open-source design and prototyping platform.",
-    "learningCurve": "Medium",
-    "alternativeTo": "Figma",
-    "isFree": true,
-    "isOpenSource": true,
-    "tags": [
-      "Design",
-      "UI"
-    ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Testing & Monitoring"
   },
   {
     "name": "Draw.io",
@@ -6471,12 +6803,13 @@
       "Design",
       "Diagrams"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Design Platforms"
   },
   {
     "name": "Adobe Premiere Pro",
     "url": "https://www.adobe.com/",
-    "category": "Design & Visual",
+    "category": "Video & Audio",
     "type": "[$]",
     "description": "Industry standard video editing software.",
     "learningCurve": "Steep",
@@ -6488,12 +6821,13 @@
       "Editing",
       "Creative"
     ],
-    "pricing": "paid"
+    "pricing": "paid",
+    "subCategory": "Video Creation & Editing"
   },
   {
     "name": "Kdenlive",
     "url": "https://kdenlive.org/",
-    "category": "Design & Visual",
+    "category": "Video & Audio",
     "type": "[OS][F]",
     "description": "Open source video editor.",
     "learningCurve": "Medium",
@@ -6504,7 +6838,8 @@
       "Video",
       "Editing"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Video Creation & Editing"
   },
   {
     "name": "Google Chrome",
@@ -6520,7 +6855,8 @@
       "Browser",
       "Internet"
     ],
-    "pricing": "free"
+    "pricing": "free",
+    "subCategory": "Web Browsers"
   },
   {
     "name": "Brave",
@@ -6537,7 +6873,8 @@
       "Privacy",
       "Crypto"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Web Browsers"
   },
   {
     "name": "Firefox",
@@ -6552,9 +6889,10 @@
     "tags": [
       "Browser",
       "Privacy",
-      "Open-Source"
+      "OSS"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Web Browsers"
   },
   {
     "name": "Mullvad Browser",
@@ -6571,12 +6909,13 @@
       "Privacy",
       "Anonymous"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Web Browsers"
   },
   {
     "name": "Odoo",
     "url": "https://www.odoo.com/",
-    "category": "Data & Business Intelligence",
+    "category": "CRM & Sales",
     "type": "[OS][F]",
     "description": "Open Source ERP and CRM.",
     "learningCurve": "Steep",
@@ -6588,7 +6927,8 @@
       "ERP",
       "Business"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "CRM & Sales"
   },
   {
     "name": "Adobe Illustrator",
@@ -6605,7 +6945,8 @@
       "Vector",
       "Creative"
     ],
-    "pricing": "paid"
+    "pricing": "paid",
+    "subCategory": "Design Platforms"
   },
   {
     "name": "Inkscape",
@@ -6620,9 +6961,10 @@
     "tags": [
       "Design",
       "Vector",
-      "Open-Source"
+      "OSS"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Design Platforms"
   },
   {
     "name": "Adobe Photoshop",
@@ -6639,7 +6981,8 @@
       "Image Editing",
       "Creative"
     ],
-    "pricing": "paid"
+    "pricing": "paid",
+    "subCategory": "Design Platforms"
   },
   {
     "name": "Krita",
@@ -6656,12 +6999,13 @@
       "Image Editing",
       "Painting"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Design Platforms"
   },
   {
     "name": "Adobe Audition",
     "url": "https://adobe.com/",
-    "category": "Design & Visual",
+    "category": "Video & Audio",
     "type": "[$]",
     "description": "Professional audio workstation for mixing and editing.",
     "learningCurve": "Steep",
@@ -6673,12 +7017,13 @@
       "Editing",
       "Creative"
     ],
-    "pricing": "paid"
+    "pricing": "paid",
+    "subCategory": "Audio & Podcasting"
   },
   {
     "name": "Tenacity",
     "url": "https://tenacityaudio.org/",
-    "category": "Design & Visual",
+    "category": "Video & Audio",
     "type": "[OS][F]",
     "description": "Privacy-focused fork of Audacity.",
     "learningCurve": "Medium",
@@ -6690,12 +7035,13 @@
       "Editing",
       "Privacy"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Audio & Podcasting"
   },
   {
     "name": "Jira",
     "url": "https://www.atlassian.com/software/jira",
-    "category": "Automation & Integration",
+    "category": "Project Management & Collaboration",
     "type": "[$]",
     "description": "Enterprise agile project management.",
     "learningCurve": "Steep",
@@ -6707,12 +7053,13 @@
       "Agile",
       "Enterprise"
     ],
-    "pricing": "paid"
+    "pricing": "paid",
+    "subCategory": "Project Management"
   },
   {
     "name": "OpenProject",
     "url": "https://www.openproject.org/",
-    "category": "Automation & Integration",
+    "category": "Project Management & Collaboration",
     "type": "[OS][F]",
     "description": "Open source project management software.",
     "learningCurve": "Medium",
@@ -6721,14 +7068,15 @@
     "isOpenSource": true,
     "tags": [
       "Project Management",
-      "Open-Source"
+      "OSS"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Project Management"
   },
   {
     "name": "Focalboard",
     "url": "https://www.focalboard.com/",
-    "category": "Automation & Integration",
+    "category": "Project Management & Collaboration",
     "type": "[OS][F]",
     "description": "Open source alternative to Trello, Notion, and Asana.",
     "learningCurve": "Easy",
@@ -6739,12 +7087,13 @@
       "Project Management",
       "Kanban"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Project Management"
   },
   {
     "name": "Mattermost",
     "url": "https://mattermost.com/",
-    "category": "Automation & Integration",
+    "category": "Project Management & Collaboration",
     "type": "[OS][F]",
     "description": "Open-source, self-hostable Slack alternative.",
     "learningCurve": "Medium",
@@ -6756,12 +7105,13 @@
       "Communication",
       "Self-Hosted"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Communication"
   },
   {
     "name": "Superhuman",
     "url": "https://superhuman.com/",
-    "category": "Email Marketing & CRM",
+    "category": "Email Marketing & Automation",
     "type": "[$]",
     "description": "The fastest email experience made for professionals.",
     "learningCurve": "Medium",
@@ -6772,12 +7122,13 @@
       "Email",
       "Productivity"
     ],
-    "pricing": "paid"
+    "pricing": "paid",
+    "subCategory": "Email Clients"
   },
   {
     "name": "Thunderbird",
     "url": "https://www.thunderbird.net/",
-    "category": "Email Marketing & CRM",
+    "category": "Email Marketing & Automation",
     "type": "[OS][F]",
     "description": "Free, open-source email client backed by Mozilla.",
     "learningCurve": "Medium",
@@ -6787,14 +7138,15 @@
     "tags": [
       "Email",
       "Client",
-      "Open-Source"
+      "OSS"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Email Clients"
   },
   {
     "name": "Mailspring",
     "url": "https://getmailspring.com/",
-    "category": "Email Marketing & CRM",
+    "category": "Email Marketing & Automation",
     "type": "[OS][F]",
     "description": "Beautiful, fast email client.",
     "learningCurve": "Easy",
@@ -6805,7 +7157,8 @@
       "Email",
       "Client"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Email Clients"
   },
   {
     "name": "Microsoft 365",
@@ -6822,7 +7175,8 @@
       "Productivity",
       "Enterprise"
     ],
-    "pricing": "paid"
+    "pricing": "paid",
+    "subCategory": "Office Suite"
   },
   {
     "name": "LibreOffice",
@@ -6837,9 +7191,10 @@
     "tags": [
       "Office",
       "Productivity",
-      "Open-Source"
+      "OSS"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Office Suite"
   },
   {
     "name": "OnlyOffice",
@@ -6855,12 +7210,13 @@
       "Office",
       "Collaboration"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Office Suite"
   },
   {
     "name": "Obsidian",
     "url": "https://obsidian.md/",
-    "category": "Automation & Integration",
+    "category": "Project Management & Collaboration",
     "type": "[F]",
     "description": "Private and flexible writing app that adapts to the way you think.",
     "learningCurve": "Steep",
@@ -6872,12 +7228,13 @@
       "Markdown",
       "Local"
     ],
-    "pricing": "freemium"
+    "pricing": "freemium",
+    "subCategory": "Documentation & Knowledge"
   },
   {
     "name": "AppFlowy",
     "url": "https://www.appflowy.io/",
-    "category": "Automation & Integration",
+    "category": "Project Management & Collaboration",
     "type": "[OS][F]",
     "description": "Open Source Alternative to Notion.",
     "learningCurve": "Medium",
@@ -6887,9 +7244,10 @@
     "tags": [
       "Notes",
       "Wiki",
-      "Open-Source"
+      "OSS"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Documentation & Knowledge"
   },
   {
     "name": "WinRAR",
@@ -6905,7 +7263,8 @@
       "Utility",
       "Archive"
     ],
-    "pricing": "paid"
+    "pricing": "paid",
+    "subCategory": "Utilities"
   },
   {
     "name": "7-Zip",
@@ -6920,9 +7279,10 @@
     "tags": [
       "Utility",
       "Archive",
-      "Open-Source"
+      "OSS"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Utilities"
   },
   {
     "name": "PeaZip",
@@ -6938,7 +7298,8 @@
       "Utility",
       "Archive"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Utilities"
   },
   {
     "name": "Rufus",
@@ -6954,7 +7315,8 @@
       "Utility",
       "System"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Utilities"
   },
   {
     "name": "Ventoy",
@@ -6969,8 +7331,9 @@
     "tags": [
       "Utility",
       "System",
-      "Open-Source"
+      "OSS"
     ],
-    "pricing": "open-source"
+    "pricing": "open-source",
+    "subCategory": "Utilities"
   }
 ]

@@ -195,11 +195,6 @@ const html = `<!DOCTYPE html>
       var candidates = window.ALL_TOOLS.filter(function(t) {
         return pricingMatch(t) && t.name !== originalTool.name && t.cat === originalTool.cat;
       });
-      if (candidates.length === 0) {
-        candidates = window.ALL_TOOLS.filter(function(t) {
-          return pricingMatch(t) && t.name !== originalTool.name;
-        });
-      }
       if (candidates.length === 0) return null;
       var best = null;
       var bestScore = -1;
