@@ -24,7 +24,7 @@ const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Tools & Resources | diShine Digital Agency</title>
+  <title>Ressource &amp; Apps Toolkit | Consulting Edition</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"><\/script>
   <style>details > summary { list-style: none; } details > summary::-webkit-details-marker { display: none; }</style>
@@ -35,9 +35,9 @@ const html = `<!DOCTYPE html>
       <header class="mb-8 border-b border-gray-800 pb-8 flex flex-col justify-between gap-4">
         <div>
           <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            diShine<span class="text-blue-500">_</span>Toolkit
+            Ressource<span class="text-blue-500">&amp;</span>Apps<span class="text-blue-500">_</span>Toolkit
           </h1>
-          <p class="text-gray-400 mt-2">Consulting Edition (v1.2.0) &mdash; ${tools.length} tools</p>
+          <p class="text-gray-400 mt-2">Consulting Edition (v1.2.0) &mdash; ${tools.length} tools | Matching model v1.4</p>
         </div>
       </header>
 
@@ -128,9 +128,20 @@ const html = `<!DOCTYPE html>
 
         <div class="p-4 border-t border-gray-800 bg-[#161b22]">
           <textarea id="stackNotes" placeholder="Client intro note... (optional)" class="w-full bg-[#0f1115] border border-gray-700 rounded p-2 text-xs text-gray-300 mb-3 h-16 resize-none focus:ring-1 focus:ring-blue-500 outline-none"></textarea>
-          <button id="exportMdBtn" disabled class="w-full py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-lg shadow-lg transition-colors flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed">
-            Export Markdown
-          </button>
+          <div class="grid grid-cols-3 gap-2">
+            <button id="exportClipBtn" disabled class="export-btn py-2.5 bg-blue-600 hover:bg-blue-500 text-white text-[11px] font-bold rounded-lg shadow-lg transition-colors flex items-center justify-center gap-1 disabled:opacity-50 disabled:cursor-not-allowed">
+              <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" /></svg>
+              Copy
+            </button>
+            <button id="exportMdBtn" disabled class="export-btn py-2.5 bg-purple-600 hover:bg-purple-500 text-white text-[11px] font-bold rounded-lg shadow-lg transition-colors flex items-center justify-center gap-1 disabled:opacity-50 disabled:cursor-not-allowed">
+              <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+              .md
+            </button>
+            <button id="exportTxtBtn" disabled class="export-btn py-2.5 bg-gray-600 hover:bg-gray-500 text-white text-[11px] font-bold rounded-lg shadow-lg transition-colors flex items-center justify-center gap-1 disabled:opacity-50 disabled:cursor-not-allowed">
+              <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+              .txt
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -151,7 +162,10 @@ const html = `<!DOCTYPE html>
     const stackItemsContainer = document.getElementById('stackItems');
     const emptyStackMsg = document.getElementById('emptyStackMsg');
     const stackCounter = document.getElementById('stackCounter');
-    const exportBtn = document.getElementById('exportMdBtn');
+    const exportClipBtn = document.getElementById('exportClipBtn');
+    const exportMdBtn = document.getElementById('exportMdBtn');
+    const exportTxtBtn = document.getElementById('exportTxtBtn');
+    const allExportBtns = document.querySelectorAll('.export-btn');
 
     function pricingIcon(p) {
       if (p === 'paid') return '\\uD83D\\uDC8E';
@@ -255,13 +269,13 @@ const html = `<!DOCTYPE html>
       stackCounter.textContent = myStack.length;
       if (myStack.length === 0) {
         emptyStackMsg.style.display = 'block';
-        exportBtn.disabled = true;
+        for (var ei = 0; ei < allExportBtns.length; ei++) allExportBtns[ei].disabled = true;
         var old = stackItemsContainer.querySelectorAll('.stack-item');
         for (var i = 0; i < old.length; i++) old[i].remove();
         return;
       }
       emptyStackMsg.style.display = 'none';
-      exportBtn.disabled = false;
+      for (var ei = 0; ei < allExportBtns.length; ei++) allExportBtns[ei].disabled = false;
       var oldItems = stackItemsContainer.querySelectorAll('.stack-item');
       for (var i = 0; i < oldItems.length; i++) oldItems[i].remove();
 
@@ -382,8 +396,7 @@ const html = `<!DOCTYPE html>
       return md;
     }
 
-    exportBtn.addEventListener('click', function() {
-      if (myStack.length === 0) return;
+    function buildExportMd() {
       var notes = document.getElementById('stackNotes').value.trim();
       var baseStack = originalStack.length > 0 ? originalStack : myStack;
       var md = '# Digital Agency Tech Stack\\n\\n';
@@ -421,16 +434,53 @@ const html = `<!DOCTYPE html>
         });
         md += '\\n';
       }
-      md += '---\\n\\n*Generated with [diShine Toolkit](https://github.com/diShine-digital-agency/Tools-and-Resources)*\\n';
+      md += '---\\n\\n*Generated with Ressource&Apps Toolkit*\\n';
+      return md;
+    }
+
+    function downloadFile(content, filename, mimeType) {
+      var blob = new Blob([content], {type: mimeType});
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    function flashBtn(btn, origClass, successClass) {
+      var origText = btn.textContent;
+      btn.textContent = 'Done!';
+      btn.classList.replace(origClass, 'bg-emerald-600');
+      setTimeout(function() {
+        btn.textContent = origText;
+        btn.classList.replace('bg-emerald-600', origClass);
+      }, 1500);
+    }
+
+    exportClipBtn.addEventListener('click', function() {
+      if (myStack.length === 0) return;
+      var md = buildExportMd();
       navigator.clipboard.writeText(md).then(function() {
-        var orig = exportBtn.textContent;
-        exportBtn.textContent = 'Copied!';
-        exportBtn.classList.replace('bg-blue-600', 'bg-emerald-600');
-        setTimeout(function() {
-          exportBtn.textContent = orig;
-          exportBtn.classList.replace('bg-emerald-600', 'bg-blue-600');
-        }, 2000);
+        flashBtn(exportClipBtn, 'bg-blue-600');
       });
+    });
+
+    exportMdBtn.addEventListener('click', function() {
+      if (myStack.length === 0) return;
+      var md = buildExportMd();
+      downloadFile(md, 'tech-stack.md', 'text/markdown');
+      flashBtn(exportMdBtn, 'bg-purple-600');
+    });
+
+    exportTxtBtn.addEventListener('click', function() {
+      if (myStack.length === 0) return;
+      var md = buildExportMd();
+      var txt = md.replace(/\\*\\*/g, '').replace(/\\[([^\\]]+)\\]\\([^)]+\\)/g, '$1').replace(/^#+\\s*/gm, '').replace(/^>\\s*/gm, '');
+      downloadFile(txt, 'tech-stack.txt', 'text/plain');
+      flashBtn(exportTxtBtn, 'bg-gray-600');
     });
 
     var activePricingFilter = 'all';
