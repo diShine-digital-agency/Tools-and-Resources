@@ -1,6 +1,6 @@
 # Ressource&Apps Toolkit | Your Tech Stack Companion
 
-**417 digital tools. 4-tier pricing. Intelligent alternative matching (v1.4). One HTML file.**
+**426 digital tools. 4-tier pricing. Intelligent alternative matching (v1.4). One HTML file.**
 
 An interactive toolkit for companies, agencies, consultants, and digital teams. Browse, filter, build tech stacks, and export client-ready reports in Markdown or plain text -- all offline, all in a single HTML file with zero dependencies.
 
@@ -136,29 +136,29 @@ When no good alternative exists in the database (e.g., no paid-only Communicatio
 
 ## Dataset
 
-`src/data/tools.json` -- 417 tools across 21 categories and 60+ subcategories.
+`src/data/tools.json` -- 426 tools across 21 categories and 60+ subcategories.
 
 ### Match quality (v1.4)
 
-Tested against the full dataset (417 tools x 2 modes = 834 match attempts):
+Tested against the full dataset (426 tools x 2 modes = 852 match attempts):
 
 | Quality | Count | % |
 |---------|-------|---|
-| Good (same subCategory) | 614 | 73.6% |
-| Acceptable (same category) | 177 | 21.2% |
+| Good (same subCategory) | 681 | 79.9% |
+| Acceptable (same category) | 129 | 15.1% |
 | Cross-category | 2 | 0.2% |
-| Null (no match exists) | 41 | 4.9% |
+| Null (no match exists) | 40 | 4.7% |
 
-The 2 cross-category matches are Hunter.io (intentionally listed in two categories). The 41 nulls are legitimate data gaps (no free ad platforms, no paid browsers, etc.).
+The 2 cross-category matches are Hunter.io (intentionally listed in two categories). The 40 nulls are legitimate data gaps (no free ad platforms, no paid browsers, etc.).
 
 ### Pricing tiers
 
 | Tier | Count | Definition |
 |------|-------|------------|
-| **Free** | ~88 | No paid plan exists at all |
+| **Free** | ~85 | No paid plan exists at all |
 | **Freemium** | ~93 | Free tier available, paid upgrades exist |
-| **Open Source** | ~110 | Source code is public, self-hostable |
-| **Paid** | ~126 | No free tier -- subscription or license only |
+| **Open Source** | ~107 | Source code is public, self-hostable |
+| **Paid** | ~141 | No free tier -- subscription or license only |
 
 ### Sources
 

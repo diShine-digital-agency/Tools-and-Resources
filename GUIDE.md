@@ -1,6 +1,6 @@
 # User Guide: Ressource&Apps Toolkit
 
-A practical guide to the **417-tool** Ressource&Apps digital toolkit.
+A practical guide to the **426-tool** Ressource&Apps digital toolkit.
 
 ---
 

@@ -7250,90 +7250,259 @@
     "subCategory": "Documentation & Knowledge"
   },
   {
-    "name": "WinRAR",
-    "url": "https://www.win-rar.com/",
+    "name": "Shopify",
+    "url": "https://www.shopify.com",
     "category": "Web Development",
+    "subCategory": "Frameworks & CMS",
     "type": "[$]",
-    "description": "Popular file archiver utility.",
+    "description": "E-commerce platform powering 4M+ stores. Full CMS, hosting, and payment processing.",
     "learningCurve": "Easy",
-    "alternativeTo": "",
+    "agencyPick": false,
+    "alternativeTo": "WordPress",
     "isFree": false,
     "isOpenSource": false,
     "tags": [
-      "Utility",
-      "Archive"
+      "CMS",
+      "Ecommerce"
     ],
-    "pricing": "paid",
-    "subCategory": "Utilities"
+    "pricing": "paid"
   },
   {
-    "name": "7-Zip",
-    "url": "https://www.7-zip.org/",
+    "name": "Webflow",
+    "url": "https://webflow.com",
     "category": "Web Development",
-    "type": "[OS][F]",
-    "description": "Free file archiver with high compression ratio.",
+    "subCategory": "Frameworks & CMS",
+    "type": "[$]",
+    "description": "Visual web design and CMS platform. Build production sites without code.",
+    "learningCurve": "Moderate",
+    "agencyPick": false,
+    "alternativeTo": "WordPress",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "CMS",
+      "Design"
+    ],
+    "pricing": "paid"
+  },
+  {
+    "name": "Contentful",
+    "url": "https://www.contentful.com",
+    "category": "Web Development",
+    "subCategory": "Frameworks & CMS",
+    "type": "[$]",
+    "description": "Enterprise headless CMS with structured content, APIs, and multi-channel delivery.",
+    "learningCurve": "Moderate",
+    "agencyPick": false,
+    "alternativeTo": "Strapi",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "CMS",
+      "Enterprise"
+    ],
+    "pricing": "paid"
+  },
+  {
+    "name": "Tailwind UI",
+    "url": "https://tailwindui.com",
+    "category": "Web Development",
+    "subCategory": "Frontend Utilities",
+    "type": "[$]",
+    "description": "Official premium component library for Tailwind CSS. 500+ production-ready components.",
     "learningCurve": "Easy",
-    "alternativeTo": "WinRAR",
-    "isFree": true,
-    "isOpenSource": true,
+    "agencyPick": false,
+    "alternativeTo": "shadcn/ui",
+    "isFree": false,
+    "isOpenSource": false,
     "tags": [
-      "Utility",
-      "Archive",
-      "OSS"
+      "DevTools",
+      "CSS",
+      "Design"
     ],
-    "pricing": "open-source",
-    "subCategory": "Utilities"
+    "pricing": "paid"
   },
   {
-    "name": "PeaZip",
-    "url": "https://peazip.github.io/",
+    "name": "Datadog",
+    "url": "https://www.datadoghq.com",
     "category": "Web Development",
-    "type": "[OS][F]",
-    "description": "Free Zip / Rar extractor.",
+    "subCategory": "Testing & Monitoring",
+    "type": "[$]",
+    "description": "Cloud-scale monitoring, APM, log management, and infrastructure observability.",
+    "learningCurve": "Steep",
+    "agencyPick": false,
+    "alternativeTo": "Sentry",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "DevTools",
+      "Monitoring",
+      "Enterprise"
+    ],
+    "pricing": "paid"
+  },
+  {
+    "name": "New Relic",
+    "url": "https://newrelic.com",
+    "category": "Web Development",
+    "subCategory": "Testing & Monitoring",
+    "type": "[$]",
+    "description": "Full-stack observability platform with APM, infrastructure, and browser monitoring.",
+    "learningCurve": "Moderate",
+    "agencyPick": false,
+    "alternativeTo": "Better Stack",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "DevTools",
+      "Monitoring"
+    ],
+    "pricing": "paid"
+  },
+  {
+    "name": "BrowserStack",
+    "url": "https://www.browserstack.com",
+    "category": "Web Development",
+    "subCategory": "Testing & Monitoring",
+    "type": "[$]",
+    "description": "Cross-browser testing on real devices and browsers. Selenium, Cypress, Playwright support.",
     "learningCurve": "Easy",
-    "alternativeTo": "WinRAR",
-    "isFree": true,
-    "isOpenSource": true,
+    "agencyPick": false,
+    "alternativeTo": "Playwright",
+    "isFree": false,
+    "isOpenSource": false,
     "tags": [
-      "Utility",
-      "Archive"
+      "DevTools",
+      "Testing"
     ],
-    "pricing": "open-source",
-    "subCategory": "Utilities"
+    "pricing": "paid"
   },
   {
-    "name": "Rufus",
-    "url": "https://rufus.ie/",
+    "name": "Firebase",
+    "url": "https://firebase.google.com",
     "category": "Web Development",
-    "type": "[OS][F]",
-    "description": "Create bootable USB drives the easy way.",
-    "learningCurve": "Medium",
-    "alternativeTo": "",
-    "isFree": true,
-    "isOpenSource": true,
+    "subCategory": "APIs & Backend",
+    "type": "[$]",
+    "description": "Google backend platform: auth, Firestore DB, hosting, cloud functions, analytics.",
+    "learningCurve": "Moderate",
+    "agencyPick": false,
+    "alternativeTo": "Supabase",
+    "isFree": false,
+    "isOpenSource": false,
     "tags": [
-      "Utility",
-      "System"
+      "DevTools",
+      "Backend",
+      "Cloud"
     ],
-    "pricing": "open-source",
-    "subCategory": "Utilities"
+    "pricing": "paid"
   },
   {
-    "name": "Ventoy",
-    "url": "https://www.ventoy.net/",
+    "name": "Neon",
+    "url": "https://neon.tech",
     "category": "Web Development",
-    "type": "[OS][F]",
-    "description": "A new approach to creating bootable USB drives.",
-    "learningCurve": "Medium",
-    "alternativeTo": "Rufus",
-    "isFree": true,
-    "isOpenSource": true,
+    "subCategory": "APIs & Backend",
+    "type": "[$]",
+    "description": "Serverless Postgres with branching, autoscaling, and generous free tier becoming paid at scale.",
+    "learningCurve": "Easy",
+    "agencyPick": false,
+    "alternativeTo": "PocketBase",
+    "isFree": false,
+    "isOpenSource": false,
     "tags": [
-      "Utility",
-      "System",
-      "OSS"
+      "DevTools",
+      "Backend"
     ],
-    "pricing": "open-source",
-    "subCategory": "Utilities"
+    "pricing": "paid"
+  },
+  {
+    "name": "AWS Amplify",
+    "url": "https://aws.amazon.com/amplify/",
+    "category": "Hosting & Infrastructure",
+    "subCategory": "Web Hosting & Deployment",
+    "type": "[$]",
+    "description": "Full-stack hosting on AWS. CI/CD, custom domains, server-side rendering.",
+    "learningCurve": "Moderate",
+    "agencyPick": false,
+    "alternativeTo": "Vercel",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "DevTools",
+      "Hosting",
+      "Cloud"
+    ],
+    "pricing": "paid"
+  },
+  {
+    "name": "Heroku",
+    "url": "https://www.heroku.com",
+    "category": "Hosting & Infrastructure",
+    "subCategory": "Web Hosting & Deployment",
+    "type": "[$]",
+    "description": "PaaS for deploying, managing, and scaling apps. Simple git-push deploys.",
+    "learningCurve": "Easy",
+    "agencyPick": false,
+    "alternativeTo": "Railway",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "DevTools",
+      "Hosting"
+    ],
+    "pricing": "paid"
+  },
+  {
+    "name": "Zoom",
+    "url": "https://zoom.us",
+    "category": "Project Management & Collaboration",
+    "subCategory": "Communication",
+    "type": "[$]",
+    "description": "Video conferencing, webinars, and team chat. Enterprise standard for remote meetings.",
+    "learningCurve": "Easy",
+    "agencyPick": false,
+    "alternativeTo": "Microsoft Teams",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Communication",
+      "Enterprise"
+    ],
+    "pricing": "paid"
+  },
+  {
+    "name": "Guru",
+    "url": "https://www.getguru.com",
+    "category": "Project Management & Collaboration",
+    "subCategory": "Documentation & Knowledge",
+    "type": "[$]",
+    "description": "AI-powered enterprise knowledge management. Team wiki with verified answers.",
+    "learningCurve": "Easy",
+    "agencyPick": false,
+    "alternativeTo": "Notion",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Documentation",
+      "Enterprise"
+    ],
+    "pricing": "paid"
+  },
+  {
+    "name": "Tettra",
+    "url": "https://tettra.com",
+    "category": "Project Management & Collaboration",
+    "subCategory": "Documentation & Knowledge",
+    "type": "[$]",
+    "description": "Internal knowledge base with Slack integration and AI-powered search.",
+    "learningCurve": "Easy",
+    "agencyPick": false,
+    "alternativeTo": "Slite",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Documentation",
+      "Productivity"
+    ],
+    "pricing": "paid"
   }
 ]
