@@ -1,8 +1,8 @@
-# Tools & Resources | Your Tech Stack Companion
+# Ressource&Apps Toolkit | Your Tech Stack Companion
 
-**422 digital tools. 4-tier pricing. Intelligent alternative matching. One HTML file.**
+**422 digital tools. 4-tier pricing. Intelligent alternative matching (v1.4). One HTML file.**
 
-An interactive toolkit for companies, agencies, consultants, and digital teams. Browse, filter, build tech stacks, and export client-ready Markdown reports -- all offline, all in a single HTML file with zero dependencies.
+An interactive toolkit for companies, agencies, consultants, and digital teams. Browse, filter, build tech stacks, and export client-ready reports in Markdown or plain text -- all offline, all in a single HTML file with zero dependencies.
 
 ---
 
@@ -51,15 +51,23 @@ Two buttons transform your stack:
 
 Your original stack is preserved in memory. Clicking **Free Alts** or **Upgrade** swaps the view but never destroys your selections. Click **Reset** to go back.
 
-### Triple export
+### Three export formats
 
-The **Export Markdown** button generates a complete consulting report with three sections:
+Three buttons at the bottom of the sidebar:
+
+| Button | Action |
+|--------|--------|
+| **Copy** | Copies the full Markdown report to clipboard |
+| **.md** | Downloads a `tech-stack.md` file |
+| **.txt** | Downloads a `tech-stack.txt` file (stripped of Markdown syntax) |
+
+All three generate a consulting report with three sections:
 
 1. **Chosen Stack** -- your original hand-picked tools, grouped by category
 2. **Free & Open-Source Alternatives** -- a comparison table showing each tool alongside its best free/OS match
 3. **Premium Upgrade Alternatives** -- a comparison table showing each tool alongside its best paid match
 
-The report includes pricing labels, category groupings, clickable links, and a footer. Ready to paste into a proposal, Notion page, or client email.
+The report includes pricing labels, category groupings, clickable links, and a footer. The `.txt` version strips all Markdown formatting (bold, links, headings) for pasting into plain-text contexts. Ready to paste into a proposal, Notion page, or client email.
 
 ---
 

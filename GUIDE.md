@@ -1,6 +1,6 @@
-# User Guide: diShine Tools & Resources
+# User Guide: Ressource&Apps Toolkit
 
-A practical guide to the **422-tool** diShine digital toolkit.
+A practical guide to the **422-tool** Ressource&Apps digital toolkit.
 
 ---
 
@@ -37,15 +37,23 @@ The algorithm uses a multi-signal weighted scoring system. It prioritizes tools 
 
 Your original stack is always preserved in memory. Swapping to free alts or premium upgrades changes the view but never destroys your picks. Click **Reset** to return.
 
-### Triple Export
+### Export (3 formats)
 
-Click **Export Markdown** to copy a complete consulting report to your clipboard. The export always includes three sections:
+Three export buttons at the bottom of the sidebar:
+
+| Button | Format | Output |
+|--------|--------|--------|
+| **Copy** (blue) | Markdown to clipboard | Paste into any Markdown-aware app |
+| **.md** (purple) | Markdown file download | `tech-stack.md` saved to your Downloads folder |
+| **.txt** (gray) | Plain text file download | `tech-stack.txt` stripped of all Markdown syntax |
+
+All three generate the same consulting report with three sections:
 
 1. **Chosen Stack** -- your original hand-picked tools, grouped by category with pricing labels and links
 2. **Free & Open-Source Alternatives** -- a comparison table: each of your tools alongside the algorithm's best free/OS match
 3. **Premium Upgrade Alternatives** -- a comparison table: each tool alongside the best paid alternative
 
-Add an optional client note in the textarea before exporting. The markdown is ready to paste into proposals, Notion, Slack, or email.
+Add an optional client note in the textarea before exporting. The `.txt` version strips bold markers, link syntax, and headings for clean pasting into emails or plain-text contexts.
 
 ---
 
