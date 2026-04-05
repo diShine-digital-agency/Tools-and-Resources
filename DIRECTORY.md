@@ -62,7 +62,7 @@ This is a statically generated list of all tools available in the diShine toolki
 | **[Whitespark](https://whitespark.ca)** | Paid | Medium | Local citation finder and builder<br>*Tags: #SEO, #Design* |
 | **[Moz Local](https://moz.com/products/local)** | Paid | Medium | Listing distribution and management<br>*Tags: #SEO* |
 | **[Pleper](https://pleper.com)** | Free/Freemium | Medium | Free Google Business Profile audit<br>*Tags: #SEO* |
-| **[Rank Simulator](https://www.instilla.it/rank-simulator/)** | Free/Freemium | Medium | AI-predictive tool that analyzes content citability by LLMs, identifies gaps vs AI Overviews competitors<br>*Tags: #SEO, #AI* |
+| **[Rank Simulator](https://www.instilla.it/rank-simulator/)** | Paid | Medium | 👑 **diShine Pick**<br>Enterprise AI-predictive platform that analyzes brand citability by LLMs and identifies content gaps versus AI Overviews competitors.<br>*Tags: #SEO, #AI* |
 | **[Otterly.ai](https://otterly.ai)** | Paid | Medium | Track brand visibility in AI search results<br>*Tags: #SEO, #AI* |
 | **[Profound](https://getprofound.ai)** | Paid | Medium | Monitor and optimize for AI-powered search engines<br>*Tags: #SEO* |
 
@@ -86,7 +86,7 @@ This is a statically generated list of all tools available in the diShine toolki
 | **[Pirsch](https://pirsch.io)** | Paid | Easy | Privacy-friendly, cookie-free, simple<br>*Tags: #Analytics, #Privacy* |
 | **[Cabin](https://withcabin.com)** | Free/Freemium | Medium | Carbon-aware, privacy-first analytics<br>*Tags: #Analytics, #Privacy* |
 | **[Counter.dev](https://counter.dev)** | Free/Freemium<br>OSS | Medium | Minimal open-source analytics<br>*Tags: #Analytics, #OSS* |
-| **[InnexDATA](https://www.innexdata.io/en)** | Paid | Medium | Plug-and-play GA4 + advertising integration with Shopify, unified eCommerce tracking across all touchpoints and campaigns<br>*Tags: #Analytics* |
+| **[InnexDATA](https://www.innexdata.io/en)** | Paid | Medium | 👑 **diShine Pick**<br>Turnkey performance management on Shopify via seamless GA4 and advertising platform integrations for unified eCommerce tracking.<br>*Tags: #Analytics* |
 | **[Google Tag Manager](https://tagmanager.google.com)** | Free/Freemium | Medium | Industry standard tag management<br>*Tags: #Analytics* |
 | **[Tealium](https://tealium.com)** | Paid | Steep | Enterprise customer data platform<br>*Tags: #Analytics* |
 | **[Segment](https://segment.com)** | Paid | Medium | Customer data infrastructure<br>*Tags: #Analytics* |
@@ -445,7 +445,7 @@ This is a statically generated list of all tools available in the diShine toolki
 | **[Have I Been Pwned](https://haveibeenpwned.com)** | Free/Freemium | Medium | Data breach notification<br>*Tags: #Privacy* |
 | **[Trivy](https://trivy.dev)** | Free/Freemium<br>OSS | Medium | Container and filesystem vulnerability scanner<br>*Tags: #Privacy* |
 | **[CrowdSec](https://crowdsec.net)** | Free/Freemium<br>OSS | Medium | Collaborative security engine<br>*Tags: #Privacy* |
-| **[EQUO](https://www.equosolution.com/)** | Paid | Medium | Full digital accessibility solution — usability, clarity, inclusivity. Helps comply with EU accessibility regulations (European Accessibility Act, June 2025)<br>*Tags: #Privacy* |
+| **[EQUO](https://www.equosolution.com/)** | Paid | Medium | 👑 **diShine Pick**<br>Comprehensive accessibility solution combining expert consulting with a proprietary AI-powered widget to guarantee compliance with the forthcoming EU Accessibility Act.<br>*Tags: #Privacy* |
 | **[WAVE](https://wave.webaim.org)** | Free/Freemium | Medium | Web accessibility evaluation tool<br>*Tags: #Privacy* |
 | **[Pa11y](https://pa11y.org)** | Free/Freemium<br>OSS | Medium | Automated accessibility testing CLI<br>*Tags: #Privacy* |
 | **[Lighthouse Accessibility](https://developer.chrome.com/docs/lighthouse/)** | Free/Freemium<br>OSS | Medium | Accessibility audit built into Chrome DevTools<br>*Tags: #Privacy, #Design* |
