@@ -8,97 +8,248 @@ const categories = [...new Set(toolsData.map((t: any) => t.category))];
 ---
 
 <Layout>
-  <div class="mb-16 max-w-3xl">
-    <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-6">
-      The Curated Digital <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Toolkit</span>.
-    </h1>
-    <p class="text-lg text-gray-400 leading-relaxed mb-8">
-      A curated collection of {toolsData.length} digital tools, platforms, and resources for agencies, consultants, and digital teams. Every tool has been evaluated for practical value. 
-    </p>
-
-    <!-- Search input -->
-    <div class="relative max-w-2xl">
-      <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-        <svg class="h-5 w-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+  <div class="flex flex-col lg:flex-row gap-6">
+    <div class="flex-1 min-w-0">
+      <div class="mb-10 max-w-3xl">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-6">
+          The Curated Digital <span class="text-blue-500">Toolkit</span>.
+        </h1>
+        <p class="text-lg text-gray-400 leading-relaxed mb-8">
+          A curated collection of {toolsData.length} digital tools for agencies and consultants. Click "+ Stack" to build a toolkit for your clients.
+        </p>
       </div>
-      <input type="text" id="searchInput" class="block w-full pl-11 pr-4 py-3.5 border border-gray-700/80 rounded-xl leading-config bg-[#161b22] text-gray-100 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-base shadow-sm transition-all" placeholder="Search by name, category, or alternative (e.g. 'Jira')..." />
-    </div>
-  </div>
 
-  <div class="mb-20">
-    <h2 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
-      <svg class="h-5 w-5 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
-      Agency Playbooks
-    </h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-      {stacksData.map((stack: any) => (
-        <div class="p-6 rounded-xl bg-[#161b22] border border-gray-800">
-          <h3 class="text-lg font-bold text-white mb-2">{stack.name}</h3>
-          <p class="text-sm text-gray-400 mb-5">{stack.description}</p>
-          <div class="flex flex-wrap gap-2">
-            {stack.tools.map((t: string) => (
-              <span class="px-2 py-1 bg-gray-800 rounded font-medium text-xs text-gray-300">{t}</span>
-            ))}
-          </div>
+      <div class="bg-[#161b22] border border-gray-800 rounded-xl p-6 mb-12 flex flex-col md:flex-row gap-4 items-center justify-between">
+        <div class="relative w-full md:w-1/2">
+             <input type="text" id="searchInput" placeholder="Search by name, tags or description..." class="w-full pl-4 pr-10 py-3 rounded-lg bg-[#0f1115] text-gray-100 border border-gray-700/80 focus:ring-2 focus:ring-blue-500 transition-all font-medium" />
+             <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+                <svg class="h-5 w-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+             </div>
         </div>
-      ))}
-    </div>
-  </div>
+        <div class="flex gap-4 w-full md:w-auto overflow-x-auto pb-2 md:pb-0">
+          <label class="flex items-center gap-2 cursor-pointer bg-[#0f1115] border border-gray-700 px-4 py-3 rounded-lg hover:border-blue-500 transition-colors whitespace-nowrap">
+            <input type="checkbox" id="freeFilter" class="form-checkbox h-4 w-4 text-blue-500 rounded bg-gray-800 border-gray-600 focus:ring-blue-500" />
+            <span class="text-sm font-semibold text-gray-200">Free / Freemium</span>
+          </label>
+          <label class="flex items-center gap-2 cursor-pointer bg-[#0f1115] border border-gray-700 px-4 py-3 rounded-lg hover:border-blue-500 transition-colors whitespace-nowrap">
+            <input type="checkbox" id="osFilter" class="form-checkbox h-4 w-4 text-blue-500 rounded bg-gray-800 border-gray-600 focus:ring-blue-500" />
+            <span class="text-sm font-semibold text-gray-200">Open Source</span>
+          </label>
+        </div>
+      </div>
 
-  <div id="toolsContainer">
-    {categories.map((category: unknown) => (
-      <div class="category-section mb-16" data-category={category}>
-        <h2 class="text-xl font-bold text-gray-100 mb-6 flex items-center gap-3">
-          {category}
-          <span class="text-xs font-semibold text-gray-400 px-2.5 py-0.5 bg-gray-800 rounded-full">
-            {toolsData.filter((t: any) => t.category === category).length}
-          </span>
+      <div class="mb-20">
+        <h2 class="text-xl font-bold text-white mb-6 flex items-center gap-2 border-b border-gray-800 pb-2">
+          Agency Playbooks
         </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 tools-grid">
-          {toolsData.filter((t: any) => t.category === category).map((tool: any) => (
-            <div class="tool-card-wrapper h-full" data-name={tool.name?.toLowerCase() || ''} data-desc={tool.description?.toLowerCase() || ''} data-alt={tool.alternativeTo?.toLowerCase() || ''}>
-              <ToolCard tool={tool} />
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          {stacksData.map((stack: any) => (
+            <div class="p-6 rounded-xl bg-[#161b22] border border-gray-800">
+              <h3 class="text-lg font-bold text-white mb-2">{stack.name}</h3>
+              <p class="text-sm text-gray-400 mb-5">{stack.description}</p>
+              <div class="flex flex-wrap gap-2">
+                {stack.tools.map((t: string) => (
+                  <span class="px-2 py-1 bg-gray-800 rounded font-medium text-xs text-gray-300">{t}</span>
+                ))}
+              </div>
             </div>
           ))}
         </div>
       </div>
-    ))}
+
+      <div id="toolsContainer">
+        {categories.map((category: unknown) => (
+          <div class="category-section mb-16" data-category={category}>
+            <h2 class="text-xl font-bold text-gray-100 mb-6 flex items-center gap-3">
+              {category}
+              <span class="text-xs font-semibold text-gray-400 px-2.5 py-0.5 bg-gray-800 rounded-full">
+                {toolsData.filter((t: any) => t.category === category).length}
+              </span>
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+              {toolsData.filter((t: any) => t.category === category).map((tool: any) => (
+                <ToolCard tool={tool} />
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- Stack Sidebar -->
+    <div class="w-80 flex-shrink-0 hidden lg:block sticky top-8 h-[calc(100vh-4rem)]">
+      <div class="rounded-xl border border-gray-800 bg-[#161b22] h-full flex flex-col shadow-xl">
+        <div class="p-5 border-b border-gray-800 bg-[#0f1115] rounded-t-xl flex justify-between items-center">
+          <div>
+            <h2 class="text-lg font-bold text-white mb-1 flex items-center gap-2">
+              <svg class="w-5 h-5 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+              My Stack
+            </h2>
+            <p class="text-xs text-gray-400">Curate tools to export.</p>
+          </div>
+          <span id="stackCounter" class="bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded-full">0</span>
+        </div>
+        <div id="stackItems" class="flex-1 overflow-y-auto p-4 space-y-3 bg-[#11141a]">
+           <p id="emptyStackMsg" class="text-sm text-gray-500 text-center mt-10">Your stack is empty.<br/><br/>Browse the directory and click <b class="text-blue-400">"+ Stack"</b> on tools to curate a consultancy list.</p>
+        </div>
+        <div class="p-4 border-t border-gray-800 bg-[#0f1115] rounded-b-xl">
+          <button id="exportMdBtn" disabled class="w-full py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-lg shadow-lg transition-colors flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed">
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+            Export Markdown
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <!-- Search Script -->
   <script>
     const searchInput = document.getElementById('searchInput');
-    const categorySections = document.querySelectorAll('.category-section');
+    const freeFilter = document.getElementById('freeFilter');
+    const osFilter = document.getElementById('osFilter');
+    const sections = document.querySelectorAll('.category-section');
+    const tagBadges = document.querySelectorAll('.tag-badge');
+    
+    let myStack: any[] = [];
+    const stackItemsContainer = document.getElementById('stackItems');
+    const emptyStackMsg = document.getElementById('emptyStackMsg');
+    const stackCounter = document.getElementById('stackCounter');
+    const exportBtn = document.getElementById('exportMdBtn');
 
-    searchInput?.addEventListener('input', (e) => {
-      const target = e.target as HTMLInputElement;
-      if (!target) return;
-      const term = target.value.toLowerCase();
+    function renderStack() {
+      if(!stackCounter || !emptyStackMsg || !exportBtn || !stackItemsContainer) return;
+      stackCounter.innerText = myStack.length.toString();
+      if (myStack.length === 0) {
+        emptyStackMsg.style.display = 'block';
+        (exportBtn as HTMLButtonElement).disabled = true;
+        stackItemsContainer.querySelectorAll('.stack-item').forEach(el => el.remove());
+        return;
+      }
+      emptyStackMsg.style.display = 'none';
+      (exportBtn as HTMLButtonElement).disabled = false;
+      stackItemsContainer.querySelectorAll('.stack-item').forEach(el => el.remove());
+      
+      myStack.forEach((tool, index) => {
+        const div = document.createElement('div');
+        div.className = 'stack-item p-3 bg-[#161b22] border border-gray-700/50 hover:border-gray-600 rounded-lg flex justify-between items-start gap-2 transition-colors';
+        div.innerHTML = `
+          <div class="overflow-hidden">
+            <h4 class="text-sm font-semibold text-blue-400 leading-tight truncate">${tool.name}</h4>
+            <p class="text-[10px] text-gray-500 mt-1 truncate">${tool.desc}</p>
+          </div>
+          <button class="remove-btn flex-shrink-0 text-gray-500 hover:text-red-400 text-xs font-bold p-1 transition-colors" data-idx="${index}" title="Remove">✕</button>
+        `;
+        stackItemsContainer.appendChild(div);
+      });
 
-      categorySections.forEach((section) => {
-        let sectionHasVisible = false;
-        const tools = section.querySelectorAll('.tool-card-wrapper');
-        
-        tools.forEach((tool) => {
-          const t = tool as HTMLElement;
-          const match = (t.dataset.name && t.dataset.name.includes(term)) || 
-                        (t.dataset.desc && t.dataset.desc.includes(term)) || 
-                        (t.dataset.alt && t.dataset.alt.includes(term));
+      document.querySelectorAll('.remove-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const target = e.target as HTMLElement;
+          const idx = parseInt(target.dataset.idx || "0");
+          myStack.splice(idx, 1);
+          renderStack();
+        });
+      });
+    }
+
+    document.querySelectorAll('.add-to-stack').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const target = e.target as HTMLElement;
+        const rawData = target.dataset.tool;
+        if(!rawData) return;
+        const toolData = JSON.parse(rawData);
+        if (!myStack.find(t => t.name === toolData.name)) {
+          myStack.push(toolData);
+          renderStack();
           
-          if (match) {
-            t.style.display = 'block';
-            sectionHasVisible = true;
+          const origText = target.innerText;
+          target.innerText = '✓ Added';
+          target.classList.replace('bg-blue-900/40', 'bg-emerald-900/60');
+          target.classList.replace('text-blue-300', 'text-emerald-300');
+          target.classList.replace('border-blue-800/60', 'border-emerald-800/60');
+          setTimeout(() => {
+            target.innerText = origText;
+            target.classList.replace('bg-emerald-900/60', 'bg-blue-900/40');
+            target.classList.replace('text-emerald-300', 'text-blue-300');
+            target.classList.replace('border-emerald-800/60', 'border-blue-800/60');
+          }, 1500);
+        }
+      });
+    });
+
+    exportBtn?.addEventListener('click', () => {
+      if (myStack.length === 0) return;
+      let md = '# 🚀 Curated Tech Stack\\n\\nHere is your custom curated list of tools:\\n\\n';
+      myStack.forEach(t => {
+        md += `- **[${t.name}](${t.url})**: ${t.desc}\\n`;
+      });
+      navigator.clipboard.writeText(md).then(() => {
+        const orig = exportBtn.innerHTML;
+        exportBtn.innerHTML = '✓ Copied to Clipboard!';
+        exportBtn.classList.replace('bg-blue-600', 'bg-emerald-600');
+        setTimeout(() => {
+           exportBtn.innerHTML = orig;
+           exportBtn.classList.replace('bg-emerald-600', 'bg-blue-600');
+        }, 2000);
+      });
+    });
+
+    let currentTagFilter = "";
+
+    function filterTools() {
+      if(!searchInput || !freeFilter || !osFilter) return;
+      
+      if (currentTagFilter) {
+          (searchInput as HTMLInputElement).value = "#" + currentTagFilter;
+      }
+      
+      const term = (searchInput as HTMLInputElement).value.toLowerCase().replace('#', '');
+      const needsFree = (freeFilter as HTMLInputElement).checked;
+      const needsOS = (osFilter as HTMLInputElement).checked;
+
+      sections.forEach((sec) => {
+        let hasMatch = false;
+        sec.querySelectorAll('.tool-card').forEach((cardEl) => {
+          const card = cardEl as HTMLElement;
+          const name = card.dataset.name || "";
+          const desc = card.dataset.desc || "";
+          const isFree = card.dataset.free === 'true';
+          const isOS = card.dataset.os === 'true';
+          const tags = card.dataset.tags || "";
+
+          const matchText = name.includes(term) || desc.includes(term) || tags.includes(term);
+          const matchFree = !needsFree || isFree;
+          const matchOS = !needsOS || isOS;
+
+          if (matchText && matchFree && matchOS) {
+            card.style.display = 'flex';
+            hasMatch = true;
           } else {
-            t.style.display = 'none';
+            card.style.display = 'none';
           }
         });
+        (sec as HTMLElement).style.display = hasMatch ? 'block' : 'none';
+      });
+    }
 
-        const s = section as HTMLElement;
-        if (sectionHasVisible || term === '') {
-          s.style.display = 'block';
-        } else {
-          s.style.display = 'none';
+    searchInput?.addEventListener('input', (e) => {
+        currentTagFilter = '';
+        filterTools();
+    });
+    freeFilter?.addEventListener('change', filterTools);
+    osFilter?.addEventListener('change', filterTools);
+
+    tagBadges.forEach(badge => {
+      badge.addEventListener('click', (e) => {
+        const target = e.target as HTMLElement;
+        const tag = target.dataset.tag;
+        if (currentTagFilter === tag && searchInput) {
+          currentTagFilter = "";
+          (searchInput as HTMLInputElement).value = "";
+        } else if (tag) {
+          currentTagFilter = tag;
         }
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        filterTools();
       });
     });
   </script>

@@ -8,7 +8,13 @@
     "description": "Full-suite SEO, strongest backlink database",
     "learningCurve": "Medium",
     "agencyPick": true,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO",
+      "Design"
+    ]
   },
   {
     "name": "Semrush",
@@ -19,7 +25,14 @@
     "description": "All-in-one marketing suite, competitive intelligence",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO",
+      "Marketing",
+      "Design"
+    ]
   },
   {
     "name": "Ubersuggest",
@@ -30,7 +43,12 @@
     "description": "Budget-friendly keyword research",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Keyword Surfer",
@@ -41,7 +59,12 @@
     "description": "Free Chrome extension showing search volume in SERPs",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "AlsoAsked",
@@ -52,7 +75,12 @@
     "description": "\"People Also Ask\" data visualization",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "AnswerThePublic",
@@ -63,7 +91,12 @@
     "description": "Question-based keyword discovery",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Exploding Topics",
@@ -74,7 +107,12 @@
     "description": "Spot trending topics before they peak",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Glimpse",
@@ -85,7 +123,12 @@
     "description": "Google Trends on steroids, trend detection",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Lowfruits",
@@ -96,7 +139,13 @@
     "description": "Find low-competition keywords fast",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO",
+      "Design"
+    ]
   },
   {
     "name": "Screaming Frog",
@@ -107,7 +156,12 @@
     "description": "Site crawling (free up to 500 URLs)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Sitebulb",
@@ -118,7 +172,12 @@
     "description": "Visual site auditing with actionable insights",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Google Search Console",
@@ -129,7 +188,12 @@
     "description": "Direct Google indexing data",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Rich Results Test",
@@ -140,7 +204,12 @@
     "description": "Test structured data/schema markup",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Schema Markup Generator",
@@ -151,7 +220,12 @@
     "description": "Generate JSON-LD schema",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Robots.txt Tester",
@@ -162,7 +236,12 @@
     "description": "Validate robots.txt rules",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Hreflang Tag Generator",
@@ -173,7 +252,12 @@
     "description": "Multi-language/region hreflang tags",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Valentin.app",
@@ -184,7 +268,12 @@
     "description": "Log file analysis for SEO (free)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "IndexNow",
@@ -195,7 +284,12 @@
     "description": "Instant indexing for Bing, Yandex, Naver",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Ahrefs Backlink Checker",
@@ -206,7 +300,12 @@
     "description": "Free backlink overview",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Majestic",
@@ -217,7 +316,12 @@
     "description": "Trust Flow & Citation Flow metrics",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "HARO / Connectively",
@@ -228,7 +332,12 @@
     "description": "Earn links from journalists",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "BuzzStream",
@@ -239,7 +348,12 @@
     "description": "Outreach and relationship management",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Pitchbox",
@@ -250,7 +364,13 @@
     "description": "Scaled outreach automation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO",
+      "Automation"
+    ]
   },
   {
     "name": "Hunter.io",
@@ -261,7 +381,13 @@
     "description": "Find email addresses for outreach",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO",
+      "Marketing"
+    ]
   },
   {
     "name": "Respona",
@@ -272,7 +398,13 @@
     "description": "AI-powered link building outreach",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO",
+      "Design"
+    ]
   },
   {
     "name": "Google Business Profile",
@@ -283,7 +415,12 @@
     "description": "Google Maps and local search presence",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "BrightLocal",
@@ -294,7 +431,13 @@
     "description": "Local rank tracking and citation management",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO",
+      "Analytics"
+    ]
   },
   {
     "name": "Whitespark",
@@ -305,7 +448,13 @@
     "description": "Local citation finder and builder",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO",
+      "Design"
+    ]
   },
   {
     "name": "Moz Local",
@@ -316,7 +465,12 @@
     "description": "Listing distribution and management",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Pleper",
@@ -327,7 +481,12 @@
     "description": "Free Google Business Profile audit",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Rank Simulator",
@@ -338,7 +497,13 @@
     "description": "AI-predictive tool that analyzes content citability by LLMs, identifies gaps vs AI Overviews competitors",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO",
+      "AI"
+    ]
   },
   {
     "name": "Otterly.ai",
@@ -349,7 +514,13 @@
     "description": "Track brand visibility in AI search results",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO",
+      "AI"
+    ]
   },
   {
     "name": "Profound",
@@ -360,7 +531,12 @@
     "description": "Monitor and optimize for AI-powered search engines",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Google Analytics 4",
@@ -371,7 +547,12 @@
     "description": "Industry standard web analytics",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Matomo",
@@ -382,7 +563,13 @@
     "description": "Privacy-first GA alternative (self-hosted)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Analytics",
+      "Privacy"
+    ]
   },
   {
     "name": "Plausible",
@@ -393,7 +580,13 @@
     "description": "Lightweight, privacy-friendly, GDPR-compliant",
     "learningCurve": "Medium",
     "agencyPick": true,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": true,
+    "tags": [
+      "Analytics",
+      "Privacy"
+    ]
   },
   {
     "name": "Fathom",
@@ -404,7 +597,13 @@
     "description": "Simple, privacy-first analytics",
     "learningCurve": "Easy",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics",
+      "Privacy"
+    ]
   },
   {
     "name": "Umami",
@@ -415,7 +614,13 @@
     "description": "Self-hosted, beautiful, privacy-focused",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Analytics",
+      "Privacy"
+    ]
   },
   {
     "name": "PostHog",
@@ -426,7 +631,12 @@
     "description": "Product analytics + session replay + A/B testing",
     "learningCurve": "Medium",
     "agencyPick": true,
-    "alternativeTo": "Google Analytics / Mixpanel"
+    "alternativeTo": "Google Analytics / Mixpanel",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Mixpanel",
@@ -437,7 +647,12 @@
     "description": "Event-based product analytics",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Amplitude",
@@ -448,7 +663,12 @@
     "description": "Product analytics with behavioral cohorts",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Heap",
@@ -459,7 +679,12 @@
     "description": "Autocapture everything, analyze later",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Pirsch",
@@ -470,7 +695,13 @@
     "description": "Privacy-friendly, cookie-free, simple",
     "learningCurve": "Easy",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics",
+      "Privacy"
+    ]
   },
   {
     "name": "Cabin",
@@ -481,7 +712,13 @@
     "description": "Carbon-aware, privacy-first analytics",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics",
+      "Privacy"
+    ]
   },
   {
     "name": "Counter.dev",
@@ -492,7 +729,13 @@
     "description": "Minimal open-source analytics",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Analytics",
+      "OSS"
+    ]
   },
   {
     "name": "InnexDATA",
@@ -503,7 +746,12 @@
     "description": "Plug-and-play GA4 + advertising integration with Shopify, unified eCommerce tracking across all touchpoints and campaigns",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Google Tag Manager",
@@ -514,7 +762,12 @@
     "description": "Industry standard tag management",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Tealium",
@@ -525,7 +778,12 @@
     "description": "Enterprise customer data platform",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Segment",
@@ -536,7 +794,12 @@
     "description": "Customer data infrastructure",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "RudderStack",
@@ -547,7 +810,13 @@
     "description": "Open-source Segment alternative",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Analytics",
+      "OSS"
+    ]
   },
   {
     "name": "Zaraz",
@@ -558,7 +827,13 @@
     "description": "Cloudflare's server-side tag manager (fast, privacy)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics",
+      "Privacy"
+    ]
   },
   {
     "name": "Piwik PRO Tag Manager",
@@ -569,7 +844,13 @@
     "description": "Privacy-compliant tag management",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics",
+      "Privacy"
+    ]
   },
   {
     "name": "Hotjar",
@@ -580,7 +861,12 @@
     "description": "Heatmaps + session recordings + surveys",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Microsoft Clarity",
@@ -591,7 +877,12 @@
     "description": "Free heatmaps and session recordings (unlimited)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "FullStory",
@@ -602,7 +893,12 @@
     "description": "Enterprise session replay with DX data",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Smartlook",
@@ -613,7 +909,12 @@
     "description": "Session replay with event tracking",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Lucky Orange",
@@ -624,7 +925,12 @@
     "description": "Real-time heatmaps and chat integration",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "PostHog",
@@ -635,7 +941,12 @@
     "description": "Session replay bundled with product analytics",
     "learningCurve": "Medium",
     "agencyPick": true,
-    "alternativeTo": "Google Analytics / Mixpanel"
+    "alternativeTo": "Google Analytics / Mixpanel",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "PageSpeed Insights",
@@ -646,7 +957,10 @@
     "description": "Google's official performance test",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Lighthouse",
@@ -657,7 +971,12 @@
     "description": "Comprehensive performance audit (built into Chrome)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "WebPageTest",
@@ -668,7 +987,10 @@
     "description": "Deep performance testing from multiple locations",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "GTmetrix",
@@ -679,7 +1001,10 @@
     "description": "Performance reports with waterfall charts",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Calibre",
@@ -690,7 +1015,10 @@
     "description": "Continuous performance monitoring",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "SpeedCurve",
@@ -701,7 +1029,10 @@
     "description": "Performance monitoring with RUM data",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "DebugBear",
@@ -712,7 +1043,10 @@
     "description": "Core Web Vitals monitoring",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "CrUX Dashboard",
@@ -723,7 +1057,10 @@
     "description": "Real user data from Chrome users",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Treo",
@@ -734,7 +1071,10 @@
     "description": "CrUX data visualized beautifully",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Unlighthouse",
@@ -745,7 +1085,10 @@
     "description": "Scan entire site with Lighthouse in one command",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Squoosh",
@@ -756,7 +1099,10 @@
     "description": "Image compression and format conversion",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "SVGOMG",
@@ -767,7 +1113,10 @@
     "description": "SVG optimization",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Grammarly",
@@ -778,7 +1127,10 @@
     "description": "Grammar, style, and tone checking",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Hemingway Editor",
@@ -789,7 +1141,10 @@
     "description": "Readability improvement",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "ProWritingAid",
@@ -800,7 +1155,10 @@
     "description": "Detailed writing analysis and reports",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Readable",
@@ -811,7 +1169,10 @@
     "description": "Content readability scoring",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Ludwig.guru",
@@ -822,7 +1183,12 @@
     "description": "Sentence search engine for natural phrasing",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Wordtune",
@@ -833,7 +1199,10 @@
     "description": "Sentence rewriting and alternative suggestions",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Surfer SEO",
@@ -844,7 +1213,12 @@
     "description": "Content optimization based on SERP analysis",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Clearscope",
@@ -855,7 +1229,12 @@
     "description": "Content optimization for search intent",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Frase",
@@ -866,7 +1245,12 @@
     "description": "Research + write + optimize workflow",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "MarketMuse",
@@ -877,7 +1261,10 @@
     "description": "Content strategy and planning",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "NeuronWriter",
@@ -888,7 +1275,10 @@
     "description": "Affordable Surfer alternative, strong NLP analysis",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Dashword",
@@ -899,7 +1289,10 @@
     "description": "Simple content optimization, no bloat",
     "learningCurve": "Easy",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "BuzzSumo",
@@ -910,7 +1303,10 @@
     "description": "Find top-performing content in any niche",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "SparkToro",
@@ -921,7 +1317,12 @@
     "description": "Audience research (where they hang out, what they read)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Feedly",
@@ -932,7 +1333,10 @@
     "description": "RSS feeds + AI-powered content discovery",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Pocket",
@@ -943,7 +1347,10 @@
     "description": "Save and organize content for later",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Figma",
@@ -954,7 +1361,12 @@
     "description": "Collaborative UI/UX design (industry standard)",
     "learningCurve": "Medium",
     "agencyPick": true,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Canva",
@@ -965,7 +1377,12 @@
     "description": "Quick visual content for non-designers",
     "learningCurve": "Easy",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Adobe Creative Cloud",
@@ -976,7 +1393,12 @@
     "description": "Professional creative suite",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Penpot",
@@ -987,7 +1409,13 @@
     "description": "Open-source Figma alternative",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS",
+      "Design"
+    ]
   },
   {
     "name": "Framer",
@@ -998,7 +1426,12 @@
     "description": "Design + publish websites",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Excalidraw",
@@ -1009,7 +1442,12 @@
     "description": "Hand-drawn diagrams and wireframes",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Coolors",
@@ -1020,7 +1458,12 @@
     "description": "Color palette generator",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Realtime Colors",
@@ -1031,7 +1474,12 @@
     "description": "Preview color schemes on a real page layout",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Fontjoy",
@@ -1042,7 +1490,12 @@
     "description": "AI-powered font pairing",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Type Scale",
@@ -1053,7 +1506,12 @@
     "description": "Typography scale calculator",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Brandmark",
@@ -1064,7 +1522,13 @@
     "description": "AI logo generation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "AI",
+      "Design"
+    ]
   },
   {
     "name": "Looka",
@@ -1075,7 +1539,12 @@
     "description": "Logo + brand kit generator",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Brandfetch",
@@ -1086,7 +1555,12 @@
     "description": "Find any brand's logos, colors, fonts",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Unsplash",
@@ -1097,7 +1571,12 @@
     "description": "High-quality free photos",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Pexels",
@@ -1108,7 +1587,12 @@
     "description": "Free photos and videos",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Undraw",
@@ -1119,7 +1603,12 @@
     "description": "Free customizable illustrations",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Storyset",
@@ -1130,7 +1619,12 @@
     "description": "Animated, customizable illustrations",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Heroicons",
@@ -1141,7 +1635,12 @@
     "description": "Beautiful hand-crafted SVG icons",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Lucide",
@@ -1152,7 +1651,13 @@
     "description": "Clean open-source icon library",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS",
+      "Design"
+    ]
   },
   {
     "name": "Noun Project",
@@ -1163,7 +1668,12 @@
     "description": "Icons for everything",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Mockup World",
@@ -1174,7 +1684,12 @@
     "description": "Free PSD mockups for presentations",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Shots.so",
@@ -1185,7 +1700,12 @@
     "description": "Beautiful mockups for screenshots",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Remove.bg",
@@ -1196,7 +1716,12 @@
     "description": "Background removal from images",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Buffer",
@@ -1207,7 +1732,12 @@
     "description": "Simple social scheduling and analytics",
     "learningCurve": "Easy",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Hootsuite",
@@ -1218,7 +1748,12 @@
     "description": "Enterprise social management",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Later",
@@ -1229,7 +1764,10 @@
     "description": "Visual content calendar (strong on Instagram)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Sprout Social",
@@ -1240,7 +1778,10 @@
     "description": "Social management + customer care",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Publer",
@@ -1251,7 +1792,12 @@
     "description": "Affordable scheduling with AI features",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Typefully",
@@ -1262,7 +1808,10 @@
     "description": "Twitter/X thread writing and scheduling",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Taplio",
@@ -1273,7 +1822,10 @@
     "description": "LinkedIn-focused content + scheduling",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Brand24",
@@ -1284,7 +1836,12 @@
     "description": "Social listening and mention tracking",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Mention",
@@ -1295,7 +1852,10 @@
     "description": "Real-time media monitoring",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Google Alerts",
@@ -1306,7 +1866,10 @@
     "description": "Free brand mention monitoring",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Social Searcher",
@@ -1317,7 +1880,12 @@
     "description": "Free social media search engine",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "F5bot",
@@ -1328,7 +1896,10 @@
     "description": "Free Reddit/HN keyword alerts",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "LinkedIn Sales Navigator",
@@ -1339,7 +1910,13 @@
     "description": "Advanced lead search and InMail",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO",
+      "CRM"
+    ]
   },
   {
     "name": "Shield Analytics",
@@ -1350,7 +1927,12 @@
     "description": "LinkedIn personal profile analytics",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "AuthoredUp",
@@ -1361,7 +1943,12 @@
     "description": "LinkedIn post formatting and analytics",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Dripify",
@@ -1372,7 +1959,12 @@
     "description": "LinkedIn automation (use carefully)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Automation"
+    ]
   },
   {
     "name": "Mailchimp",
@@ -1383,7 +1975,13 @@
     "description": "All-in-one email marketing (popular starter)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing",
+      "Automation"
+    ]
   },
   {
     "name": "Brevo (ex-Sendinblue)",
@@ -1394,7 +1992,13 @@
     "description": "Email + SMS + chat, generous free tier",
     "learningCurve": "Easy",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing",
+      "Automation"
+    ]
   },
   {
     "name": "ConvertKit",
@@ -1405,7 +2009,13 @@
     "description": "Creator-focused email marketing",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing",
+      "Automation"
+    ]
   },
   {
     "name": "ActiveCampaign",
@@ -1416,7 +2026,14 @@
     "description": "Advanced automation + CRM",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing",
+      "Automation",
+      "CRM"
+    ]
   },
   {
     "name": "Mailerlite",
@@ -1427,7 +2044,13 @@
     "description": "Clean, affordable email marketing",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing",
+      "Automation"
+    ]
   },
   {
     "name": "Buttondown",
@@ -1438,7 +2061,13 @@
     "description": "Minimal, Markdown-first newsletter tool",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing",
+      "Automation"
+    ]
   },
   {
     "name": "Resend",
@@ -1449,7 +2078,14 @@
     "description": "Developer-first transactional email",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing",
+      "Automation",
+      "DevTools"
+    ]
   },
   {
     "name": "Loops",
@@ -1460,7 +2096,14 @@
     "description": "Modern email for SaaS (beautiful UI)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing",
+      "Design",
+      "Automation"
+    ]
   },
   {
     "name": "Listmonk",
@@ -1471,7 +2114,13 @@
     "description": "Self-hosted newsletter and mailing list manager",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": "Mailchimp / Airtable"
+    "alternativeTo": "Mailchimp / Airtable",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Marketing",
+      "Automation"
+    ]
   },
   {
     "name": "MJML",
@@ -1482,7 +2131,13 @@
     "description": "Responsive email framework (write emails in markup)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Marketing",
+      "Automation"
+    ]
   },
   {
     "name": "Litmus",
@@ -1493,7 +2148,13 @@
     "description": "Email testing and rendering preview",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing",
+      "Automation"
+    ]
   },
   {
     "name": "Email on Acid",
@@ -1504,7 +2165,13 @@
     "description": "Email QA and testing",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing",
+      "Automation"
+    ]
   },
   {
     "name": "Really Good Emails",
@@ -1515,7 +2182,14 @@
     "description": "Email design inspiration",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing",
+      "Design",
+      "Automation"
+    ]
   },
   {
     "name": "Mail Tester",
@@ -1526,7 +2200,13 @@
     "description": "Check email deliverability score",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing",
+      "Automation"
+    ]
   },
   {
     "name": "HubSpot CRM",
@@ -1537,7 +2217,13 @@
     "description": "Free CRM with marketing/sales hub",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing",
+      "CRM"
+    ]
   },
   {
     "name": "Salesforce",
@@ -1548,7 +2234,12 @@
     "description": "Enterprise CRM (industry standard)",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "CRM"
+    ]
   },
   {
     "name": "Pipedrive",
@@ -1559,7 +2250,12 @@
     "description": "Sales pipeline management",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "CRM"
+    ]
   },
   {
     "name": "Close",
@@ -1570,7 +2266,13 @@
     "description": "Inside sales CRM with built-in calling",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Design",
+      "CRM"
+    ]
   },
   {
     "name": "Attio",
@@ -1581,7 +2283,12 @@
     "description": "Modern, flexible CRM with strong data model",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "CRM"
+    ]
   },
   {
     "name": "Folk",
@@ -1592,7 +2299,12 @@
     "description": "Lightweight CRM for agencies and consultants",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "CRM"
+    ]
   },
   {
     "name": "Twenty",
@@ -1603,7 +2315,13 @@
     "description": "Open-source Salesforce alternative",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS",
+      "CRM"
+    ]
   },
   {
     "name": "Streak",
@@ -1614,7 +2332,12 @@
     "description": "CRM inside Gmail",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "CRM"
+    ]
   },
   {
     "name": "Google Ads",
@@ -1625,7 +2348,12 @@
     "description": "Search, Display, YouTube, Shopping ads",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "SEO"
+    ]
   },
   {
     "name": "Meta Ads Manager",
@@ -1636,7 +2364,10 @@
     "description": "Facebook + Instagram advertising",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "LinkedIn Campaign Manager",
@@ -1647,7 +2378,10 @@
     "description": "B2B advertising",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "TikTok Ads",
@@ -1658,7 +2392,10 @@
     "description": "Short-form video advertising",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Microsoft Advertising",
@@ -1669,7 +2406,10 @@
     "description": "Bing + partner network ads",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Reddit Ads",
@@ -1680,7 +2420,10 @@
     "description": "Community-based advertising",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Optmyzr",
@@ -1691,7 +2434,12 @@
     "description": "Google Ads optimization and automation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Automation"
+    ]
   },
   {
     "name": "Madgicx",
@@ -1702,7 +2450,12 @@
     "description": "Meta Ads AI optimization",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Supermetrics",
@@ -1713,7 +2466,10 @@
     "description": "Pull ad data into spreadsheets/dashboards",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Whatagraph",
@@ -1724,7 +2480,12 @@
     "description": "Marketing reporting across channels",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing"
+    ]
   },
   {
     "name": "Revealbot",
@@ -1735,7 +2496,12 @@
     "description": "Ad automation rules for Meta and Google",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Automation"
+    ]
   },
   {
     "name": "AdCreative.ai",
@@ -1746,7 +2512,12 @@
     "description": "AI ad creative generation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Unbounce",
@@ -1757,7 +2528,12 @@
     "description": "Landing page builder with A/B testing",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Instapage",
@@ -1768,7 +2544,10 @@
     "description": "Enterprise landing pages",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Carrd",
@@ -1779,7 +2558,10 @@
     "description": "Simple one-page sites ($19/year for pro)",
     "learningCurve": "Easy",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Typedream",
@@ -1790,7 +2572,12 @@
     "description": "Beautiful Notion-like website/landing builder",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "ChatGPT (OpenAI)",
@@ -1801,7 +2588,12 @@
     "description": "General-purpose AI chat",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Claude (Anthropic)",
@@ -1812,7 +2604,12 @@
     "description": "Long-context analysis, nuanced writing, coding",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Gemini (Google)",
@@ -1823,7 +2620,12 @@
     "description": "Multimodal AI, Google ecosystem integration",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Perplexity",
@@ -1834,7 +2636,13 @@
     "description": "AI search engine with citations",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO",
+      "AI"
+    ]
   },
   {
     "name": "Poe",
@@ -1845,7 +2653,12 @@
     "description": "Access multiple AI models in one interface",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "GitHub Copilot",
@@ -1856,7 +2669,12 @@
     "description": "AI pair programming in your IDE",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Cursor",
@@ -1867,7 +2685,13 @@
     "description": "AI-first code editor",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI",
+      "DevTools"
+    ]
   },
   {
     "name": "Claude Code",
@@ -1878,7 +2702,13 @@
     "description": "Agentic coding in terminal",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "AI",
+      "DevTools"
+    ]
   },
   {
     "name": "Codeium",
@@ -1889,7 +2719,13 @@
     "description": "Free Copilot alternative",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI",
+      "DevTools"
+    ]
   },
   {
     "name": "Aider",
@@ -1900,7 +2736,12 @@
     "description": "AI pair programming in terminal",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Continue",
@@ -1911,7 +2752,14 @@
     "description": "Open-source autopilot for VS Code/JetBrains",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS",
+      "AI",
+      "DevTools"
+    ]
   },
   {
     "name": "Jasper",
@@ -1922,7 +2770,13 @@
     "description": "AI marketing content generation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "AI",
+      "Marketing"
+    ]
   },
   {
     "name": "Copy.ai",
@@ -1933,7 +2787,12 @@
     "description": "AI copywriting and workflows",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Writer",
@@ -1944,7 +2803,12 @@
     "description": "Enterprise AI writing with brand guardrails",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Descript",
@@ -1955,7 +2819,12 @@
     "description": "AI video/audio editing",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "ElevenLabs",
@@ -1966,7 +2835,12 @@
     "description": "AI voice generation and cloning",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Midjourney",
@@ -1977,7 +2851,12 @@
     "description": "AI image generation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "DALL-E (OpenAI)",
@@ -1988,7 +2867,12 @@
     "description": "AI image generation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Leonardo.ai",
@@ -1999,7 +2883,12 @@
     "description": "Free AI image generation with fine control",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Ideogram",
@@ -2010,7 +2899,12 @@
     "description": "AI images with excellent text rendering",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Langchain",
@@ -2021,7 +2915,12 @@
     "description": "LLM application framework",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "LlamaIndex",
@@ -2032,7 +2931,12 @@
     "description": "Data framework for LLM apps (RAG)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Ollama",
@@ -2043,7 +2947,12 @@
     "description": "Run LLMs locally",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "LM Studio",
@@ -2054,7 +2963,13 @@
     "description": "GUI for running local models",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI",
+      "Design"
+    ]
   },
   {
     "name": "Replicate",
@@ -2065,7 +2980,13 @@
     "description": "Run ML models via API",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI",
+      "DevTools"
+    ]
   },
   {
     "name": "Hugging Face",
@@ -2076,7 +2997,12 @@
     "description": "Model hub, datasets, and inference",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "OpenRouter",
@@ -2087,7 +3013,13 @@
     "description": "Unified API for all LLM providers",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI",
+      "DevTools"
+    ]
   },
   {
     "name": "Helicone",
@@ -2098,7 +3030,12 @@
     "description": "LLM observability and monitoring",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Zapier",
@@ -2109,7 +3046,13 @@
     "description": "No-code automation (5,000+ integrations)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Automation",
+      "DevTools"
+    ]
   },
   {
     "name": "Make (ex-Integromat)",
@@ -2120,7 +3063,12 @@
     "description": "Visual automation with complex logic",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Automation"
+    ]
   },
   {
     "name": "n8n",
@@ -2131,7 +3079,12 @@
     "description": "Self-hosted workflow automation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Automation"
+    ]
   },
   {
     "name": "Activepieces",
@@ -2142,7 +3095,14 @@
     "description": "Open-source Zapier alternative",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS",
+      "Automation",
+      "DevTools"
+    ]
   },
   {
     "name": "Pipedream",
@@ -2153,7 +3113,13 @@
     "description": "Developer-first automation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Automation",
+      "DevTools"
+    ]
   },
   {
     "name": "IFTTT",
@@ -2164,7 +3130,12 @@
     "description": "Simple if-this-then-that automations",
     "learningCurve": "Easy",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Automation"
+    ]
   },
   {
     "name": "Tray.io",
@@ -2175,7 +3146,12 @@
     "description": "Enterprise automation platform",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Automation"
+    ]
   },
   {
     "name": "Windmill",
@@ -2186,7 +3162,13 @@
     "description": "Open-source alternative to Retool + Temporal",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS",
+      "Automation"
+    ]
   },
   {
     "name": "Temporal",
@@ -2197,7 +3179,12 @@
     "description": "Durable workflow orchestration",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Automation"
+    ]
   },
   {
     "name": "Next.js",
@@ -2208,7 +3195,10 @@
     "description": "React full-stack framework",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Nuxt",
@@ -2219,7 +3209,10 @@
     "description": "Vue.js full-stack framework",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Astro",
@@ -2230,7 +3223,12 @@
     "description": "Content-focused static site builder",
     "learningCurve": "Medium",
     "agencyPick": true,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "SvelteKit",
@@ -2241,7 +3239,10 @@
     "description": "Svelte full-stack framework",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "WordPress",
@@ -2252,7 +3253,10 @@
     "description": "World's most popular CMS",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Ghost",
@@ -2263,7 +3267,10 @@
     "description": "Modern publishing platform",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Strapi",
@@ -2274,7 +3281,12 @@
     "description": "Headless CMS",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "DevTools"
+    ]
   },
   {
     "name": "Payload",
@@ -2285,7 +3297,10 @@
     "description": "TypeScript headless CMS (excellent DX)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Directus",
@@ -2296,7 +3311,10 @@
     "description": "Headless CMS wrapping any SQL database",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Docusaurus",
@@ -2307,7 +3325,10 @@
     "description": "Documentation websites",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Tailwind CSS",
@@ -2318,7 +3339,10 @@
     "description": "Utility-first CSS framework",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "shadcn/ui",
@@ -2329,7 +3353,12 @@
     "description": "Beautiful React components (copy-paste, not npm)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "DaisyUI",
@@ -2340,7 +3369,12 @@
     "description": "Tailwind CSS component library",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Storybook",
@@ -2351,7 +3385,12 @@
     "description": "UI component development environment",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Vite",
@@ -2362,7 +3401,12 @@
     "description": "Fast frontend build tool",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Partytown",
@@ -2373,7 +3417,10 @@
     "description": "Move third-party scripts to web workers",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Playwright",
@@ -2384,7 +3431,10 @@
     "description": "Cross-browser E2E testing",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Cypress",
@@ -2395,7 +3445,10 @@
     "description": "Frontend E2E testing",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Vitest",
@@ -2406,7 +3459,10 @@
     "description": "Vite-native unit testing",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Sentry",
@@ -2417,7 +3473,12 @@
     "description": "Error tracking and performance monitoring",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Better Stack",
@@ -2428,7 +3489,10 @@
     "description": "Uptime monitoring + incident management",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Checkly",
@@ -2439,7 +3503,12 @@
     "description": "API and browser monitoring as code",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "DevTools"
+    ]
   },
   {
     "name": "OpenStatus",
@@ -2450,7 +3519,12 @@
     "description": "Open-source status page and monitoring",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS"
+    ]
   },
   {
     "name": "Supabase",
@@ -2461,7 +3535,12 @@
     "description": "Open-source Firebase alternative (Postgres)",
     "learningCurve": "Medium",
     "agencyPick": true,
-    "alternativeTo": "Firebase"
+    "alternativeTo": "Firebase",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS"
+    ]
   },
   {
     "name": "PocketBase",
@@ -2472,7 +3551,10 @@
     "description": "Backend in a single file (Go binary)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Hono",
@@ -2483,7 +3565,10 @@
     "description": "Ultra-fast web framework for edge runtimes",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Postman",
@@ -2494,7 +3579,12 @@
     "description": "API testing and documentation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "DevTools"
+    ]
   },
   {
     "name": "Insomnia",
@@ -2505,7 +3595,12 @@
     "description": "REST/GraphQL API client",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "DevTools"
+    ]
   },
   {
     "name": "Bruno",
@@ -2516,7 +3611,12 @@
     "description": "Offline-first, git-friendly API client",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "DevTools"
+    ]
   },
   {
     "name": "Looker Studio (ex-Data Studio)",
@@ -2527,7 +3627,10 @@
     "description": "Free Google dashboards",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Power BI",
@@ -2538,7 +3641,10 @@
     "description": "Microsoft business intelligence",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Tableau",
@@ -2549,7 +3655,10 @@
     "description": "Enterprise data visualization",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Metabase",
@@ -2560,7 +3669,12 @@
     "description": "Open-source BI for everyone",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS"
+    ]
   },
   {
     "name": "Apache Superset",
@@ -2571,7 +3685,12 @@
     "description": "Enterprise-grade open-source BI",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS"
+    ]
   },
   {
     "name": "Evidence",
@@ -2582,7 +3701,12 @@
     "description": "Code-driven reporting (SQL + Markdown)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "DevTools"
+    ]
   },
   {
     "name": "Lightdash",
@@ -2593,7 +3717,10 @@
     "description": "BI for dbt users",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "dbt",
@@ -2604,7 +3731,10 @@
     "description": "SQL transformation framework",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Airbyte",
@@ -2615,7 +3745,12 @@
     "description": "Open-source data integration (ELT)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS"
+    ]
   },
   {
     "name": "Fivetran",
@@ -2626,7 +3761,10 @@
     "description": "Managed data integration",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Pandas (Python)",
@@ -2637,7 +3775,10 @@
     "description": "Data analysis in Python",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Polars",
@@ -2648,7 +3789,10 @@
     "description": "Fast DataFrame library (Rust-based, 10x faster than Pandas)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "DuckDB",
@@ -2659,7 +3803,12 @@
     "description": "In-process analytics database (query CSV/Parquet directly)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Google Sheets",
@@ -2670,7 +3819,10 @@
     "description": "Collaborative spreadsheets",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Airtable",
@@ -2681,7 +3833,10 @@
     "description": "Spreadsheet-database hybrid",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "NocoDB",
@@ -2692,7 +3847,12 @@
     "description": "Open-source Airtable alternative",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": "Mailchimp / Airtable"
+    "alternativeTo": "Mailchimp / Airtable",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS"
+    ]
   },
   {
     "name": "Grist",
@@ -2703,7 +3863,10 @@
     "description": "Powerful spreadsheet with Python formulas",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Rows",
@@ -2714,7 +3877,12 @@
     "description": "Spreadsheets with built-in integrations",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Cookiebot",
@@ -2725,7 +3893,12 @@
     "description": "GDPR/CCPA cookie consent",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "OneTrust",
@@ -2736,7 +3909,12 @@
     "description": "Enterprise privacy management",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "CookieYes",
@@ -2747,7 +3925,12 @@
     "description": "Affordable cookie consent",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "Complianz",
@@ -2758,7 +3941,12 @@
     "description": "WordPress cookie consent plugin",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "Osano",
@@ -2769,7 +3957,12 @@
     "description": "Consent management with data privacy ratings",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "Klaro",
@@ -2780,7 +3973,13 @@
     "description": "Open-source consent manager",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Privacy",
+      "OSS"
+    ]
   },
   {
     "name": "Tarteaucitron",
@@ -2791,7 +3990,13 @@
     "description": "French-born open-source consent manager",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Privacy",
+      "OSS"
+    ]
   },
   {
     "name": "GDPR.eu",
@@ -2802,7 +4007,12 @@
     "description": "GDPR resources and checklists",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "Termly",
@@ -2813,7 +4023,12 @@
     "description": "Privacy policy and terms generator",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "iubenda",
@@ -2824,7 +4039,12 @@
     "description": "Privacy policy + cookie solution",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "Privacy Badger",
@@ -2835,7 +4055,12 @@
     "description": "Browser extension to block trackers",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "Blacklight",
@@ -2846,7 +4071,12 @@
     "description": "Real-time website privacy inspector",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "SSL Labs Test",
@@ -2857,7 +4087,12 @@
     "description": "SSL/TLS configuration analysis",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "SecurityHeaders.com",
@@ -2868,7 +4103,12 @@
     "description": "HTTP security headers check",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "Mozilla Observatory",
@@ -2879,7 +4119,12 @@
     "description": "Website security assessment",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "Snyk",
@@ -2890,7 +4135,12 @@
     "description": "Dependency vulnerability scanning",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "OWASP ZAP",
@@ -2901,7 +4151,12 @@
     "description": "Web app security scanner",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "Have I Been Pwned",
@@ -2912,7 +4167,12 @@
     "description": "Data breach notification",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "Trivy",
@@ -2923,7 +4183,12 @@
     "description": "Container and filesystem vulnerability scanner",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "CrowdSec",
@@ -2934,7 +4199,12 @@
     "description": "Collaborative security engine",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "EQUO",
@@ -2945,7 +4215,12 @@
     "description": "Full digital accessibility solution — usability, clarity, inclusivity. Helps comply with EU accessibility regulations (European Accessibility Act, June 2025)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "WAVE",
@@ -2956,7 +4231,12 @@
     "description": "Web accessibility evaluation tool",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "Pa11y",
@@ -2967,7 +4247,12 @@
     "description": "Automated accessibility testing CLI",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "Lighthouse Accessibility",
@@ -2978,7 +4263,13 @@
     "description": "Accessibility audit built into Chrome DevTools",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "Privacy",
+      "Design"
+    ]
   },
   {
     "name": "Stark",
@@ -2989,7 +4280,13 @@
     "description": "Accessibility tools for designers (Figma, Sketch)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy",
+      "Design"
+    ]
   },
   {
     "name": "UserWay",
@@ -3000,7 +4297,12 @@
     "description": "AI-powered accessibility widget and compliance",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "Asana",
@@ -3011,7 +4313,10 @@
     "description": "Team project management",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Linear",
@@ -3022,7 +4327,12 @@
     "description": "Fast, developer-focused project management",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "DevTools"
+    ]
   },
   {
     "name": "Notion",
@@ -3033,7 +4343,10 @@
     "description": "All-in-one workspace (docs, tasks, wikis)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "ClickUp",
@@ -3044,7 +4357,10 @@
     "description": "Feature-rich project management",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Monday.com",
@@ -3055,7 +4371,10 @@
     "description": "Visual project management",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Plane",
@@ -3066,7 +4385,12 @@
     "description": "Open-source Linear/Jira alternative",
     "learningCurve": "Medium",
     "agencyPick": true,
-    "alternativeTo": "Jira / Linear"
+    "alternativeTo": "Jira / Linear",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS"
+    ]
   },
   {
     "name": "Huly",
@@ -3077,7 +4401,12 @@
     "description": "Open-source all-in-one project management",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": "Notion / Linear"
+    "alternativeTo": "Notion / Linear",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS"
+    ]
   },
   {
     "name": "Slack",
@@ -3088,7 +4417,10 @@
     "description": "Team messaging (industry standard)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Microsoft Teams",
@@ -3099,7 +4431,10 @@
     "description": "Enterprise communication",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Discord",
@@ -3110,7 +4445,10 @@
     "description": "Community and team chat",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Loom",
@@ -3121,7 +4459,10 @@
     "description": "Async video messaging",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Tella",
@@ -3132,7 +4473,10 @@
     "description": "Screen recordings with beautiful presentations",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Krisp",
@@ -3143,7 +4487,12 @@
     "description": "AI noise cancellation for calls",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Notion",
@@ -3154,7 +4503,10 @@
     "description": "Team wiki and documentation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Confluence",
@@ -3165,7 +4517,10 @@
     "description": "Enterprise knowledge management",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "GitBook",
@@ -3176,7 +4531,10 @@
     "description": "Technical documentation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Outline",
@@ -3187,7 +4545,12 @@
     "description": "Open-source Notion alternative for teams",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS"
+    ]
   },
   {
     "name": "Slite",
@@ -3198,7 +4561,13 @@
     "description": "Team knowledge base with AI search",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO",
+      "AI"
+    ]
   },
   {
     "name": "Mintlify",
@@ -3209,7 +4578,12 @@
     "description": "Beautiful developer documentation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "DevTools"
+    ]
   },
   {
     "name": "Vercel",
@@ -3220,7 +4594,10 @@
     "description": "Frontend deployment (Next.js native)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Netlify",
@@ -3231,7 +4608,10 @@
     "description": "JAMstack hosting and deployment",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Cloudflare Pages",
@@ -3242,7 +4622,10 @@
     "description": "Fast, free static site hosting",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Railway",
@@ -3253,7 +4636,10 @@
     "description": "Deploy anything with minimal config",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Render",
@@ -3264,7 +4650,10 @@
     "description": "Full-stack hosting (web, workers, databases)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Fly.io",
@@ -3275,7 +4664,10 @@
     "description": "Deploy containers globally",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Coolify",
@@ -3286,7 +4678,10 @@
     "description": "Self-hosted Vercel/Netlify alternative",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "CapRover",
@@ -3297,7 +4692,10 @@
     "description": "PaaS on your own server",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "AWS",
@@ -3308,7 +4706,10 @@
     "description": "Everything (market leader)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Google Cloud",
@@ -3319,7 +4720,10 @@
     "description": "Data/ML-focused workloads",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Azure",
@@ -3330,7 +4734,10 @@
     "description": "Microsoft ecosystem integration",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "DigitalOcean",
@@ -3341,7 +4748,10 @@
     "description": "Simple, affordable cloud hosting",
     "learningCurve": "Easy",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Hetzner",
@@ -3352,7 +4762,10 @@
     "description": "Incredibly affordable European cloud (best value)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "OVHcloud",
@@ -3363,7 +4776,12 @@
     "description": "European cloud provider (GDPR-friendly)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Privacy"
+    ]
   },
   {
     "name": "Cloudflare",
@@ -3374,7 +4792,10 @@
     "description": "CDN, DNS, DDoS protection, WAF",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Bunny.net",
@@ -3385,7 +4806,10 @@
     "description": "Affordable CDN with excellent performance",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "KeyCDN",
@@ -3396,7 +4820,10 @@
     "description": "Pay-as-you-go CDN",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Apollo.io",
@@ -3407,7 +4834,10 @@
     "description": "B2B lead database + outreach",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "ZoomInfo",
@@ -3418,7 +4848,10 @@
     "description": "Enterprise B2B intelligence",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Lusha",
@@ -3429,7 +4862,10 @@
     "description": "Contact information finder",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "RocketReach",
@@ -3440,7 +4876,10 @@
     "description": "Professional contact data",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Clay",
@@ -3451,7 +4890,10 @@
     "description": "Data enrichment + AI-powered workflows",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Clearbit (HubSpot)",
@@ -3462,7 +4904,12 @@
     "description": "Company and contact enrichment API",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "DevTools"
+    ]
   },
   {
     "name": "Phantombuster",
@@ -3473,7 +4920,10 @@
     "description": "Social media data extraction",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Lemlist",
@@ -3484,7 +4934,12 @@
     "description": "Personalized cold email + LinkedIn",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing"
+    ]
   },
   {
     "name": "Instantly.ai",
@@ -3495,7 +4950,13 @@
     "description": "Scale cold email with multiple inboxes",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "AI",
+      "Marketing"
+    ]
   },
   {
     "name": "Saleshandy",
@@ -3506,7 +4967,14 @@
     "description": "Cold email automation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing",
+      "Automation",
+      "CRM"
+    ]
   },
   {
     "name": "Woodpecker",
@@ -3517,7 +4985,12 @@
     "description": "B2B cold email tool",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing"
+    ]
   },
   {
     "name": "La Growth Machine",
@@ -3528,7 +5001,12 @@
     "description": "Multi-channel outreach (email + LinkedIn + Twitter)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing"
+    ]
   },
   {
     "name": "Smartlead",
@@ -3539,7 +5017,12 @@
     "description": "High-volume cold email with warmup",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing"
+    ]
   },
   {
     "name": "Hunter.io",
@@ -3550,7 +5033,12 @@
     "description": "Email finder and verifier",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing"
+    ]
   },
   {
     "name": "NeverBounce",
@@ -3561,7 +5049,12 @@
     "description": "Bulk email verification",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing"
+    ]
   },
   {
     "name": "ZeroBounce",
@@ -3572,7 +5065,13 @@
     "description": "Email validation with AI scoring",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "AI",
+      "Marketing"
+    ]
   },
   {
     "name": "MillionVerifier",
@@ -3583,7 +5082,12 @@
     "description": "Cheapest bulk email verification",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing"
+    ]
   },
   {
     "name": "Google Optimize (sunset)",
@@ -3594,7 +5098,10 @@
     "description": "Was free A/B testing (now discontinued)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "VWO",
@@ -3605,7 +5112,10 @@
     "description": "A/B testing and personalization",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Optimizely",
@@ -3616,7 +5126,10 @@
     "description": "Enterprise experimentation platform",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "AB Tasty",
@@ -3627,7 +5140,12 @@
     "description": "A/B testing with AI",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "GrowthBook",
@@ -3638,7 +5156,12 @@
     "description": "Open-source A/B testing and feature flags",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS"
+    ]
   },
   {
     "name": "Statsig",
@@ -3649,7 +5172,12 @@
     "description": "Feature flags + A/B testing + analytics",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Typeform",
@@ -3660,7 +5188,10 @@
     "description": "Beautiful interactive forms",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Tally",
@@ -3671,7 +5202,12 @@
     "description": "Free form builder (unlimited forms)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Formbricks",
@@ -3682,7 +5218,12 @@
     "description": "Open-source in-app surveys",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS"
+    ]
   },
   {
     "name": "SurveyMonkey",
@@ -3693,7 +5234,10 @@
     "description": "Traditional survey tool",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Hotjar Surveys",
@@ -3704,7 +5248,10 @@
     "description": "On-site feedback and surveys",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Canny",
@@ -3715,7 +5262,12 @@
     "description": "Feature request tracking",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Intercom",
@@ -3726,7 +5278,10 @@
     "description": "Customer messaging platform",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Drift",
@@ -3737,7 +5292,12 @@
     "description": "Conversational marketing",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing"
+    ]
   },
   {
     "name": "Crisp",
@@ -3748,7 +5308,10 @@
     "description": "Free live chat for websites",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Tawk.to",
@@ -3759,7 +5322,10 @@
     "description": "Free live chat (forever free)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Chatwoot",
@@ -3770,7 +5336,12 @@
     "description": "Open-source Intercom alternative",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS"
+    ]
   },
   {
     "name": "DaVinci Resolve",
@@ -3781,7 +5352,10 @@
     "description": "Professional video editing (free!)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "CapCut",
@@ -3792,7 +5366,12 @@
     "description": "Quick video editing for social media",
     "learningCurve": "Easy",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Descript",
@@ -3803,7 +5382,10 @@
     "description": "Edit video by editing text",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Synthesia",
@@ -3814,7 +5396,12 @@
     "description": "AI avatar videos",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "HeyGen",
@@ -3825,7 +5412,12 @@
     "description": "AI video generation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Runway",
@@ -3836,7 +5428,12 @@
     "description": "AI video editing and generation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Remotion",
@@ -3847,7 +5444,10 @@
     "description": "Create videos programmatically with React",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Loom",
@@ -3858,7 +5458,12 @@
     "description": "Quick screen recordings with webcam",
     "learningCurve": "Easy",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "OBS Studio",
@@ -3869,7 +5474,10 @@
     "description": "Professional streaming and recording",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Screen Studio",
@@ -3880,7 +5488,10 @@
     "description": "Beautiful Mac screen recordings",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Tella",
@@ -3891,7 +5502,10 @@
     "description": "Presentable screen recordings",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Cap",
@@ -3902,7 +5516,12 @@
     "description": "Open-source Loom alternative",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": [
+      "OSS"
+    ]
   },
   {
     "name": "Audacity",
@@ -3913,7 +5532,10 @@
     "description": "Free audio editing",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": true,
+    "tags": []
   },
   {
     "name": "Riverside.fm",
@@ -3924,7 +5546,10 @@
     "description": "Remote podcast and video recording (studio quality)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Descript",
@@ -3935,7 +5560,10 @@
     "description": "Podcast editing by editing text",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Spotify for Podcasters",
@@ -3946,7 +5574,10 @@
     "description": "Podcast hosting and distribution",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Transistor",
@@ -3957,7 +5588,12 @@
     "description": "Podcast hosting with analytics",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Podcastle",
@@ -3968,7 +5604,10 @@
     "description": "AI-powered podcast creation",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Google Digital Garage",
@@ -3979,7 +5618,12 @@
     "description": "Free digital marketing certification",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing"
+    ]
   },
   {
     "name": "Google Analytics Academy",
@@ -3990,7 +5634,12 @@
     "description": "GA4 certification",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "Google Skillshop",
@@ -4001,7 +5650,12 @@
     "description": "Google Ads, Analytics, Tag Manager certs",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Analytics"
+    ]
   },
   {
     "name": "HubSpot Academy",
@@ -4012,7 +5666,13 @@
     "description": "Inbound marketing, content, sales certs",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing",
+      "CRM"
+    ]
   },
   {
     "name": "Meta Blueprint",
@@ -4023,7 +5683,10 @@
     "description": "Meta advertising certification",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Semrush Academy",
@@ -4034,7 +5697,13 @@
     "description": "SEO and content marketing courses",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "SEO",
+      "Marketing"
+    ]
   },
   {
     "name": "freeCodeCamp",
@@ -4045,7 +5714,12 @@
     "description": "Web development (free, comprehensive)",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "DevTools"
+    ]
   },
   {
     "name": "The Odin Project",
@@ -4056,7 +5730,10 @@
     "description": "Full-stack web development curriculum",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "DeepLearning.AI",
@@ -4067,7 +5744,12 @@
     "description": "AI and machine learning courses",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "name": "Coursera",
@@ -4078,7 +5760,10 @@
     "description": "University-level courses and degrees",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Udemy",
@@ -4089,7 +5774,10 @@
     "description": "Affordable on-demand courses",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "LinkedIn Learning",
@@ -4100,7 +5788,10 @@
     "description": "Professional development",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Pluralsight",
@@ -4111,7 +5802,10 @@
     "description": "Tech and development skills",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "CXL",
@@ -4122,7 +5816,12 @@
     "description": "Expert-level marketing and growth courses",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": [
+      "Marketing"
+    ]
   },
   {
     "name": "Reforge",
@@ -4133,7 +5832,10 @@
     "description": "Advanced growth and product strategy",
     "learningCurve": "Steep",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Product Hunt",
@@ -4144,7 +5846,10 @@
     "description": "Discover new tools and products",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Indie Hackers",
@@ -4155,7 +5860,10 @@
     "description": "Founder community and case studies",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Dev.to",
@@ -4166,7 +5874,12 @@
     "description": "Developer community and blog platform",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "DevTools"
+    ]
   },
   {
     "name": "Hacker News",
@@ -4177,7 +5890,10 @@
     "description": "Tech news and discussion",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": []
   },
   {
     "name": "Growth Design",
@@ -4188,7 +5904,12 @@
     "description": "UX case studies as comic strips",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Stratechery",
@@ -4199,6 +5920,9 @@
     "description": "Deep tech/business strategy analysis",
     "learningCurve": "Medium",
     "agencyPick": false,
-    "alternativeTo": ""
+    "alternativeTo": "",
+    "isFree": false,
+    "isOpenSource": false,
+    "tags": []
   }
 ]
