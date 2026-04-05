@@ -1,13 +1,23 @@
-## What's new in v1.2.0: The FMHY Content Expansion & Smart Stacks
+## What's new in v1.2.0: pricing overhaul, smart stacks & FMHY expansion
 
-This is a massive content and scale upgrade for the diShine Tools directory! As our database grows over 400+, we have introduced advanced architectural changes to handle immense capacity.
+This release reworks how pricing is displayed across the entire toolkit and adds several usability improvements to the stack builder.
 
-### 🌟 New Features & Scale UI
-- **Magical Budget Options**: The "My Stack" consultancy cart now features **🪄 Find Free Alts** and **💎 Upgrade Stack** buttons! Clicking these buttons instantly analyzes your current stack and swaps out tools for completely Free (Open Source) alternatives or Premium "Agency Quality" alternatives.
-- **Client Consultant Notes**: You can now attach professional client greeting notes directly inside the Cart UI which will automatically append to the top of your Markdown Export.
-- **Accordion Scale Layout**: Categories are now built using high-performance CSS collapsible Accordions. Only the categories you're interested in will remain open, saving immense scrolling distance.
+### Pricing clarity
+- **4-tier pricing model**: every tool now carries one of four explicit labels — `100% Free` (no paid plan exists), `Freemium` (free tier with paid upgrades), `Open Source` (code is public, self-hostable), or `Paid only` (no free tier at all). Previously most tools were just "Free" or "Paid", which hid the fact that tools like Canva, Figma, Mailchimp, and ChatGPT all have significant paid tiers.
+- **Pricing filter bar**: the old Free/OS checkboxes are replaced with a row of five filter buttons (All / Free / Freemium / Open Source / Paid) showing exact counts. Click any button to instantly filter the entire directory.
+- **Color-coded badges**: free is green, freemium is amber, open-source is teal, paid is red — consistent across tool cards, stack items, and markdown export.
 
-### 📚 FMHY Data Inject
-- **Massive Privacy Injection**: We scoured the legendary `FMHY` repository and securely added an array of top-tier Privacy, Self-hosted, and Open Source system utility tools directly into our data pipeline! (e.g. Pi-hole, Coolify, Uptime Kuma)
+### Stack builder improvements
+- **Toggle add/remove**: the `+ Stack` button on each tool card now toggles to `- Remove` (red) when the tool is already in your stack. Clicking again removes it — no need to scroll down to the sidebar to delete.
+- **Pricing breakdown in stack**: the stack sidebar shows a live summary like "2 free / 1 OS / 3 freemium / 1 paid" instead of just a free/paid ratio.
+- **Smarter markdown export**: the exported markdown now includes a pricing summary line and each tool carries its pricing tier label in brackets.
+- **Find Free Alts / Upgrade Stack**: these buttons now respect the 4-tier model — "Find Free Alts" skips tools already marked free or open-source, "Upgrade Stack" skips tools already paid.
 
-*Maintained with ❤️ by diShine Digital Agency.*
+### Layout
+- **Accordions closed by default**: all category sections start collapsed. Click to open the ones you need, click again to close. Saves a lot of scrolling on a 422-tool page.
+
+### Data
+- **FMHY content expansion**: privacy, self-hosted, and open-source tools sourced from the FMHY compendium (Pi-hole, Coolify, Uptime Kuma, and more).
+- **`pricing` field added to tools.json**: every tool object now carries an explicit `pricing` property (`free`, `freemium`, `open-source`, or `paid`) alongside the existing `type` and `isFree` fields.
+
+*Maintained by diShine Digital Agency.*

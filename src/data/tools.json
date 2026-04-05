@@ -14,7 +14,8 @@
     "tags": [
       "SEO",
       "Design"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Semrush",
@@ -32,7 +33,8 @@
       "SEO",
       "Marketing",
       "Design"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Ubersuggest",
@@ -48,7 +50,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Keyword Surfer",
@@ -64,7 +67,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "AlsoAsked",
@@ -80,7 +84,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "AnswerThePublic",
@@ -96,7 +101,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Exploding Topics",
@@ -112,7 +118,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Glimpse",
@@ -128,7 +135,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Lowfruits",
@@ -145,7 +153,8 @@
     "tags": [
       "SEO",
       "Design"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Screaming Frog",
@@ -161,7 +170,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Sitebulb",
@@ -177,7 +187,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Google Search Console",
@@ -193,7 +204,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Rich Results Test",
@@ -209,7 +221,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Schema Markup Generator",
@@ -225,7 +238,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Robots.txt Tester",
@@ -241,7 +255,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Hreflang Tag Generator",
@@ -257,7 +272,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Valentin.app",
@@ -273,7 +289,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "IndexNow",
@@ -289,7 +306,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Ahrefs Backlink Checker",
@@ -305,7 +323,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Majestic",
@@ -321,7 +340,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "HARO / Connectively",
@@ -337,7 +357,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "BuzzStream",
@@ -353,7 +374,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Pitchbox",
@@ -370,7 +392,8 @@
     "tags": [
       "SEO",
       "Automation"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Hunter.io",
@@ -387,7 +410,8 @@
     "tags": [
       "SEO",
       "Marketing"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Respona",
@@ -404,7 +428,8 @@
     "tags": [
       "SEO",
       "Design"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Google Business Profile",
@@ -420,7 +445,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "BrightLocal",
@@ -437,7 +463,8 @@
     "tags": [
       "SEO",
       "Analytics"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Whitespark",
@@ -454,7 +481,8 @@
     "tags": [
       "SEO",
       "Design"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Moz Local",
@@ -470,7 +498,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Pleper",
@@ -486,7 +515,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Rank Simulator",
@@ -503,7 +533,8 @@
     "tags": [
       "SEO",
       "AI"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Otterly.ai",
@@ -520,7 +551,8 @@
     "tags": [
       "SEO",
       "AI"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Profound",
@@ -536,7 +568,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Google Analytics 4",
@@ -552,7 +585,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Matomo",
@@ -569,7 +603,8 @@
     "tags": [
       "Analytics",
       "Privacy"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Plausible",
@@ -586,7 +621,8 @@
     "tags": [
       "Analytics",
       "Privacy"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Fathom",
@@ -603,7 +639,8 @@
     "tags": [
       "Analytics",
       "Privacy"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Umami",
@@ -620,7 +657,8 @@
     "tags": [
       "Analytics",
       "Privacy"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "PostHog",
@@ -636,7 +674,8 @@
     "isOpenSource": true,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Mixpanel",
@@ -652,7 +691,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Amplitude",
@@ -668,7 +708,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Heap",
@@ -684,7 +725,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Pirsch",
@@ -701,7 +743,8 @@
     "tags": [
       "Analytics",
       "Privacy"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Cabin",
@@ -718,7 +761,8 @@
     "tags": [
       "Analytics",
       "Privacy"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Counter.dev",
@@ -735,7 +779,8 @@
     "tags": [
       "Analytics",
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "InnexDATA",
@@ -751,7 +796,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Google Tag Manager",
@@ -767,7 +813,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Tealium",
@@ -783,7 +830,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Segment",
@@ -799,7 +847,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "RudderStack",
@@ -816,7 +865,8 @@
     "tags": [
       "Analytics",
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Zaraz",
@@ -833,7 +883,8 @@
     "tags": [
       "Analytics",
       "Privacy"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Piwik PRO Tag Manager",
@@ -850,7 +901,8 @@
     "tags": [
       "Analytics",
       "Privacy"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Hotjar",
@@ -866,7 +918,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Microsoft Clarity",
@@ -882,7 +935,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "FullStory",
@@ -898,7 +952,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Smartlook",
@@ -914,7 +969,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Lucky Orange",
@@ -930,7 +986,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "PostHog",
@@ -946,7 +1003,8 @@
     "isOpenSource": true,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "PageSpeed Insights",
@@ -960,7 +1018,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Lighthouse",
@@ -976,7 +1035,8 @@
     "isOpenSource": true,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "WebPageTest",
@@ -990,7 +1050,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "GTmetrix",
@@ -1004,7 +1065,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Calibre",
@@ -1018,7 +1080,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "SpeedCurve",
@@ -1032,7 +1095,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "DebugBear",
@@ -1046,7 +1110,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "CrUX Dashboard",
@@ -1060,7 +1125,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Treo",
@@ -1074,7 +1140,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Unlighthouse",
@@ -1088,7 +1155,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Squoosh",
@@ -1102,7 +1170,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "SVGOMG",
@@ -1116,7 +1185,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Grammarly",
@@ -1130,7 +1200,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Hemingway Editor",
@@ -1144,7 +1215,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "ProWritingAid",
@@ -1158,7 +1230,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Readable",
@@ -1172,7 +1245,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Ludwig.guru",
@@ -1188,7 +1262,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Wordtune",
@@ -1202,7 +1277,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Surfer SEO",
@@ -1218,7 +1294,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Clearscope",
@@ -1234,7 +1311,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Frase",
@@ -1250,7 +1328,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "MarketMuse",
@@ -1264,7 +1343,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "NeuronWriter",
@@ -1278,7 +1358,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Dashword",
@@ -1292,7 +1373,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "BuzzSumo",
@@ -1306,7 +1388,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "SparkToro",
@@ -1322,7 +1405,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Feedly",
@@ -1336,7 +1420,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Pocket",
@@ -1350,7 +1435,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Figma",
@@ -1366,7 +1452,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Canva",
@@ -1382,7 +1469,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Adobe Creative Cloud",
@@ -1398,7 +1486,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Penpot",
@@ -1415,7 +1504,8 @@
     "tags": [
       "OSS",
       "Design"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Framer",
@@ -1431,7 +1521,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Excalidraw",
@@ -1447,7 +1538,8 @@
     "isOpenSource": true,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Coolors",
@@ -1463,7 +1555,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Realtime Colors",
@@ -1479,7 +1572,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Fontjoy",
@@ -1495,7 +1589,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Type Scale",
@@ -1511,7 +1606,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Brandmark",
@@ -1528,7 +1624,8 @@
     "tags": [
       "AI",
       "Design"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Looka",
@@ -1544,7 +1641,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Brandfetch",
@@ -1560,7 +1658,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Unsplash",
@@ -1576,7 +1675,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Pexels",
@@ -1592,7 +1692,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Undraw",
@@ -1608,7 +1709,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Storyset",
@@ -1624,7 +1726,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Heroicons",
@@ -1640,7 +1743,8 @@
     "isOpenSource": true,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Lucide",
@@ -1657,7 +1761,8 @@
     "tags": [
       "OSS",
       "Design"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Noun Project",
@@ -1673,7 +1778,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Mockup World",
@@ -1689,7 +1795,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Shots.so",
@@ -1705,7 +1812,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Remove.bg",
@@ -1721,7 +1829,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Buffer",
@@ -1737,7 +1846,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Hootsuite",
@@ -1753,7 +1863,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Later",
@@ -1767,7 +1878,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Sprout Social",
@@ -1781,7 +1893,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Publer",
@@ -1797,7 +1910,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Typefully",
@@ -1811,7 +1925,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Taplio",
@@ -1825,7 +1940,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Brand24",
@@ -1841,7 +1957,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Mention",
@@ -1855,7 +1972,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Google Alerts",
@@ -1869,7 +1987,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Social Searcher",
@@ -1885,7 +2004,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "F5bot",
@@ -1899,7 +2019,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "LinkedIn Sales Navigator",
@@ -1916,7 +2037,8 @@
     "tags": [
       "SEO",
       "CRM"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Shield Analytics",
@@ -1932,7 +2054,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "AuthoredUp",
@@ -1948,7 +2071,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Dripify",
@@ -1964,7 +2088,8 @@
     "isOpenSource": false,
     "tags": [
       "Automation"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Mailchimp",
@@ -1981,7 +2106,8 @@
     "tags": [
       "Marketing",
       "Automation"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Brevo (ex-Sendinblue)",
@@ -1998,7 +2124,8 @@
     "tags": [
       "Marketing",
       "Automation"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "ConvertKit",
@@ -2015,7 +2142,8 @@
     "tags": [
       "Marketing",
       "Automation"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "ActiveCampaign",
@@ -2033,7 +2161,8 @@
       "Marketing",
       "Automation",
       "CRM"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Mailerlite",
@@ -2050,7 +2179,8 @@
     "tags": [
       "Marketing",
       "Automation"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Buttondown",
@@ -2067,7 +2197,8 @@
     "tags": [
       "Marketing",
       "Automation"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Resend",
@@ -2085,7 +2216,8 @@
       "Marketing",
       "Automation",
       "DevTools"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Loops",
@@ -2103,7 +2235,8 @@
       "Marketing",
       "Design",
       "Automation"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Listmonk",
@@ -2120,7 +2253,8 @@
     "tags": [
       "Marketing",
       "Automation"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "MJML",
@@ -2137,7 +2271,8 @@
     "tags": [
       "Marketing",
       "Automation"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Litmus",
@@ -2154,7 +2289,8 @@
     "tags": [
       "Marketing",
       "Automation"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Email on Acid",
@@ -2171,7 +2307,8 @@
     "tags": [
       "Marketing",
       "Automation"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Really Good Emails",
@@ -2189,7 +2326,8 @@
       "Marketing",
       "Design",
       "Automation"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Mail Tester",
@@ -2206,7 +2344,8 @@
     "tags": [
       "Marketing",
       "Automation"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "HubSpot CRM",
@@ -2223,7 +2362,8 @@
     "tags": [
       "Marketing",
       "CRM"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Salesforce",
@@ -2239,7 +2379,8 @@
     "isOpenSource": false,
     "tags": [
       "CRM"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Pipedrive",
@@ -2255,7 +2396,8 @@
     "isOpenSource": false,
     "tags": [
       "CRM"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Close",
@@ -2272,7 +2414,8 @@
     "tags": [
       "Design",
       "CRM"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Attio",
@@ -2288,7 +2431,8 @@
     "isOpenSource": false,
     "tags": [
       "CRM"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Folk",
@@ -2304,7 +2448,8 @@
     "isOpenSource": false,
     "tags": [
       "CRM"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Twenty",
@@ -2321,7 +2466,8 @@
     "tags": [
       "OSS",
       "CRM"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Streak",
@@ -2337,7 +2483,8 @@
     "isOpenSource": false,
     "tags": [
       "CRM"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Google Ads",
@@ -2353,7 +2500,8 @@
     "isOpenSource": false,
     "tags": [
       "SEO"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Meta Ads Manager",
@@ -2367,7 +2515,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "LinkedIn Campaign Manager",
@@ -2381,7 +2530,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "TikTok Ads",
@@ -2395,7 +2545,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Microsoft Advertising",
@@ -2409,7 +2560,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Reddit Ads",
@@ -2423,7 +2575,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Optmyzr",
@@ -2439,7 +2592,8 @@
     "isOpenSource": false,
     "tags": [
       "Automation"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Madgicx",
@@ -2455,7 +2609,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Supermetrics",
@@ -2469,7 +2624,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Whatagraph",
@@ -2485,7 +2641,8 @@
     "isOpenSource": false,
     "tags": [
       "Marketing"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Revealbot",
@@ -2501,7 +2658,8 @@
     "isOpenSource": false,
     "tags": [
       "Automation"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "AdCreative.ai",
@@ -2517,7 +2675,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Unbounce",
@@ -2533,7 +2692,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Instapage",
@@ -2547,7 +2707,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Carrd",
@@ -2561,7 +2722,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Typedream",
@@ -2577,7 +2739,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "ChatGPT (OpenAI)",
@@ -2593,7 +2756,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Claude (Anthropic)",
@@ -2609,7 +2773,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Gemini (Google)",
@@ -2625,7 +2790,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Perplexity",
@@ -2642,7 +2808,8 @@
     "tags": [
       "SEO",
       "AI"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Poe",
@@ -2658,7 +2825,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "GitHub Copilot",
@@ -2674,7 +2842,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Cursor",
@@ -2691,7 +2860,8 @@
     "tags": [
       "AI",
       "DevTools"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Claude Code",
@@ -2708,7 +2878,8 @@
     "tags": [
       "AI",
       "DevTools"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Codeium",
@@ -2725,7 +2896,8 @@
     "tags": [
       "AI",
       "DevTools"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Aider",
@@ -2741,7 +2913,8 @@
     "isOpenSource": true,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Continue",
@@ -2759,7 +2932,8 @@
       "OSS",
       "AI",
       "DevTools"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Jasper",
@@ -2776,7 +2950,8 @@
     "tags": [
       "AI",
       "Marketing"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Copy.ai",
@@ -2792,7 +2967,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Writer",
@@ -2808,7 +2984,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Descript",
@@ -2824,7 +3001,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "ElevenLabs",
@@ -2840,7 +3018,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Midjourney",
@@ -2856,7 +3035,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "DALL-E (OpenAI)",
@@ -2872,7 +3052,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Leonardo.ai",
@@ -2888,7 +3069,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Ideogram",
@@ -2904,7 +3086,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Langchain",
@@ -2920,7 +3103,8 @@
     "isOpenSource": true,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "LlamaIndex",
@@ -2936,7 +3120,8 @@
     "isOpenSource": true,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Ollama",
@@ -2952,7 +3137,8 @@
     "isOpenSource": true,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "LM Studio",
@@ -2969,7 +3155,8 @@
     "tags": [
       "AI",
       "Design"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Replicate",
@@ -2986,7 +3173,8 @@
     "tags": [
       "AI",
       "DevTools"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Hugging Face",
@@ -3002,7 +3190,8 @@
     "isOpenSource": true,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "OpenRouter",
@@ -3019,7 +3208,8 @@
     "tags": [
       "AI",
       "DevTools"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Helicone",
@@ -3035,7 +3225,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Zapier",
@@ -3052,7 +3243,8 @@
     "tags": [
       "Automation",
       "DevTools"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Make (ex-Integromat)",
@@ -3068,7 +3260,8 @@
     "isOpenSource": false,
     "tags": [
       "Automation"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "n8n",
@@ -3084,7 +3277,8 @@
     "isOpenSource": true,
     "tags": [
       "Automation"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Activepieces",
@@ -3102,7 +3296,8 @@
       "OSS",
       "Automation",
       "DevTools"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Pipedream",
@@ -3119,7 +3314,8 @@
     "tags": [
       "Automation",
       "DevTools"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "IFTTT",
@@ -3135,7 +3331,8 @@
     "isOpenSource": false,
     "tags": [
       "Automation"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Tray.io",
@@ -3151,7 +3348,8 @@
     "isOpenSource": false,
     "tags": [
       "Automation"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Windmill",
@@ -3168,7 +3366,8 @@
     "tags": [
       "OSS",
       "Automation"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Temporal",
@@ -3184,7 +3383,8 @@
     "isOpenSource": true,
     "tags": [
       "Automation"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Next.js",
@@ -3198,7 +3398,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Nuxt",
@@ -3212,7 +3413,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Astro",
@@ -3228,7 +3430,8 @@
     "isOpenSource": true,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "SvelteKit",
@@ -3242,7 +3445,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "WordPress",
@@ -3256,7 +3460,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Ghost",
@@ -3270,7 +3475,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Strapi",
@@ -3286,7 +3492,8 @@
     "isOpenSource": true,
     "tags": [
       "DevTools"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Payload",
@@ -3300,7 +3507,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Directus",
@@ -3314,7 +3522,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Docusaurus",
@@ -3328,7 +3537,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Tailwind CSS",
@@ -3342,7 +3552,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "shadcn/ui",
@@ -3358,7 +3569,8 @@
     "isOpenSource": true,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "DaisyUI",
@@ -3374,7 +3586,8 @@
     "isOpenSource": true,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Storybook",
@@ -3390,7 +3603,8 @@
     "isOpenSource": true,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Vite",
@@ -3406,7 +3620,8 @@
     "isOpenSource": true,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Partytown",
@@ -3420,7 +3635,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Playwright",
@@ -3434,7 +3650,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Cypress",
@@ -3448,7 +3665,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Vitest",
@@ -3462,7 +3680,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Sentry",
@@ -3478,7 +3697,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Better Stack",
@@ -3492,7 +3712,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Checkly",
@@ -3508,7 +3729,8 @@
     "isOpenSource": false,
     "tags": [
       "DevTools"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "OpenStatus",
@@ -3524,7 +3746,8 @@
     "isOpenSource": true,
     "tags": [
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Supabase",
@@ -3540,7 +3763,8 @@
     "isOpenSource": true,
     "tags": [
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "PocketBase",
@@ -3554,7 +3778,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Hono",
@@ -3568,7 +3793,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Postman",
@@ -3584,7 +3810,8 @@
     "isOpenSource": false,
     "tags": [
       "DevTools"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Insomnia",
@@ -3600,7 +3827,8 @@
     "isOpenSource": true,
     "tags": [
       "DevTools"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Bruno",
@@ -3616,7 +3844,8 @@
     "isOpenSource": true,
     "tags": [
       "DevTools"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Looker Studio (ex-Data Studio)",
@@ -3630,7 +3859,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Power BI",
@@ -3644,7 +3874,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Tableau",
@@ -3658,7 +3889,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Metabase",
@@ -3674,7 +3906,8 @@
     "isOpenSource": true,
     "tags": [
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Apache Superset",
@@ -3690,7 +3923,8 @@
     "isOpenSource": true,
     "tags": [
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Evidence",
@@ -3706,7 +3940,8 @@
     "isOpenSource": true,
     "tags": [
       "DevTools"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Lightdash",
@@ -3720,7 +3955,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "dbt",
@@ -3734,7 +3970,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Airbyte",
@@ -3750,7 +3987,8 @@
     "isOpenSource": true,
     "tags": [
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Fivetran",
@@ -3764,7 +4002,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Pandas (Python)",
@@ -3778,7 +4017,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Polars",
@@ -3792,7 +4032,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "DuckDB",
@@ -3808,7 +4049,8 @@
     "isOpenSource": true,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Google Sheets",
@@ -3822,7 +4064,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Airtable",
@@ -3836,7 +4079,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "NocoDB",
@@ -3852,7 +4096,8 @@
     "isOpenSource": true,
     "tags": [
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Grist",
@@ -3866,7 +4111,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Rows",
@@ -3882,7 +4128,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Cookiebot",
@@ -3898,7 +4145,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "OneTrust",
@@ -3914,7 +4162,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "CookieYes",
@@ -3930,7 +4179,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Complianz",
@@ -3946,7 +4196,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Osano",
@@ -3962,7 +4213,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Klaro",
@@ -3979,7 +4231,8 @@
     "tags": [
       "Privacy",
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Tarteaucitron",
@@ -3996,7 +4249,8 @@
     "tags": [
       "Privacy",
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "GDPR.eu",
@@ -4012,7 +4266,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Termly",
@@ -4028,7 +4283,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "iubenda",
@@ -4044,7 +4300,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Privacy Badger",
@@ -4060,7 +4317,8 @@
     "isOpenSource": true,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Blacklight",
@@ -4076,7 +4334,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "SSL Labs Test",
@@ -4092,7 +4351,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "SecurityHeaders.com",
@@ -4108,7 +4368,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Mozilla Observatory",
@@ -4124,7 +4385,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Snyk",
@@ -4140,7 +4402,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "OWASP ZAP",
@@ -4156,7 +4419,8 @@
     "isOpenSource": true,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Have I Been Pwned",
@@ -4172,7 +4436,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Trivy",
@@ -4188,7 +4453,8 @@
     "isOpenSource": true,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "CrowdSec",
@@ -4204,7 +4470,8 @@
     "isOpenSource": true,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "EQUO",
@@ -4220,7 +4487,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "WAVE",
@@ -4236,7 +4504,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Pa11y",
@@ -4252,7 +4521,8 @@
     "isOpenSource": true,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Lighthouse Accessibility",
@@ -4269,7 +4539,8 @@
     "tags": [
       "Privacy",
       "Design"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Stark",
@@ -4286,7 +4557,8 @@
     "tags": [
       "Privacy",
       "Design"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "UserWay",
@@ -4302,7 +4574,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Asana",
@@ -4316,7 +4589,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Linear",
@@ -4332,7 +4606,8 @@
     "isOpenSource": false,
     "tags": [
       "DevTools"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Notion",
@@ -4346,7 +4621,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "ClickUp",
@@ -4360,7 +4636,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Monday.com",
@@ -4374,7 +4651,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Plane",
@@ -4390,7 +4668,8 @@
     "isOpenSource": true,
     "tags": [
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Huly",
@@ -4406,7 +4685,8 @@
     "isOpenSource": true,
     "tags": [
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Slack",
@@ -4420,7 +4700,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Microsoft Teams",
@@ -4434,7 +4715,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Discord",
@@ -4448,7 +4730,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Loom",
@@ -4462,7 +4745,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Tella",
@@ -4476,7 +4760,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Krisp",
@@ -4492,7 +4777,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Notion",
@@ -4506,7 +4792,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Confluence",
@@ -4520,7 +4807,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "GitBook",
@@ -4534,7 +4822,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Outline",
@@ -4550,7 +4839,8 @@
     "isOpenSource": true,
     "tags": [
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Slite",
@@ -4567,7 +4857,8 @@
     "tags": [
       "SEO",
       "AI"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Mintlify",
@@ -4583,7 +4874,8 @@
     "isOpenSource": false,
     "tags": [
       "DevTools"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Vercel",
@@ -4597,7 +4889,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Netlify",
@@ -4611,7 +4904,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Cloudflare Pages",
@@ -4625,7 +4919,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Railway",
@@ -4639,7 +4934,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Render",
@@ -4653,7 +4949,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Fly.io",
@@ -4667,7 +4964,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Coolify",
@@ -4681,7 +4979,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "CapRover",
@@ -4695,7 +4994,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "AWS",
@@ -4709,7 +5009,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Google Cloud",
@@ -4723,7 +5024,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Azure",
@@ -4737,7 +5039,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "DigitalOcean",
@@ -4751,7 +5054,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Hetzner",
@@ -4765,7 +5069,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "OVHcloud",
@@ -4781,7 +5086,8 @@
     "isOpenSource": false,
     "tags": [
       "Privacy"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Cloudflare",
@@ -4795,7 +5101,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Bunny.net",
@@ -4809,7 +5116,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "KeyCDN",
@@ -4823,7 +5131,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Apollo.io",
@@ -4837,7 +5146,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "ZoomInfo",
@@ -4851,7 +5161,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Lusha",
@@ -4865,7 +5176,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "RocketReach",
@@ -4879,7 +5191,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Clay",
@@ -4893,7 +5206,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Clearbit (HubSpot)",
@@ -4909,7 +5223,8 @@
     "isOpenSource": false,
     "tags": [
       "DevTools"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Phantombuster",
@@ -4923,7 +5238,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Lemlist",
@@ -4939,7 +5255,8 @@
     "isOpenSource": false,
     "tags": [
       "Marketing"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Instantly.ai",
@@ -4956,7 +5273,8 @@
     "tags": [
       "AI",
       "Marketing"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Saleshandy",
@@ -4974,7 +5292,8 @@
       "Marketing",
       "Automation",
       "CRM"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Woodpecker",
@@ -4990,7 +5309,8 @@
     "isOpenSource": false,
     "tags": [
       "Marketing"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "La Growth Machine",
@@ -5006,7 +5326,8 @@
     "isOpenSource": false,
     "tags": [
       "Marketing"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Smartlead",
@@ -5022,7 +5343,8 @@
     "isOpenSource": false,
     "tags": [
       "Marketing"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Hunter.io",
@@ -5038,7 +5360,8 @@
     "isOpenSource": false,
     "tags": [
       "Marketing"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "NeverBounce",
@@ -5054,7 +5377,8 @@
     "isOpenSource": false,
     "tags": [
       "Marketing"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "ZeroBounce",
@@ -5071,7 +5395,8 @@
     "tags": [
       "AI",
       "Marketing"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "MillionVerifier",
@@ -5087,7 +5412,8 @@
     "isOpenSource": false,
     "tags": [
       "Marketing"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Google Optimize (sunset)",
@@ -5101,7 +5427,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "VWO",
@@ -5115,7 +5442,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Optimizely",
@@ -5129,7 +5457,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "AB Tasty",
@@ -5145,7 +5474,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "GrowthBook",
@@ -5161,7 +5491,8 @@
     "isOpenSource": true,
     "tags": [
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Statsig",
@@ -5177,7 +5508,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Typeform",
@@ -5191,7 +5523,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Tally",
@@ -5207,7 +5540,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Formbricks",
@@ -5223,7 +5557,8 @@
     "isOpenSource": true,
     "tags": [
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "SurveyMonkey",
@@ -5237,7 +5572,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Hotjar Surveys",
@@ -5251,7 +5587,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Canny",
@@ -5267,7 +5604,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Intercom",
@@ -5281,7 +5619,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Drift",
@@ -5297,7 +5636,8 @@
     "isOpenSource": false,
     "tags": [
       "Marketing"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Crisp",
@@ -5311,7 +5651,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Tawk.to",
@@ -5325,7 +5666,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Chatwoot",
@@ -5341,7 +5683,8 @@
     "isOpenSource": true,
     "tags": [
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "DaVinci Resolve",
@@ -5355,7 +5698,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "CapCut",
@@ -5371,7 +5715,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Descript",
@@ -5385,7 +5730,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Synthesia",
@@ -5401,7 +5747,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "HeyGen",
@@ -5417,7 +5764,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Runway",
@@ -5433,7 +5781,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "Remotion",
@@ -5447,7 +5796,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Loom",
@@ -5463,7 +5813,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "OBS Studio",
@@ -5477,7 +5828,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Screen Studio",
@@ -5491,7 +5843,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Tella",
@@ -5505,7 +5858,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Cap",
@@ -5521,7 +5875,8 @@
     "isOpenSource": true,
     "tags": [
       "OSS"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Audacity",
@@ -5535,7 +5890,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": true,
-    "tags": []
+    "tags": [],
+    "pricing": "open-source"
   },
   {
     "name": "Riverside.fm",
@@ -5549,7 +5905,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Descript",
@@ -5563,7 +5920,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Spotify for Podcasters",
@@ -5577,7 +5935,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "freemium"
   },
   {
     "name": "Transistor",
@@ -5593,7 +5952,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Podcastle",
@@ -5607,7 +5967,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Google Digital Garage",
@@ -5623,7 +5984,8 @@
     "isOpenSource": false,
     "tags": [
       "Marketing"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Google Analytics Academy",
@@ -5639,7 +6001,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Google Skillshop",
@@ -5655,7 +6018,8 @@
     "isOpenSource": false,
     "tags": [
       "Analytics"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "HubSpot Academy",
@@ -5672,7 +6036,8 @@
     "tags": [
       "Marketing",
       "CRM"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Meta Blueprint",
@@ -5686,7 +6051,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Semrush Academy",
@@ -5703,7 +6069,8 @@
     "tags": [
       "SEO",
       "Marketing"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "freeCodeCamp",
@@ -5719,7 +6086,8 @@
     "isOpenSource": false,
     "tags": [
       "DevTools"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "The Odin Project",
@@ -5733,7 +6101,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "DeepLearning.AI",
@@ -5749,7 +6118,8 @@
     "isOpenSource": false,
     "tags": [
       "AI"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Coursera",
@@ -5763,7 +6133,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Udemy",
@@ -5777,7 +6148,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "LinkedIn Learning",
@@ -5791,7 +6163,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Pluralsight",
@@ -5805,7 +6178,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "CXL",
@@ -5821,7 +6195,8 @@
     "isOpenSource": false,
     "tags": [
       "Marketing"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Reforge",
@@ -5835,7 +6210,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "Product Hunt",
@@ -5849,7 +6225,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Indie Hackers",
@@ -5863,7 +6240,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Dev.to",
@@ -5879,7 +6257,8 @@
     "isOpenSource": false,
     "tags": [
       "DevTools"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Hacker News",
@@ -5893,7 +6272,8 @@
     "alternativeTo": "",
     "isFree": true,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "free"
   },
   {
     "name": "Growth Design",
@@ -5909,7 +6289,8 @@
     "isOpenSource": false,
     "tags": [
       "Design"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Stratechery",
@@ -5923,7 +6304,8 @@
     "alternativeTo": "",
     "isFree": false,
     "isOpenSource": false,
-    "tags": []
+    "tags": [],
+    "pricing": "paid"
   },
   {
     "name": "uBlock Origin",
@@ -5939,7 +6321,8 @@
       "Privacy",
       "Browser",
       "Adblocker"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Pi-hole",
@@ -5955,7 +6338,8 @@
       "Privacy",
       "DNS",
       "Self-Hosted"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "AdGuard Home",
@@ -5971,7 +6355,8 @@
       "Privacy",
       "DNS",
       "Self-Hosted"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "LocalSend",
@@ -5986,7 +6371,8 @@
     "tags": [
       "Utility",
       "Transfer"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Syncthing",
@@ -6002,7 +6388,8 @@
       "Storage",
       "Sync",
       "Self-Hosted"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Bitwarden",
@@ -6017,7 +6404,8 @@
     "tags": [
       "Privacy",
       "Security"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Uptime Kuma",
@@ -6033,7 +6421,8 @@
       "DevTools",
       "Monitoring",
       "Self-Hosted"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Coolify",
@@ -6049,7 +6438,8 @@
       "DevTools",
       "Hosting",
       "Self-Hosted"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Penpot",
@@ -6064,7 +6454,8 @@
     "tags": [
       "Design",
       "UI"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Draw.io",
@@ -6079,7 +6470,8 @@
     "tags": [
       "Design",
       "Diagrams"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Adobe Premiere Pro",
@@ -6095,7 +6487,8 @@
       "Video",
       "Editing",
       "Creative"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Kdenlive",
@@ -6110,7 +6503,8 @@
     "tags": [
       "Video",
       "Editing"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Google Chrome",
@@ -6125,7 +6519,8 @@
     "tags": [
       "Browser",
       "Internet"
-    ]
+    ],
+    "pricing": "free"
   },
   {
     "name": "Brave",
@@ -6141,7 +6536,8 @@
       "Browser",
       "Privacy",
       "Crypto"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Firefox",
@@ -6157,7 +6553,8 @@
       "Browser",
       "Privacy",
       "Open-Source"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Mullvad Browser",
@@ -6173,7 +6570,8 @@
       "Browser",
       "Privacy",
       "Anonymous"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Odoo",
@@ -6189,7 +6587,8 @@
       "CRM",
       "ERP",
       "Business"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Adobe Illustrator",
@@ -6205,7 +6604,8 @@
       "Design",
       "Vector",
       "Creative"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Inkscape",
@@ -6221,7 +6621,8 @@
       "Design",
       "Vector",
       "Open-Source"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Adobe Photoshop",
@@ -6237,7 +6638,8 @@
       "Design",
       "Image Editing",
       "Creative"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Krita",
@@ -6253,7 +6655,8 @@
       "Design",
       "Image Editing",
       "Painting"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Adobe Audition",
@@ -6269,7 +6672,8 @@
       "Audio",
       "Editing",
       "Creative"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Tenacity",
@@ -6285,7 +6689,8 @@
       "Audio",
       "Editing",
       "Privacy"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Jira",
@@ -6301,7 +6706,8 @@
       "Project Management",
       "Agile",
       "Enterprise"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "OpenProject",
@@ -6316,7 +6722,8 @@
     "tags": [
       "Project Management",
       "Open-Source"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Focalboard",
@@ -6331,7 +6738,8 @@
     "tags": [
       "Project Management",
       "Kanban"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Mattermost",
@@ -6347,7 +6755,8 @@
       "Chat",
       "Communication",
       "Self-Hosted"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Superhuman",
@@ -6362,7 +6771,8 @@
     "tags": [
       "Email",
       "Productivity"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "Thunderbird",
@@ -6378,7 +6788,8 @@
       "Email",
       "Client",
       "Open-Source"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Mailspring",
@@ -6393,7 +6804,8 @@
     "tags": [
       "Email",
       "Client"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Microsoft 365",
@@ -6409,7 +6821,8 @@
       "Office",
       "Productivity",
       "Enterprise"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "LibreOffice",
@@ -6425,7 +6838,8 @@
       "Office",
       "Productivity",
       "Open-Source"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "OnlyOffice",
@@ -6440,7 +6854,8 @@
     "tags": [
       "Office",
       "Collaboration"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Obsidian",
@@ -6456,7 +6871,8 @@
       "Notes",
       "Markdown",
       "Local"
-    ]
+    ],
+    "pricing": "freemium"
   },
   {
     "name": "AppFlowy",
@@ -6472,7 +6888,8 @@
       "Notes",
       "Wiki",
       "Open-Source"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "WinRAR",
@@ -6487,7 +6904,8 @@
     "tags": [
       "Utility",
       "Archive"
-    ]
+    ],
+    "pricing": "paid"
   },
   {
     "name": "7-Zip",
@@ -6503,7 +6921,8 @@
       "Utility",
       "Archive",
       "Open-Source"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "PeaZip",
@@ -6518,7 +6937,8 @@
     "tags": [
       "Utility",
       "Archive"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Rufus",
@@ -6533,7 +6953,8 @@
     "tags": [
       "Utility",
       "System"
-    ]
+    ],
+    "pricing": "open-source"
   },
   {
     "name": "Ventoy",
@@ -6549,6 +6970,7 @@
       "Utility",
       "System",
       "Open-Source"
-    ]
+    ],
+    "pricing": "open-source"
   }
 ]
