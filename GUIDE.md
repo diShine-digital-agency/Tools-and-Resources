@@ -33,7 +33,7 @@ Two action buttons in the sidebar header transform your stack:
 | **Upgrade** | Replaces free and freemium tools with the best paid premium match |
 | **Reset** | Appears after any swap -- restores your original hand-picked stack |
 
-The algorithm uses a multi-signal weighted scoring system. It prioritizes tools in the **same subcategory** (e.g., Screen Recording, Audio & Podcasting) over broad category matches, so a screen recorder gets matched with another screen recorder -- not a video editor. See the [README](README.md) for the full scoring breakdown.
+The algorithm uses a multi-signal weighted scoring system. It prioritizes tools in the **same subcategory** (e.g., Screen Recording, Audio & Podcasting) over broad category matches, so a screen recorder gets matched with another screen recorder -- not a video editor. See **[ALGORITHM.md](ALGORITHM.md)** for the full scoring pipeline, weight rationale, and quality metrics.
 
 Your original stack is always preserved in memory. Swapping to free alts or premium upgrades changes the view but never destroys your picks. Click **Reset** to return.
 

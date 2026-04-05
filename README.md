@@ -71,66 +71,13 @@ The report includes pricing labels, category groupings, clickable links, and a f
 
 ---
 
-## How the Matching Algorithm Works
+## Matching Algorithm
 
-The alternative engine uses a **multi-signal weighted scoring system** to find the most relevant replacement for any tool, respecting functional purpose rather than just broad category.
+The alternative engine uses a **multi-signal weighted scoring system** with 5 signals (subCategory match +50, tag overlap +10 each, keyword overlap +20, category fallback +5/+15) and a minimum score threshold of 5. It only searches within the same category — no cross-category fallback, no forced bad matches.
 
-### The problem it solves
+**Current quality (v1.4):** 79.9% exact subcategory match, 15.1% same-category, 0.2% cross-category, 4.7% graceful null.
 
-A naive approach would match tools by category alone. But categories are broad: "Video & Audio" contains screen recorders, video editors, and podcast platforms -- tools that serve completely different purposes. Matching Loom (screen recording) to DaVinci Resolve (video editing) is technically same-category but functionally useless.
-
-### Data model
-
-Every tool carries structured metadata:
-
-| Field | Example | Role in matching |
-|-------|---------|-----------------|
-| `category` | Video & Audio | Broad grouping (27 categories) |
-| `subCategory` | Screen Recording | Functional cluster within category |
-| `tags` | `["AI", "Design"]` | Semantic descriptors |
-| `pricing` | `freemium` | One of: `free`, `freemium`, `open-source`, `paid` |
-| `alternativeTo` | `Loom` | Explicit human-curated alternative link |
-
-### Scoring pipeline
-
-For a given tool T and a pricing target (free or paid), the algorithm runs in three phases:
-
-**Phase 1 -- Explicit match (instant return)**
-
-If any tool in the database has an `alternativeTo` field pointing to T (or vice versa) _and_ matches the target pricing, return it immediately. This handles curated pairs like Ahrefs/Semrush or Figma/Penpot.
-
-**Phase 2 -- Same-category candidate pool**
-
-Filter all tools that match the target pricing constraint and share the same `category` as T. If this pool is empty, fall back to all tools matching the pricing constraint (cross-category).
-
-**Phase 3 -- Weighted scoring**
-
-Each candidate C is scored against T:
-
-| Signal | Condition | Points | Rationale |
-|--------|-----------|--------|-----------|
-| **Exact subCategory** | `C.sub === T.sub` | **+50** | Same functional cluster = strongest signal |
-| **Same category, different sub** | `C.cat === T.cat && C.sub !== T.sub` | **+5** | Related but different purpose |
-| **Same category, no sub data** | `C.cat === T.cat && (!C.sub \|\| !T.sub)` | **+15** | Category match without sub-specificity |
-| **Tag overlap** | Each shared tag | **+10 each** | Semantic similarity (e.g., both tagged "AI") |
-| **SubCategory keyword overlap** | Shared words > 5 chars between sub names (same category only) | **+20 each** | Catches partial sub matches like "Video Creation" vs "Video Editing" |
-
-The candidate with the highest score wins. If the best score is below **5**, no alternative is returned (prevents nonsensical cross-category matches).
-
-### Score examples
-
-| Tool | Target | Winner | Score breakdown |
-|------|--------|--------|----------------|
-| Loom (Screen Recording) | Free | OBS Studio (Screen Recording) | sub=+50 |
-| Canva (Design Platforms) | Paid | Adobe Creative Cloud (Design Platforms) | sub=+50 |
-| Ahrefs (Keyword Research) | Free | Keyword Surfer (Keyword Research) | sub=+50 |
-| Mailchimp (Email Marketing) | Free | Listmonk (Email Marketing) | sub=+50 |
-| Buffer (Mgmt & Scheduling) | Paid | Hootsuite (Mgmt & Scheduling) | sub=+50, keyword "Scheduling"=+20 |
-| Notion (Project Mgmt) | Free | AppFlowy (same cat, no sub) | cat=+15 |
-
-### Graceful degradation
-
-When no good alternative exists in the database (e.g., no paid-only Communication tool for Slack), the algorithm returns `null` and the export table shows "-- (already free/OS)" or "-- (already premium)" rather than forcing a bad match.
+For the full scoring pipeline, weight rationale, concentration analysis, quality evolution, and data architecture: **[ALGORITHM.md](ALGORITHM.md)**
 
 ---
 
