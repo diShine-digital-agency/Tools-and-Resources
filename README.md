@@ -4,7 +4,7 @@
 
 Every tool listed here has been evaluated for practical value. We include both industry standards and lesser-known alternatives that punch above their weight.
 
-Maintained by [diShine Digital Agency](https://dishine.it)
+Maintained by Kevin Escoda.
 
 ---
 
