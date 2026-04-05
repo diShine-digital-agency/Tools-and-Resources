@@ -807,6 +807,6 @@ Know a great tool that's missing? Open an issue or submit a pull request.
 
 ## License
 
-MIT License -- see [LICENSE](LICENSE) for details.
+MIT License (Open Source) - see [LICENSE](LICENSE) for details.
 
-Copyright (c) 2026 [diShine Digital Agency](https://dishine.it)
+2026 [diShine Digital Agency](https://dishine.it)
