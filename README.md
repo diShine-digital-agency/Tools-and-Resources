@@ -1,28 +1,28 @@
-# 🛠 Tools & Resources | diShine Digital Agency
+# 🛠 Tools & Resources | Your Teck Stack compagnon 
 
-Welcome to the **diShine Tools & Resources** directory!
+Welcome to the **Tools & Resources** directory!
 
-This repository contains an extensively vetted dataset of exactly **422 digital tools**, platforms, and resources curated for agencies, consultants, and digital teams. 
+This repository contains an extensively vetted dataset of exactly **422 digital tools**, platforms, and resources curated for companies, agencies, consultants, and digital teams. 
 
-We have completely rebuilt this repository from a static list into a highly interactive, consulting-grade dataset powered by NLP tags, explicit pricing algorithms, and scalable accordion layouts.
+We have completely rebuilt this repository from a static list into an interactive dataset powered by NLP tags, explicit pricing algorithms, and scalable accordion layouts.
 
 ---
 
-## 🚀 3 Ways to Access This Toolkit
+## 🚀 3 Ways to access this toolkit
 
 We've designed this repository so anyone can use it, no matter their technical skill level.
 
-### 1. The Interactive Standalone HTML (Recommended)
+### 1. The Interactive Standalone HTML (recommended)
 If you don't want to deal with Node.js or terminal commands, just open the **[`standalone.html`](standalone.html)** file in any web browser! It immediately loads the entire toolkit, featuring:
 - **Consultant Tech-Stack Builder**: A cart system allowing you to combine tools for client proposals.
 - **Budget Automation**: Magical internal scripts that can instantly hot-swap tools in your stack for 100% Free / Open Source alternatives at the click of a button!
 - **Client Cover Notes**: An input field to write a greeting note before seamlessly exporting your entire built stack into cleanly formatted Markdown.
 - **Dynamic NLP Tags**: Filter the 422 tools instantly by clicking intelligently assigned tags like `#seo`, `#gdpr`, or `#automation`.
 
-### 2. The Pure Markdown List (Classic Reading)
+### 2. The Pure Markdown List (classic reading)
 If you just want to scroll through a simple text document on your phone or locally, click on **[`DIRECTORY.md`](DIRECTORY.md)**. It is automatically generated and contains every tool beautifully categorized in standard Markdown format.
 
-### 3. The Developer Way (Full Astro App)
+### 3. The Developer Way (full Astro app)
 This repository serves as a blazing-fast static website built with **Astro**. You can run the entire site locally, modify the layouts, or deploy it to Vercel/Netlify.
 
 ```bash
@@ -33,7 +33,7 @@ npm run dev
 
 ---
 
-## 📈 What's Inside?
+## 📈 What's inside?
 
 Our dataset (`src/data/tools.json`) covers dozens of distinct categories, heavily influenced by the `FMHY` privacy compendium and agency standards:
 - **Technical SEO, Search & Automation**
@@ -45,4 +45,4 @@ We evaluate tools based on their **Learning Curve**, mark **Alternatives To** in
 
 ## 📄 License & Maintenance
 
-Built and maintained by [diShine Digital Agency](https://github.com/diShine-digital-agency). Licensed under the MIT License.
+Built and maintained by Kevin Escoda | [diShine Digital Agency](https://github.com/diShine-digital-agency) & Instilla. Licensed under the MIT License.
