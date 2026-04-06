@@ -8,9 +8,10 @@ A client-ready toolkit for agencies, consultants, and digital teams. Browse the 
 
 | Document | Description |
 |----------|-------------|
-| [GUIDE.md](GUIDE.md) | End-user guide — browsing, stacking, exporting, and contributing tools |
+| [GUIDE.md](GUIDE.md) | End-user guide — browsing, stacking, exporting |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to add tools, field reference, and matching tips |
 | [ALGORITHM.md](ALGORITHM.md) | Technical reference for the matching engine scoring and thresholds |
-| [DIRECTORY.md](DIRECTORY.md) | Static Markdown listing of all 426 tools with metadata |
+| [DIRECTORY.md](DIRECTORY.md) | Static Markdown listing of all 426 tools with metadata and statistics |
 | [changelog.md](changelog.md) | Release notes and version history |
 
 ---
@@ -19,9 +20,12 @@ A client-ready toolkit for agencies, consultants, and digital teams. Browse the 
 
 - **Utility-first matching engine** that prioritizes the same use-case before broader same-category fallbacks
 - **Full stack exports** with the chosen stack, free alternatives, and paid alternatives in every file
+- **Timestamped filenames** on exports (`diShine-tool-stack-YYYY-MM-DD.pdf`) to prevent overwrites
 - **Branded outputs** in **PDF**, **Markdown**, and **TXT** with an in-browser **Preview**
-- **Agency Playbooks** — pre-built tool stacks for common delivery scenarios
+- **9 Agency Playbooks** — pre-built tool stacks for marketing, productivity, video, design, AI, e-commerce, privacy, bootstrap delivery, and content
+- **Subcategory filter** — dropdown to filter by any of the 63 subcategories for faster discovery
 - **Shared runtime logic** across the Astro app, standalone HTML build, and regression tests
+- **Documentation integrity checks** (`npm run lint:docs`) to prevent drift between data and docs
 - **Improved stack UX** with pricing filters, clearer stack state, reset support, and report preview
 
 ---
@@ -43,6 +47,9 @@ npm run build:standalone
 | `npm run build` | Build the Astro app |
 | `npm test` | Run matching and export regression checks |
 | `npm run build:standalone` | Regenerate `standalone.html` |
+| `npm run build:md` | Regenerate `DIRECTORY.md` with statistics |
+| `npm run build:all` | Run standalone build, Markdown build, and tests in sequence |
+| `npm run lint:docs` | Validate documentation references match the actual data |
 | `npm run preview` | Preview the production build |
 
 ---
@@ -58,7 +65,17 @@ npm run build:standalone
 
 ### Agency Playbooks
 
-Pre-built tool stacks for common delivery scenarios are available on the main page. Each playbook includes a curated set of tools that work well together for a specific workflow, such as privacy-focused analytics, bootstrap agency delivery, or SEO-driven content pipelines.
+Pre-built tool stacks for common delivery scenarios are available on the main page. Each playbook includes a curated set of tools that work well together for a specific workflow:
+
+- **The Privacy Tech Stack** — analytics and tracking without cookie banners
+- **The Bootstrap Delivery Stack** — launch an agency site for $0
+- **Modern Content Engine** — SEO optimized content lifecycle
+- **The Marketing Powerhouse** — full-funnel marketing from SEO to email automation
+- **Agency Productivity Suite** — project management, docs, and team communication
+- **Video Production Pipeline** — end-to-end video creation from capture to publish
+- **Design & Brand Identity** — UI design, prototyping, and brand asset creation
+- **AI-Powered Agency** — leverage AI across writing, code, and creative tasks
+- **E-Commerce Launchpad** — build, manage, and grow an online store
 
 ### Export package
 
@@ -71,9 +88,11 @@ Every export includes:
 The report is generated with diShine branding and can be delivered as:
 
 - **Preview** — view the branded HTML report in-browser before downloading
-- **PDF** — branded downloadable report
+- **PDF** — branded downloadable report (`diShine-tool-stack-YYYY-MM-DD.pdf`)
 - **Markdown** — easy to paste into proposals, docs, and Notion
 - **TXT** — clean plain-text handoff
+
+Export filenames include a date stamp to prevent file overwrites when generating multiple reports.
 
 ### Matching rules
 
@@ -97,18 +116,27 @@ For the technical details, see [ALGORITHM.md](ALGORITHM.md).
 ### Data
 
 - `src/data/tools.json` — tool dataset (426 entries)
-- `src/data/stacks.json` — Agency Playbook definitions
+- `src/data/stacks.json` — Agency Playbook definitions (9 playbooks)
 
 ### Build & test
 
 - `build-standalone.js` — standalone HTML generator
-- `build-md.js` — DIRECTORY.md generator
-- `test.js` — regression checks for matching and exports
+- `build-md.js` — DIRECTORY.md generator (with statistics header)
+- `test.js` — regression checks for matching, exports, and alternativeTo validation
+- `lint-docs.js` — documentation integrity checker
 
 ### Generated outputs
 
 - `standalone.html` — generated single-file delivery build
-- `DIRECTORY.md` — generated Markdown tool directory
+- `DIRECTORY.md` — generated Markdown tool directory with statistics
+
+### Documentation
+
+- `README.md` — project overview (this file)
+- `GUIDE.md` — end-user guide for browsing, stacking, and exporting
+- `CONTRIBUTING.md` — contributor guide with field reference and tips
+- `ALGORITHM.md` — matching engine technical reference
+- `changelog.md` — release notes
 
 ### Utilities
 

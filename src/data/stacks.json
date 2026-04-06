@@ -2,29 +2,46 @@
   {
     "name": "The Privacy Tech Stack",
     "description": "Analytics and tracking without cookie banners.",
-    "tools": [
-      "Plausible",
-      "Cookiebot",
-      "Zaraz"
-    ]
+    "tools": ["Plausible", "Cookiebot", "Zaraz"]
   },
   {
     "name": "The Bootstrap Delivery Stack",
     "description": "Launch your agency site for $0.",
-    "tools": [
-      "Astro",
-      "Tailwind CSS",
-      "Vercel",
-      "Supabase"
-    ]
+    "tools": ["Astro", "Tailwind CSS", "Vercel", "Supabase"]
   },
   {
     "name": "Modern Content Engine",
     "description": "SEO optimized content lifecycle.",
-    "tools": [
-      "Ahrefs",
-      "Surfer SEO",
-      "Ghost"
-    ]
+    "tools": ["Ahrefs", "Surfer SEO", "Ghost"]
+  },
+  {
+    "name": "The Marketing Powerhouse",
+    "description": "Full-funnel marketing from SEO to email automation.",
+    "tools": ["Semrush", "Google Analytics 4", "Mailchimp", "ActiveCampaign", "Buffer"]
+  },
+  {
+    "name": "Agency Productivity Suite",
+    "description": "Project management, docs, and team communication.",
+    "tools": ["ClickUp", "Notion", "Slack", "Zapier"]
+  },
+  {
+    "name": "Video Production Pipeline",
+    "description": "End-to-end video creation from capture to publish.",
+    "tools": ["DaVinci Resolve", "Descript", "OBS Studio", "CapCut", "Loom"]
+  },
+  {
+    "name": "Design & Brand Identity",
+    "description": "UI design, prototyping, and brand asset creation.",
+    "tools": ["Figma", "Canva", "Adobe Creative Cloud", "Penpot", "Excalidraw"]
+  },
+  {
+    "name": "AI-Powered Agency",
+    "description": "Leverage AI across writing, code, and creative tasks.",
+    "tools": ["ChatGPT (OpenAI)", "Claude (Anthropic)", "GitHub Copilot", "Cursor", "Midjourney", "Jasper"]
+  },
+  {
+    "name": "E-Commerce Launchpad",
+    "description": "Build, manage, and grow an online store.",
+    "tools": ["Shopify", "Mailchimp", "Hotjar", "Google Analytics 4"]
   }
 ]
