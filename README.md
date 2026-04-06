@@ -2,6 +2,8 @@
 
 **426 digital tools. 4-tier pricing. Intelligent alternative matching (v1.4). One HTML file.**
 
+Tool / Repo in corso di sviluppo.
+
 An interactive toolkit for companies, agencies, consultants, and digital teams. Browse, filter, build tech stacks, and export client-ready reports in Markdown or plain text -- all offline, all in a single HTML file with zero dependencies.
 
 ---
