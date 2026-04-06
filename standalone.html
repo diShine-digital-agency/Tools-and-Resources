@@ -12423,18 +12423,23 @@ function initToolkitApp({ tools = [], stacks = [], brand = BRAND_CONFIG } = {}) 
       const target = event.currentTarget;
       const stackIdx = Number(target.dataset.stack);
       const view = target.dataset.view;
-      if (!playbookState[stackIdx]) return;
+      if (!Number.isFinite(stackIdx) || !playbookState[stackIdx]) return;
 
       playbookState[stackIdx].activeView = view;
+
+      const allActiveClasses = [
+        'active-view',
+        'text-blue-400', 'text-emerald-400', 'text-purple-400',
+        'bg-blue-900/20', 'bg-emerald-900/20', 'bg-purple-900/20',
+        'border-blue-500', 'border-emerald-500', 'border-purple-500',
+      ];
 
       // Update button states for this card
       const card = target.closest('.playbook-card');
       if (card) {
         card.querySelectorAll('.playbook-view-btn').forEach((b) => {
-          b.classList.remove('active-view');
-          b.className = b.className.replace(/text-blue-400|text-emerald-400|text-purple-400/g, 'text-gray-500');
-          b.className = b.className.replace(/bg-blue-900\/20|bg-emerald-900\/20|bg-purple-900\/20/g, '');
-          b.className = b.className.replace(/border-blue-500|border-emerald-500|border-purple-500/g, 'border-transparent');
+          b.classList.remove(...allActiveClasses);
+          b.classList.add('text-gray-500', 'border-transparent');
         });
         const colorMap = {
           advised: { text: 'text-blue-400', bg: 'bg-blue-900/20', border: 'border-blue-500' },
@@ -12442,9 +12447,8 @@ function initToolkitApp({ tools = [], stacks = [], brand = BRAND_CONFIG } = {}) 
           premium: { text: 'text-purple-400', bg: 'bg-purple-900/20', border: 'border-purple-500' },
         };
         const colors = colorMap[view] || colorMap.advised;
-        target.classList.add('active-view');
         target.classList.remove('text-gray-500', 'border-transparent');
-        target.classList.add(colors.text, colors.bg, colors.border);
+        target.classList.add('active-view', colors.text, colors.bg, colors.border);
       }
 
       renderPlaybookTools(stackIdx);
