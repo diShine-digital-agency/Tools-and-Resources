@@ -2,7 +2,7 @@
 
 A practical guide to the **426-tool** diShine digital toolkit.
 
-> See also: [README](README.md) · [ALGORITHM.md](ALGORITHM.md) · [DIRECTORY.md](DIRECTORY.md) · [changelog.md](changelog.md)
+> See also: [README](README.md) · [ALGORITHM.md](ALGORITHM.md) · [DIRECTORY.md](DIRECTORY.md) · [CONTRIBUTING.md](CONTRIBUTING.md) · [changelog.md](changelog.md)
 
 ---
 
@@ -15,11 +15,12 @@ Double-click **`standalone.html`** to open the full toolkit in any browser. No i
 - **Search bar** — type any keyword to filter by name, description, subcategory, or tags.
 - **Tag badges** — click any `#tag` on a tool card to filter the entire directory by that tag. Click again to clear.
 - **Pricing filter bar** — five buttons at the top: **All / Free / Freemium / Open Source / Paid**. Each shows an exact count. Click to filter instantly.
+- **Subcategory dropdown** — a dropdown below the pricing bar lets you filter tools by any of the 63 subcategories.
 - **Accordions** — categories are collapsed by default. Click to open, click again to close. When searching or filtering, matching categories auto-expand.
 
 ### Agency Playbooks
 
-Below the search area, the **Agency Playbooks** section provides quick-start tool stacks for common delivery scenarios such as privacy-focused analytics, zero-cost agency launches, or SEO-driven content pipelines. Each playbook lists the recommended tools at a glance.
+Below the search area, the **Agency Playbooks** section provides quick-start tool stacks for common delivery scenarios such as privacy-focused analytics, zero-cost agency launches, SEO-driven content pipelines, marketing, productivity, video production, design, AI, and e-commerce workflows. Each playbook lists the recommended tools at a glance.
 
 ### Stack Builder
 
@@ -51,9 +52,9 @@ Four export buttons at the bottom of the sidebar:
 | Button | Format | Output |
 |--------|--------|--------|
 | **Preview** (slate) | HTML report in a new browser tab | Review the branded report before downloading |
-| **PDF** (red) | PDF file download | `diShine-tool-stack.pdf` — branded downloadable report |
-| **Markdown** (blue) | Markdown file download | `diShine-tool-stack.md` — paste into proposals, docs, or Notion |
-| **TXT** (gray) | Plain text file download | `diShine-tool-stack.txt` — stripped of all Markdown syntax |
+| **PDF** (red) | PDF file download | `diShine-tool-stack-YYYY-MM-DD.pdf` — branded downloadable report |
+| **Markdown** (blue) | Markdown file download | `diShine-tool-stack-YYYY-MM-DD.md` — paste into proposals, docs, or Notion |
+| **TXT** (gray) | Plain text file download | `diShine-tool-stack-YYYY-MM-DD.txt` — stripped of all Markdown syntax |
 
 All four generate the same consulting report with three sections:
 
@@ -63,11 +64,13 @@ All four generate the same consulting report with three sections:
 
 Add an optional client note in the textarea before exporting. Each row includes a **"Why it fits"** explanation based on the matching signals (shared subcategory, tags, or agency pick status). The `.txt` version strips bold markers, link syntax, and headings for clean pasting into emails or plain-text contexts.
 
+Export filenames include a date stamp (`YYYY-MM-DD`) to prevent overwrites when generating multiple reports.
+
 ---
 
 ## 2. Text-Only Access
 
-Open **[`DIRECTORY.md`](DIRECTORY.md)** for a static Markdown list of all 426 tools with categories, descriptions, pricing, learning curves, and tags.
+Open **[`DIRECTORY.md`](DIRECTORY.md)** for a static Markdown list of all 426 tools with categories, descriptions, pricing, learning curves, tags, and a dataset statistics summary.
 
 ---
 
@@ -95,52 +98,17 @@ Open `http://localhost:4321`.
 | `npm run build` | `dist/` | Build the Astro production site |
 | `npm test` | console | Run matching quality and export regression checks |
 | `npm run build:standalone` | `standalone.html` | Regenerate the interactive single-file toolkit |
-| `node build-md.js` | `DIRECTORY.md` | Regenerate the Markdown directory |
+| `npm run build:md` | `DIRECTORY.md` | Regenerate the Markdown directory with stats |
+| `npm run build:all` | all generated outputs | Run standalone build, Markdown build, and tests in sequence |
+| `npm run lint:docs` | console | Validate documentation references match the actual data |
 
-After modifying `src/data/tools.json`, run both `npm run build:standalone` and `node build-md.js` to keep generated outputs in sync.
+After modifying `src/data/tools.json`, run `npm run build:all` to keep all generated outputs in sync.
 
 ---
 
-## Contributing a Tool
+## Contributing
 
-1. Open `src/data/tools.json`
-2. Add a new object:
-   ```json
-   {
-     "name": "Tool Name",
-     "url": "https://example.com",
-     "category": "Category Name",
-     "subCategory": "SubCategory Name",
-     "type": "[F]",
-     "description": "What it does.",
-     "learningCurve": "Easy",
-     "agencyPick": false,
-     "alternativeTo": "",
-     "isFree": true,
-     "isOpenSource": false,
-     "tags": ["tag1", "tag2"],
-     "pricing": "free"
-   }
-   ```
-3. Run `npm run build:standalone && node build-md.js && npm test`
-4. Commit the updated outputs.
-
-### Pricing field values
-
-| Value | Meaning |
-|-------|---------|
-| `free` | Completely free, no paid plan exists |
-| `freemium` | Free tier available, paid upgrades exist |
-| `open-source` | Source code is public, self-hostable |
-| `paid` | No free tier, subscription or license only |
-
-### Tips for good alternative matching
-
-- Always set `subCategory` — this is the strongest matching signal (+120 points)
-- Add relevant `tags` — each shared tag adds +12 points
-- Set `alternativeTo` for direct competitor pairs — these get matched instantly before scoring
-- Use existing subcategory names when possible to maximize exact-subcategory matching
-- Run `npm test` after adding tools to verify match quality stays above the 78% same-subcategory threshold
+See **[CONTRIBUTING.md](CONTRIBUTING.md)** for instructions on adding tools, field reference, pricing values, and matching tips.
 
 ---
 

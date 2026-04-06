@@ -9,6 +9,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "build:standalone": "node build-standalone.js",
+    "build:md": "node build-md.js",
+    "build:all": "node build-standalone.js && node build-md.js && node test.js",
+    "lint:docs": "node lint-docs.js",
     "preview": "astro preview",
     "test": "node test.js",
     "astro": "astro"

@@ -82,4 +82,24 @@ assert.match(text, /FREE ALTERNATIVES/);
 assert.match(text, /PAID ALTERNATIVES/);
 
 console.log('Export checks passed.');
+
+// alternativeTo bidirectional validation
+const altTools = tools.filter((tool) => tool.alternativeTo);
+const orphaned = [];
+for (const tool of altTools) {
+  const targets = tool.alternativeTo.split('/').map((s) => s.trim());
+  for (const targetName of targets) {
+    const target = tools.find((t) => t.name === targetName);
+    if (!target) continue; // target not in dataset — skip external references
+    if (!target.alternativeTo || !target.alternativeTo.includes(tool.name)) {
+      orphaned.push(`${tool.name} → ${targetName} (reverse: ${target.alternativeTo || '(empty)'})`);
+    }
+  }
+}
+if (orphaned.length > 0) {
+  console.log(`⚠ ${orphaned.length} one-directional alternativeTo pair(s) found (non-blocking):`);
+  orphaned.forEach((pair) => console.log(`  • ${pair}`));
+}
+console.log(`alternativeTo validation: ${altTools.length} tools checked, ${orphaned.length} orphaned.`);
+
 console.log('All regression checks passed.');

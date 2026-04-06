@@ -75,6 +75,7 @@ export function initToolkitApp({ tools = [], brand = BRAND_CONFIG } = {}) {
   const exportButtons = Array.from(document.querySelectorAll('.export-btn'));
   const filterButtons = Array.from(document.querySelectorAll('.pricing-filter'));
   const addButtons = Array.from(document.querySelectorAll('.add-to-stack'));
+  const subcategoryFilter = document.getElementById('subcategoryFilter');
 
   const state = {
     myStack: [],
@@ -82,6 +83,7 @@ export function initToolkitApp({ tools = [], brand = BRAND_CONFIG } = {}) {
     activeView: 'original',
     currentTagFilter: '',
     activePricingFilter: 'all',
+    activeSubcategoryFilter: '',
   };
 
   function resetAlternativeContext() {
@@ -245,24 +247,29 @@ export function initToolkitApp({ tools = [], brand = BRAND_CONFIG } = {}) {
     });
   }
 
+  function exportFileName(extension) {
+    const date = new Date().toISOString().slice(0, 10);
+    return `${brand.exportBaseName}-${date}.${extension}`;
+  }
+
   function handlePdfExport(button) {
     if (state.myStack.length === 0) return;
     const bytes = buildPdfBytes(buildExportModel());
-    downloadBytes(bytes, `${brand.exportBaseName}.pdf`, 'application/pdf');
+    downloadBytes(bytes, exportFileName('pdf'), 'application/pdf');
     flashButton(button, 'bg-rose-600');
   }
 
   function handleMarkdownExport(button) {
     if (state.myStack.length === 0) return;
     const markdown = buildMarkdownReport(buildExportModel());
-    downloadText(markdown, `${brand.exportBaseName}.md`, 'text/markdown');
+    downloadText(markdown, exportFileName('md'), 'text/markdown');
     flashButton(button, 'bg-blue-600');
   }
 
   function handleTextExport(button) {
     if (state.myStack.length === 0) return;
     const text = buildTextReport(buildExportModel());
-    downloadText(text, `${brand.exportBaseName}.txt`, 'text/plain');
+    downloadText(text, exportFileName('txt'), 'text/plain');
     flashButton(button, 'bg-gray-600');
   }
 
@@ -299,8 +306,9 @@ export function initToolkitApp({ tools = [], brand = BRAND_CONFIG } = {}) {
           card.dataset.subcategory,
         ].some((value) => (value || '').includes(term));
         const matchPricing = state.activePricingFilter === 'all' || card.dataset.pricing === state.activePricingFilter;
+        const matchSubcategory = !state.activeSubcategoryFilter || card.dataset.subcategory === state.activeSubcategoryFilter;
 
-        if (matchText && matchPricing) {
+        if (matchText && matchPricing && matchSubcategory) {
           card.style.display = 'flex';
           sectionHasMatch = true;
         } else {
@@ -308,7 +316,7 @@ export function initToolkitApp({ tools = [], brand = BRAND_CONFIG } = {}) {
         }
       });
 
-      if (term || state.activePricingFilter !== 'all') {
+      if (term || state.activePricingFilter !== 'all' || state.activeSubcategoryFilter) {
         section.open = sectionHasMatch;
       }
       section.style.display = sectionHasMatch ? 'block' : 'none';
@@ -368,6 +376,11 @@ export function initToolkitApp({ tools = [], brand = BRAND_CONFIG } = {}) {
       window.scrollTo({ top: 0, behavior: 'smooth' });
       filterTools();
     });
+  });
+
+  subcategoryFilter?.addEventListener('change', () => {
+    state.activeSubcategoryFilter = subcategoryFilter.value || '';
+    filterTools();
   });
 
   renderStack();

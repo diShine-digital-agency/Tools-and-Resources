@@ -4,6 +4,7 @@ import { BRAND_CONFIG, getPricingMeta, normalizeTools } from './src/lib/toolkit-
 
 const tools = normalizeTools(JSON.parse(fs.readFileSync('src/data/tools.json', 'utf-8')));
 const categories = [...new Set(tools.map((tool) => tool.category))];
+const subCategories = [...new Set(tools.map((tool) => tool.sub).filter(Boolean))].sort();
 const pricingCounts = tools.reduce((counts, tool) => {
   counts[tool.pricing] = (counts[tool.pricing] || 0) + 1;
   return counts;
@@ -110,6 +111,12 @@ const html = `<!DOCTYPE html>
               <button class="pricing-filter text-[11px] font-bold px-4 py-2.5 rounded-lg border transition-colors whitespace-nowrap bg-[#0f1115] text-amber-400 border-amber-800/50 hover:bg-amber-900/30" data-pricing="freemium">Freemium (${pricingCounts.freemium})</button>
               <button class="pricing-filter text-[11px] font-bold px-4 py-2.5 rounded-lg border transition-colors whitespace-nowrap bg-[#0f1115] text-teal-400 border-teal-800/50 hover:bg-teal-900/30" data-pricing="open-source">Open Source (${pricingCounts['open-source']})</button>
               <button class="pricing-filter text-[11px] font-bold px-4 py-2.5 rounded-lg border transition-colors whitespace-nowrap bg-[#0f1115] text-rose-400 border-rose-800/50 hover:bg-rose-900/30" data-pricing="paid">Paid (${pricingCounts.paid})</button>
+            </div>
+            <div class="flex items-center gap-3">
+              <select id="subcategoryFilter" class="w-full text-xs font-medium bg-[#0f1115] text-gray-300 border border-gray-700/80 rounded-lg px-3 py-2.5 focus:ring-2 focus:ring-blue-500 outline-none transition-all">
+                <option value="">All subcategories (${subCategories.length})</option>
+                ${subCategories.map((sub) => `<option value="${escAttr(sub.toLowerCase())}">${escAttr(sub)}</option>`).join('\n                ')}
+              </select>
             </div>
           </div>
 

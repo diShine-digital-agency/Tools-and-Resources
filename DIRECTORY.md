@@ -2,6 +2,22 @@
 
 This is a statically generated list of all tools available in the diShine toolkit, designed for pure markdown reading.
 
+## 📊 Dataset Statistics
+
+| Metric | Value |
+|--------|-------|
+| **Total tools** | 426 |
+| **Categories** | 21 |
+| **Subcategories** | 63 |
+| **Agency picks** | 11 |
+| **alternativeTo pairs** | 46 |
+| **Free** | 89 |
+| **Freemium** | 92 |
+| **Open Source** | 106 |
+| **Paid** | 139 |
+
+---
+
 ## Table of Contents
 1. [SEO & Search](#seo-search)
 2. [Web Analytics & Tag Management](#web-analytics-tag-management)
