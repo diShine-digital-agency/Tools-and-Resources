@@ -24,7 +24,6 @@ This is a statically generated list of all tools available in the diShine toolki
 19. [Video & Audio](#video-audio)
 20. [Learning & Certifications](#learning-certifications)
 21. [Privacy & Security Analytics](#privacy-security-analytics)
-22. [Email Marketing & CRM](#email-marketing-crm)
 
 ---
 
@@ -108,18 +107,18 @@ This is a statically generated list of all tools available in the diShine toolki
 
 | Tool | Philosophy | Curve | Description & Metadata |
 |------|------------|-------|------------------------|
-| **[PageSpeed Insights](https://pagespeed.web.dev)** | Free/Freemium | Medium | Google's official performance test |
+| **[PageSpeed Insights](https://pagespeed.web.dev)** | Free/Freemium | Medium | Google's official performance test<br>*Tags: #SEO, #Performance* |
 | **[Lighthouse](https://developer.chrome.com/docs/lighthouse/)** | Free/Freemium<br>OSS | Medium | Comprehensive performance audit (built into Chrome)<br>*Tags: #Design* |
-| **[WebPageTest](https://webpagetest.org)** | Free/Freemium | Medium | Deep performance testing from multiple locations |
-| **[GTmetrix](https://gtmetrix.com)** | Free/Freemium | Medium | Performance reports with waterfall charts |
-| **[Calibre](https://calibreapp.com)** | Paid | Medium | Continuous performance monitoring |
-| **[SpeedCurve](https://speedcurve.com)** | Paid | Medium | Performance monitoring with RUM data |
-| **[DebugBear](https://www.debugbear.com)** | Paid | Medium | Core Web Vitals monitoring |
-| **[CrUX Dashboard](https://developer.chrome.com/docs/crux/)** | Free/Freemium | Medium | Real user data from Chrome users |
-| **[Treo](https://treo.sh)** | Free/Freemium | Medium | CrUX data visualized beautifully |
-| **[Unlighthouse](https://unlighthouse.dev)** | Free/Freemium<br>OSS | Medium | Scan entire site with Lighthouse in one command |
-| **[Squoosh](https://squoosh.app)** | Free/Freemium | Medium | Image compression and format conversion |
-| **[SVGOMG](https://jakearchibald.github.io/svgomg/)** | Free/Freemium | Medium | SVG optimization |
+| **[WebPageTest](https://webpagetest.org)** | Free/Freemium | Medium | Deep performance testing from multiple locations<br>*Tags: #Performance, #DevTools* |
+| **[GTmetrix](https://gtmetrix.com)** | Free/Freemium | Medium | Performance reports with waterfall charts<br>*Tags: #Performance, #SEO* |
+| **[Calibre](https://calibreapp.com)** | Paid | Medium | Continuous performance monitoring<br>*Tags: #Performance, #Monitoring* |
+| **[SpeedCurve](https://speedcurve.com)** | Paid | Medium | Performance monitoring with RUM data<br>*Tags: #Performance, #Analytics* |
+| **[DebugBear](https://www.debugbear.com)** | Paid | Medium | Core Web Vitals monitoring<br>*Tags: #Performance, #Monitoring* |
+| **[CrUX Dashboard](https://developer.chrome.com/docs/crux/)** | Free/Freemium | Medium | Real user data from Chrome users<br>*Tags: #Performance, #Analytics* |
+| **[Treo](https://treo.sh)** | Free/Freemium | Medium | CrUX data visualized beautifully<br>*Tags: #Performance, #Analytics* |
+| **[Unlighthouse](https://unlighthouse.dev)** | Free/Freemium<br>OSS | Medium | Scan entire site with Lighthouse in one command<br>*Tags: #Performance, #SEO, #OSS* |
+| **[Squoosh](https://squoosh.app)** | Free/Freemium | Medium | Image compression and format conversion<br>*Tags: #Performance, #Design* |
+| **[SVGOMG](https://jakearchibald.github.io/svgomg/)** | Free/Freemium | Medium | SVG optimization<br>*Tags: #Performance, #Design, #OSS* |
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -129,22 +128,22 @@ This is a statically generated list of all tools available in the diShine toolki
 
 | Tool | Philosophy | Curve | Description & Metadata |
 |------|------------|-------|------------------------|
-| **[Grammarly](https://grammarly.com)** | Free/Freemium | Medium | Grammar, style, and tone checking |
-| **[Hemingway Editor](https://hemingwayapp.com)** | Free/Freemium | Medium | Readability improvement |
-| **[ProWritingAid](https://prowritingaid.com)** | Paid | Medium | Detailed writing analysis and reports |
-| **[Readable](https://readable.com)** | Paid | Medium | Content readability scoring |
+| **[Grammarly](https://grammarly.com)** | Free/Freemium | Medium | Grammar, style, and tone checking<br>*Tags: #AI, #Writing* |
+| **[Hemingway Editor](https://hemingwayapp.com)** | Free/Freemium | Medium | Readability improvement<br>*Tags: #Writing, #Productivity* |
+| **[ProWritingAid](https://prowritingaid.com)** | Paid | Medium | Detailed writing analysis and reports<br>*Tags: #AI, #Writing* |
+| **[Readable](https://readable.com)** | Paid | Medium | Content readability scoring<br>*Tags: #Writing, #SEO* |
 | **[Ludwig.guru](https://ludwig.guru)** | Free/Freemium | Medium | Sentence search engine for natural phrasing<br>*Tags: #SEO* |
-| **[Wordtune](https://wordtune.com)** | Free/Freemium | Medium | Sentence rewriting and alternative suggestions |
+| **[Wordtune](https://wordtune.com)** | Free/Freemium | Medium | Sentence rewriting and alternative suggestions<br>*Tags: #AI, #Writing* |
 | **[Surfer SEO](https://surferseo.com)** | Paid | Medium | Content optimization based on SERP analysis<br>*Tags: #SEO* |
 | **[Clearscope](https://clearscope.io)** | Paid | Medium | Content optimization for search intent<br>*Tags: #SEO* |
 | **[Frase](https://frase.io)** | Paid | Medium | Research + write + optimize workflow<br>*Tags: #SEO* |
-| **[MarketMuse](https://marketmuse.com)** | Paid | Medium | Content strategy and planning |
-| **[NeuronWriter](https://neuronwriter.com)** | Paid | Medium | Affordable Surfer alternative, strong NLP analysis |
-| **[Dashword](https://dashword.com)** | Paid | Easy | Simple content optimization, no bloat |
-| **[BuzzSumo](https://buzzsumo.com)** | Paid | Medium | Find top-performing content in any niche |
+| **[MarketMuse](https://marketmuse.com)** | Paid | Medium | Content strategy and planning<br>*Tags: #AI, #SEO* |
+| **[NeuronWriter](https://neuronwriter.com)** | Paid | Medium | Affordable Surfer alternative, strong NLP analysis<br>*Tags: #SEO, #AI* |
+| **[Dashword](https://dashword.com)** | Paid | Easy | Simple content optimization, no bloat<br>*Tags: #SEO, #Writing* |
+| **[BuzzSumo](https://buzzsumo.com)** | Paid | Medium | Find top-performing content in any niche<br>*Tags: #Marketing, #Analytics* |
 | **[SparkToro](https://sparktoro.com)** | Free/Freemium | Medium | Audience research (where they hang out, what they read)<br>*Tags: #SEO* |
-| **[Feedly](https://feedly.com)** | Free/Freemium | Medium | RSS feeds + AI-powered content discovery |
-| **[Pocket](https://getpocket.com)** | Free/Freemium | Medium | Save and organize content for later |
+| **[Feedly](https://feedly.com)** | Free/Freemium | Medium | RSS feeds + AI-powered content discovery<br>*Tags: #Marketing, #Automation* |
+| **[Pocket](https://getpocket.com)** | Free/Freemium | Medium | Save and organize content for later<br>*Tags: #Productivity, #Marketing* |
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -177,16 +176,11 @@ This is a statically generated list of all tools available in the diShine toolki
 | **[Mockup World](https://www.mockupworld.co)** | Free/Freemium | Medium | Free PSD mockups for presentations<br>*Tags: #Design* |
 | **[Shots.so](https://shots.so)** | Free/Freemium | Medium | Beautiful mockups for screenshots<br>*Tags: #Design* |
 | **[Remove.bg](https://remove.bg)** | Free/Freemium | Medium | Background removal from images<br>*Tags: #Design* |
-| **[Penpot](https://penpot.app/)** | Free/Freemium<br>OSS | Medium | Open-source design and prototyping platform.<br>**Alt to:** Figma<br>*Tags: #Design, #UI* |
 | **[Draw.io](https://draw.io/)** | Free/Freemium<br>OSS | Easy | Free online diagram software.<br>**Alt to:** Lucidchart<br>*Tags: #Design, #Diagrams* |
-| **[Adobe Premiere Pro](https://www.adobe.com/)** | Paid | Steep | Industry standard video editing software.<br>*Tags: #Video, #Editing, #Creative* |
-| **[Kdenlive](https://kdenlive.org/)** | Free/Freemium<br>OSS | Medium | Open source video editor.<br>**Alt to:** Adobe Premiere Pro<br>*Tags: #Video, #Editing* |
 | **[Adobe Illustrator](https://adobe.com/)** | Paid | Steep | Industry standard vector graphics software.<br>*Tags: #Design, #Vector, #Creative* |
-| **[Inkscape](https://inkscape.org/)** | Free/Freemium<br>OSS | Medium | Professional quality vector graphics software.<br>**Alt to:** Adobe Illustrator<br>*Tags: #Design, #Vector, #Open-Source* |
+| **[Inkscape](https://inkscape.org/)** | Free/Freemium<br>OSS | Medium | Professional quality vector graphics software.<br>**Alt to:** Adobe Illustrator<br>*Tags: #Design, #Vector, #OSS* |
 | **[Adobe Photoshop](https://adobe.com/)** | Paid | Steep | Standard for image editing and digital art.<br>*Tags: #Design, #Image Editing, #Creative* |
 | **[Krita](https://krita.org/)** | Free/Freemium<br>OSS | Medium | Professional free and open source painting program.<br>**Alt to:** Adobe Photoshop<br>*Tags: #Design, #Image Editing, #Painting* |
-| **[Adobe Audition](https://adobe.com/)** | Paid | Steep | Professional audio workstation for mixing and editing.<br>*Tags: #Audio, #Editing, #Creative* |
-| **[Tenacity](https://tenacityaudio.org/)** | Free/Freemium<br>OSS | Medium | Privacy-focused fork of Audacity.<br>**Alt to:** Adobe Audition<br>*Tags: #Audio, #Editing, #Privacy* |
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -198,16 +192,16 @@ This is a statically generated list of all tools available in the diShine toolki
 |------|------------|-------|------------------------|
 | **[Buffer](https://buffer.com)** | Free/Freemium | Easy | Simple social scheduling and analytics<br>*Tags: #Analytics* |
 | **[Hootsuite](https://hootsuite.com)** | Paid | Steep | Enterprise social management<br>*Tags: #Design* |
-| **[Later](https://later.com)** | Free/Freemium | Medium | Visual content calendar (strong on Instagram) |
-| **[Sprout Social](https://sproutsocial.com)** | Paid | Medium | Social management + customer care |
+| **[Later](https://later.com)** | Free/Freemium | Medium | Visual content calendar (strong on Instagram)<br>*Tags: #Marketing, #Automation* |
+| **[Sprout Social](https://sproutsocial.com)** | Paid | Medium | Social management + customer care<br>*Tags: #Marketing, #Analytics* |
 | **[Publer](https://publer.io)** | Free/Freemium | Medium | Affordable scheduling with AI features<br>*Tags: #AI* |
-| **[Typefully](https://typefully.com)** | Free/Freemium | Medium | Twitter/X thread writing and scheduling |
-| **[Taplio](https://taplio.com)** | Paid | Medium | LinkedIn-focused content + scheduling |
+| **[Typefully](https://typefully.com)** | Free/Freemium | Medium | Twitter/X thread writing and scheduling<br>*Tags: #Marketing, #Writing* |
+| **[Taplio](https://taplio.com)** | Paid | Medium | LinkedIn-focused content + scheduling<br>*Tags: #Marketing, #LinkedIn* |
 | **[Brand24](https://brand24.com)** | Paid | Medium | Social listening and mention tracking<br>*Tags: #Analytics* |
-| **[Mention](https://mention.com)** | Paid | Medium | Real-time media monitoring |
-| **[Google Alerts](https://google.com/alerts)** | Free/Freemium | Medium | Free brand mention monitoring |
+| **[Mention](https://mention.com)** | Paid | Medium | Real-time media monitoring<br>*Tags: #Marketing, #Analytics* |
+| **[Google Alerts](https://google.com/alerts)** | Free/Freemium | Medium | Free brand mention monitoring<br>*Tags: #Marketing, #SEO* |
 | **[Social Searcher](https://social-searcher.com)** | Free/Freemium | Medium | Free social media search engine<br>*Tags: #SEO* |
-| **[F5bot](https://f5bot.com)** | Free/Freemium | Medium | Free Reddit/HN keyword alerts |
+| **[F5bot](https://f5bot.com)** | Free/Freemium | Medium | Free Reddit/HN keyword alerts<br>*Tags: #Marketing, #Automation* |
 | **[LinkedIn Sales Navigator](https://business.linkedin.com/sales-solutions)** | Paid | Steep | Advanced lead search and InMail<br>*Tags: #SEO, #CRM* |
 | **[Shield Analytics](https://shieldapp.ai)** | Paid | Medium | LinkedIn personal profile analytics<br>*Tags: #Analytics* |
 | **[AuthoredUp](https://authoredup.com)** | Paid | Medium | LinkedIn post formatting and analytics<br>*Tags: #Analytics* |
@@ -235,6 +229,9 @@ This is a statically generated list of all tools available in the diShine toolki
 | **[Email on Acid](https://emailonacid.com)** | Paid | Medium | Email QA and testing<br>*Tags: #Marketing, #Automation* |
 | **[Really Good Emails](https://reallygoodemails.com)** | Free/Freemium | Medium | Email design inspiration<br>*Tags: #Marketing, #Design, #Automation* |
 | **[Mail Tester](https://mail-tester.com)** | Free/Freemium | Medium | Check email deliverability score<br>*Tags: #Marketing, #Automation* |
+| **[Superhuman](https://superhuman.com/)** | Paid | Medium | The fastest email experience made for professionals.<br>*Tags: #Email, #Productivity* |
+| **[Thunderbird](https://www.thunderbird.net/)** | Free/Freemium<br>OSS | Medium | Free, open-source email client backed by Mozilla.<br>**Alt to:** Superhuman<br>*Tags: #Email, #Client, #OSS* |
+| **[Mailspring](https://getmailspring.com/)** | Free/Freemium<br>OSS | Easy | Beautiful, fast email client.<br>**Alt to:** Superhuman<br>*Tags: #Email, #Client* |
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -252,6 +249,7 @@ This is a statically generated list of all tools available in the diShine toolki
 | **[Folk](https://folk.app)** | Free/Freemium | Medium | Lightweight CRM for agencies and consultants<br>*Tags: #CRM* |
 | **[Twenty](https://twenty.com)** | Free/Freemium<br>OSS | Medium | Open-source Salesforce alternative<br>*Tags: #OSS, #CRM* |
 | **[Streak](https://streak.com)** | Free/Freemium | Medium | CRM inside Gmail<br>*Tags: #CRM* |
+| **[Odoo](https://www.odoo.com/)** | Free/Freemium<br>OSS | Steep | Open Source ERP and CRM.<br>**Alt to:** HubSpot CRM<br>*Tags: #CRM, #ERP, #Business* |
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -262,20 +260,20 @@ This is a statically generated list of all tools available in the diShine toolki
 | Tool | Philosophy | Curve | Description & Metadata |
 |------|------------|-------|------------------------|
 | **[Google Ads](https://ads.google.com)** | Paid | Medium | Search, Display, YouTube, Shopping ads<br>*Tags: #SEO* |
-| **[Meta Ads Manager](https://business.facebook.com/adsmanager)** | Paid | Medium | Facebook + Instagram advertising |
-| **[LinkedIn Campaign Manager](https://business.linkedin.com/marketing-solutions/ads)** | Paid | Medium | B2B advertising |
-| **[TikTok Ads](https://ads.tiktok.com)** | Paid | Medium | Short-form video advertising |
-| **[Microsoft Advertising](https://ads.microsoft.com)** | Paid | Medium | Bing + partner network ads |
-| **[Reddit Ads](https://ads.reddit.com)** | Paid | Medium | Community-based advertising |
+| **[Meta Ads Manager](https://business.facebook.com/adsmanager)** | Paid | Medium | Facebook + Instagram advertising<br>*Tags: #Marketing, #Advertising* |
+| **[LinkedIn Campaign Manager](https://business.linkedin.com/marketing-solutions/ads)** | Paid | Medium | B2B advertising<br>*Tags: #Marketing, #Advertising* |
+| **[TikTok Ads](https://ads.tiktok.com)** | Paid | Medium | Short-form video advertising<br>*Tags: #Marketing, #Advertising* |
+| **[Microsoft Advertising](https://ads.microsoft.com)** | Paid | Medium | Bing + partner network ads<br>*Tags: #Marketing, #Advertising* |
+| **[Reddit Ads](https://ads.reddit.com)** | Paid | Medium | Community-based advertising<br>*Tags: #Marketing, #Advertising* |
 | **[Optmyzr](https://optmyzr.com)** | Paid | Medium | Google Ads optimization and automation<br>*Tags: #Automation* |
 | **[Madgicx](https://madgicx.com)** | Paid | Medium | Meta Ads AI optimization<br>*Tags: #AI* |
-| **[Supermetrics](https://supermetrics.com)** | Paid | Medium | Pull ad data into spreadsheets/dashboards |
+| **[Supermetrics](https://supermetrics.com)** | Paid | Medium | Pull ad data into spreadsheets/dashboards<br>*Tags: #Analytics, #Automation* |
 | **[Whatagraph](https://whatagraph.com)** | Paid | Medium | Marketing reporting across channels<br>*Tags: #Marketing* |
 | **[Revealbot](https://revealbot.com)** | Paid | Medium | Ad automation rules for Meta and Google<br>*Tags: #Automation* |
 | **[AdCreative.ai](https://adcreative.ai)** | Paid | Medium | AI ad creative generation<br>*Tags: #AI* |
 | **[Unbounce](https://unbounce.com)** | Paid | Medium | Landing page builder with A/B testing<br>*Tags: #Design* |
-| **[Instapage](https://instapage.com)** | Paid | Steep | Enterprise landing pages |
-| **[Carrd](https://carrd.co)** | Free/Freemium | Easy | Simple one-page sites ($19/year for pro) |
+| **[Instapage](https://instapage.com)** | Paid | Steep | Enterprise landing pages<br>*Tags: #Marketing, #Design* |
+| **[Carrd](https://carrd.co)** | Free/Freemium | Easy | Simple one-page sites ($19/year for pro)<br>*Tags: #Design, #Marketing* |
 | **[Typedream](https://typedream.com)** | Free/Freemium | Medium | Beautiful Notion-like website/landing builder<br>*Tags: #Design* |
 
 [⬆ Back to Top](#table-of-contents)
@@ -300,7 +298,6 @@ This is a statically generated list of all tools available in the diShine toolki
 | **[Jasper](https://jasper.ai)** | Paid | Medium | AI marketing content generation<br>*Tags: #AI, #Marketing* |
 | **[Copy.ai](https://copy.ai)** | Free/Freemium | Medium | AI copywriting and workflows<br>*Tags: #AI* |
 | **[Writer](https://writer.com)** | Paid | Steep | Enterprise AI writing with brand guardrails<br>*Tags: #AI* |
-| **[Descript](https://descript.com)** | Free/Freemium | Medium | AI video/audio editing<br>*Tags: #AI* |
 | **[ElevenLabs](https://elevenlabs.io)** | Free/Freemium | Medium | AI voice generation and cloning<br>*Tags: #AI* |
 | **[Midjourney](https://midjourney.com)** | Paid | Medium | AI image generation<br>*Tags: #AI* |
 | **[DALL-E (OpenAI)](https://openai.com/dall-e)** | Paid | Medium | AI image generation<br>*Tags: #AI* |
@@ -334,15 +331,9 @@ This is a statically generated list of all tools available in the diShine toolki
 | **[Temporal](https://temporal.io)** | Free/Freemium<br>OSS | Medium | Durable workflow orchestration<br>*Tags: #Automation* |
 | **[LocalSend](https://localsend.org/)** | Free/Freemium<br>OSS | Easy | Share files to nearby devices. Free, open source, cross-platform.<br>**Alt to:** AirDrop<br>*Tags: #Utility, #Transfer* |
 | **[Syncthing](https://syncthing.net/)** | Free/Freemium<br>OSS | Medium | Continuous file synchronization program.<br>**Alt to:** Dropbox / Google Drive<br>*Tags: #Storage, #Sync, #Self-Hosted* |
-| **[Jira](https://www.atlassian.com/software/jira)** | Paid | Steep | Enterprise agile project management.<br>*Tags: #Project Management, #Agile, #Enterprise* |
-| **[OpenProject](https://www.openproject.org/)** | Free/Freemium<br>OSS | Medium | Open source project management software.<br>**Alt to:** Jira<br>*Tags: #Project Management, #Open-Source* |
-| **[Focalboard](https://www.focalboard.com/)** | Free/Freemium<br>OSS | Easy | Open source alternative to Trello, Notion, and Asana.<br>**Alt to:** Asana<br>*Tags: #Project Management, #Kanban* |
-| **[Mattermost](https://mattermost.com/)** | Free/Freemium<br>OSS | Medium | Open-source, self-hostable Slack alternative.<br>**Alt to:** Slack<br>*Tags: #Chat, #Communication, #Self-Hosted* |
 | **[Microsoft 365](https://www.office.com/)** | Paid | Medium | Standard enterprise productivity suite.<br>*Tags: #Office, #Productivity, #Enterprise* |
-| **[LibreOffice](https://www.libreoffice.org/)** | Free/Freemium<br>OSS | Medium | Free and powerful office suite.<br>**Alt to:** Microsoft 365<br>*Tags: #Office, #Productivity, #Open-Source* |
+| **[LibreOffice](https://www.libreoffice.org/)** | Free/Freemium<br>OSS | Medium | Free and powerful office suite.<br>**Alt to:** Microsoft 365<br>*Tags: #Office, #Productivity, #OSS* |
 | **[OnlyOffice](https://www.onlyoffice.com/)** | Free/Freemium<br>OSS | Medium | Secure online office apps highly compatible with MS formats.<br>**Alt to:** Microsoft 365<br>*Tags: #Office, #Collaboration* |
-| **[Obsidian](https://obsidian.md/)** | Free/Freemium | Steep | Private and flexible writing app that adapts to the way you think.<br>**Alt to:** Notion<br>*Tags: #Notes, #Markdown, #Local* |
-| **[AppFlowy](https://www.appflowy.io/)** | Free/Freemium<br>OSS | Medium | Open Source Alternative to Notion.<br>**Alt to:** Notion<br>*Tags: #Notes, #Wiki, #Open-Source* |
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -352,42 +343,45 @@ This is a statically generated list of all tools available in the diShine toolki
 
 | Tool | Philosophy | Curve | Description & Metadata |
 |------|------------|-------|------------------------|
-| **[Next.js](https://nextjs.org)** | Free/Freemium<br>OSS | Medium | React full-stack framework |
-| **[Nuxt](https://nuxt.com)** | Free/Freemium<br>OSS | Medium | Vue.js full-stack framework |
+| **[Next.js](https://nextjs.org)** | Free/Freemium<br>OSS | Medium | React full-stack framework<br>*Tags: #DevTools, #React, #Framework* |
+| **[Nuxt](https://nuxt.com)** | Free/Freemium<br>OSS | Medium | Vue.js full-stack framework<br>*Tags: #DevTools, #Vue, #Framework* |
 | **[Astro](https://astro.build)** | Free/Freemium<br>OSS | Medium | 👑 **diShine Pick**<br>Content-focused static site builder<br>*Tags: #Design* |
-| **[SvelteKit](https://kit.svelte.dev)** | Free/Freemium<br>OSS | Medium | Svelte full-stack framework |
-| **[WordPress](https://wordpress.org)** | Free/Freemium<br>OSS | Medium | World's most popular CMS |
-| **[Ghost](https://ghost.org)** | Free/Freemium<br>OSS | Medium | Modern publishing platform |
+| **[SvelteKit](https://kit.svelte.dev)** | Free/Freemium<br>OSS | Medium | Svelte full-stack framework<br>*Tags: #DevTools, #Svelte, #Framework* |
+| **[WordPress](https://wordpress.org)** | Free/Freemium<br>OSS | Medium | World's most popular CMS<br>*Tags: #CMS, #SEO, #OSS* |
+| **[Ghost](https://ghost.org)** | Free/Freemium<br>OSS | Medium | Modern publishing platform<br>*Tags: #CMS, #Publishing, #OSS* |
 | **[Strapi](https://strapi.io)** | Free/Freemium<br>OSS | Medium | Headless CMS<br>*Tags: #DevTools* |
-| **[Payload](https://payloadcms.com)** | Free/Freemium<br>OSS | Medium | TypeScript headless CMS (excellent DX) |
-| **[Directus](https://directus.io)** | Free/Freemium<br>OSS | Medium | Headless CMS wrapping any SQL database |
-| **[Docusaurus](https://docusaurus.io)** | Free/Freemium<br>OSS | Medium | Documentation websites |
-| **[Tailwind CSS](https://tailwindcss.com)** | Free/Freemium<br>OSS | Medium | Utility-first CSS framework |
+| **[Payload](https://payloadcms.com)** | Free/Freemium<br>OSS | Medium | TypeScript headless CMS (excellent DX)<br>*Tags: #CMS, #DevTools, #OSS* |
+| **[Directus](https://directus.io)** | Free/Freemium<br>OSS | Medium | Headless CMS wrapping any SQL database<br>*Tags: #CMS, #DevTools, #OSS* |
+| **[Docusaurus](https://docusaurus.io)** | Free/Freemium<br>OSS | Medium | Documentation websites<br>*Tags: #Documentation, #DevTools, #OSS* |
+| **[Tailwind CSS](https://tailwindcss.com)** | Free/Freemium<br>OSS | Medium | Utility-first CSS framework<br>*Tags: #DevTools, #CSS, #Design* |
 | **[shadcn/ui](https://ui.shadcn.com)** | Free/Freemium<br>OSS | Medium | Beautiful React components (copy-paste, not npm)<br>*Tags: #Design* |
 | **[DaisyUI](https://daisyui.com)** | Free/Freemium<br>OSS | Medium | Tailwind CSS component library<br>*Tags: #Design* |
 | **[Storybook](https://storybook.js.org)** | Free/Freemium<br>OSS | Medium | UI component development environment<br>*Tags: #Design* |
 | **[Vite](https://vitejs.dev)** | Free/Freemium<br>OSS | Medium | Fast frontend build tool<br>*Tags: #Design* |
-| **[Partytown](https://partytown.builder.io)** | Free/Freemium<br>OSS | Medium | Move third-party scripts to web workers |
-| **[Playwright](https://playwright.dev)** | Free/Freemium<br>OSS | Medium | Cross-browser E2E testing |
-| **[Cypress](https://cypress.io)** | Free/Freemium<br>OSS | Medium | Frontend E2E testing |
-| **[Vitest](https://vitest.dev)** | Free/Freemium<br>OSS | Medium | Vite-native unit testing |
+| **[Partytown](https://partytown.builder.io)** | Free/Freemium<br>OSS | Medium | Move third-party scripts to web workers<br>*Tags: #DevTools, #Performance* |
+| **[Playwright](https://playwright.dev)** | Free/Freemium<br>OSS | Medium | Cross-browser E2E testing<br>*Tags: #DevTools, #Testing, #Automation* |
+| **[Cypress](https://cypress.io)** | Free/Freemium<br>OSS | Medium | Frontend E2E testing<br>*Tags: #DevTools, #Testing* |
+| **[Vitest](https://vitest.dev)** | Free/Freemium<br>OSS | Medium | Vite-native unit testing<br>*Tags: #DevTools, #Testing* |
 | **[Sentry](https://sentry.io)** | Free/Freemium | Medium | Error tracking and performance monitoring<br>*Tags: #Analytics* |
-| **[Better Stack](https://betterstack.com)** | Free/Freemium | Medium | Uptime monitoring + incident management |
+| **[Better Stack](https://betterstack.com)** | Free/Freemium | Medium | Uptime monitoring + incident management<br>*Tags: #DevTools, #Monitoring* |
 | **[Checkly](https://checklyhq.com)** | Free/Freemium | Medium | API and browser monitoring as code<br>*Tags: #DevTools* |
 | **[OpenStatus](https://openstatus.dev)** | Free/Freemium<br>OSS | Medium | Open-source status page and monitoring<br>*Tags: #OSS* |
 | **[Supabase](https://supabase.com)** | Free/Freemium<br>OSS | Medium | 👑 **diShine Pick**<br>Open-source Firebase alternative (Postgres)<br>**Alt to:** Firebase<br>*Tags: #OSS* |
-| **[PocketBase](https://pocketbase.io)** | Free/Freemium<br>OSS | Medium | Backend in a single file (Go binary) |
-| **[Hono](https://hono.dev)** | Free/Freemium<br>OSS | Medium | Ultra-fast web framework for edge runtimes |
+| **[PocketBase](https://pocketbase.io)** | Free/Freemium<br>OSS | Medium | Backend in a single file (Go binary)<br>*Tags: #DevTools, #Backend, #OSS* |
+| **[Hono](https://hono.dev)** | Free/Freemium<br>OSS | Medium | Ultra-fast web framework for edge runtimes<br>*Tags: #DevTools, #Backend, #OSS* |
 | **[Postman](https://postman.com)** | Free/Freemium | Medium | API testing and documentation<br>*Tags: #DevTools* |
 | **[Insomnia](https://insomnia.rest)** | Free/Freemium<br>OSS | Medium | REST/GraphQL API client<br>*Tags: #DevTools* |
 | **[Bruno](https://usebruno.com)** | Free/Freemium<br>OSS | Medium | Offline-first, git-friendly API client<br>*Tags: #DevTools* |
 | **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** | Free/Freemium<br>OSS | Medium | A fancy self-hosted monitoring tool.<br>**Alt to:** UptimeRobot<br>*Tags: #DevTools, #Monitoring, #Self-Hosted* |
-| **[Coolify](https://coolify.io/)** | Free/Freemium<br>OSS | Steep | An open-source & self-hostable Heroku / Netlify / Vercel alternative.<br>**Alt to:** Vercel / Heroku<br>*Tags: #DevTools, #Hosting, #Self-Hosted* |
-| **[WinRAR](https://www.win-rar.com/)** | Paid | Easy | Popular file archiver utility.<br>*Tags: #Utility, #Archive* |
-| **[7-Zip](https://www.7-zip.org/)** | Free/Freemium<br>OSS | Easy | Free file archiver with high compression ratio.<br>**Alt to:** WinRAR<br>*Tags: #Utility, #Archive, #Open-Source* |
-| **[PeaZip](https://peazip.github.io/)** | Free/Freemium<br>OSS | Easy | Free Zip / Rar extractor.<br>**Alt to:** WinRAR<br>*Tags: #Utility, #Archive* |
-| **[Rufus](https://rufus.ie/)** | Free/Freemium<br>OSS | Medium | Create bootable USB drives the easy way.<br>*Tags: #Utility, #System* |
-| **[Ventoy](https://www.ventoy.net/)** | Free/Freemium<br>OSS | Medium | A new approach to creating bootable USB drives.<br>**Alt to:** Rufus<br>*Tags: #Utility, #System, #Open-Source* |
+| **[Shopify](https://www.shopify.com)** | Paid | Easy | E-commerce platform powering 4M+ stores. Full CMS, hosting, and payment processing.<br>**Alt to:** WordPress<br>*Tags: #CMS, #Ecommerce* |
+| **[Webflow](https://webflow.com)** | Paid | Moderate | Visual web design and CMS platform. Build production sites without code.<br>**Alt to:** WordPress<br>*Tags: #CMS, #Design* |
+| **[Contentful](https://www.contentful.com)** | Paid | Moderate | Enterprise headless CMS with structured content, APIs, and multi-channel delivery.<br>**Alt to:** Strapi<br>*Tags: #CMS, #Enterprise* |
+| **[Tailwind UI](https://tailwindui.com)** | Paid | Easy | Official premium component library for Tailwind CSS. 500+ production-ready components.<br>**Alt to:** shadcn/ui<br>*Tags: #DevTools, #CSS, #Design* |
+| **[Datadog](https://www.datadoghq.com)** | Paid | Steep | Cloud-scale monitoring, APM, log management, and infrastructure observability.<br>**Alt to:** Sentry<br>*Tags: #DevTools, #Monitoring, #Enterprise* |
+| **[New Relic](https://newrelic.com)** | Paid | Moderate | Full-stack observability platform with APM, infrastructure, and browser monitoring.<br>**Alt to:** Better Stack<br>*Tags: #DevTools, #Monitoring* |
+| **[BrowserStack](https://www.browserstack.com)** | Paid | Easy | Cross-browser testing on real devices and browsers. Selenium, Cypress, Playwright support.<br>**Alt to:** Playwright<br>*Tags: #DevTools, #Testing* |
+| **[Firebase](https://firebase.google.com)** | Paid | Moderate | Google backend platform: auth, Firestore DB, hosting, cloud functions, analytics.<br>**Alt to:** Supabase<br>*Tags: #DevTools, #Backend, #Cloud* |
+| **[Neon](https://neon.tech)** | Paid | Easy | Serverless Postgres with branching, autoscaling, and generous free tier becoming paid at scale.<br>**Alt to:** PocketBase<br>*Tags: #DevTools, #Backend* |
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -397,25 +391,24 @@ This is a statically generated list of all tools available in the diShine toolki
 
 | Tool | Philosophy | Curve | Description & Metadata |
 |------|------------|-------|------------------------|
-| **[Looker Studio (ex-Data Studio)](https://lookerstudio.google.com)** | Free/Freemium | Medium | Free Google dashboards |
-| **[Power BI](https://powerbi.microsoft.com)** | Free/Freemium | Medium | Microsoft business intelligence |
-| **[Tableau](https://tableau.com)** | Paid | Steep | Enterprise data visualization |
+| **[Looker Studio (ex-Data Studio)](https://lookerstudio.google.com)** | Free/Freemium | Medium | Free Google dashboards<br>*Tags: #Analytics, #Marketing* |
+| **[Power BI](https://powerbi.microsoft.com)** | Free/Freemium | Medium | Microsoft business intelligence<br>*Tags: #Analytics, #Enterprise* |
+| **[Tableau](https://tableau.com)** | Paid | Steep | Enterprise data visualization<br>*Tags: #Analytics, #Enterprise* |
 | **[Metabase](https://metabase.com)** | Free/Freemium<br>OSS | Medium | Open-source BI for everyone<br>*Tags: #OSS* |
 | **[Apache Superset](https://superset.apache.org)** | Free/Freemium<br>OSS | Steep | Enterprise-grade open-source BI<br>*Tags: #OSS* |
 | **[Evidence](https://evidence.dev)** | Free/Freemium<br>OSS | Medium | Code-driven reporting (SQL + Markdown)<br>*Tags: #DevTools* |
-| **[Lightdash](https://lightdash.com)** | Free/Freemium<br>OSS | Medium | BI for dbt users |
-| **[dbt](https://getdbt.com)** | Free/Freemium<br>OSS | Medium | SQL transformation framework |
+| **[Lightdash](https://lightdash.com)** | Free/Freemium<br>OSS | Medium | BI for dbt users<br>*Tags: #Analytics, #OSS* |
+| **[dbt](https://getdbt.com)** | Free/Freemium<br>OSS | Medium | SQL transformation framework<br>*Tags: #DevTools, #Analytics, #OSS* |
 | **[Airbyte](https://airbyte.com)** | Free/Freemium<br>OSS | Medium | Open-source data integration (ELT)<br>*Tags: #OSS* |
-| **[Fivetran](https://fivetran.com)** | Paid | Medium | Managed data integration |
-| **[Pandas (Python)](https://pandas.pydata.org)** | Free/Freemium<br>OSS | Medium | Data analysis in Python |
-| **[Polars](https://pola.rs)** | Free/Freemium<br>OSS | Medium | Fast DataFrame library (Rust-based, 10x faster than Pandas) |
+| **[Fivetran](https://fivetran.com)** | Paid | Medium | Managed data integration<br>*Tags: #Automation, #Analytics* |
+| **[Pandas (Python)](https://pandas.pydata.org)** | Free/Freemium<br>OSS | Medium | Data analysis in Python<br>*Tags: #DevTools, #Analytics, #OSS* |
+| **[Polars](https://pola.rs)** | Free/Freemium<br>OSS | Medium | Fast DataFrame library (Rust-based, 10x faster than Pandas)<br>*Tags: #DevTools, #Analytics, #OSS* |
 | **[DuckDB](https://duckdb.org)** | Free/Freemium<br>OSS | Medium | In-process analytics database (query CSV/Parquet directly)<br>*Tags: #Analytics* |
-| **[Google Sheets](https://sheets.google.com)** | Free/Freemium | Medium | Collaborative spreadsheets |
-| **[Airtable](https://airtable.com)** | Free/Freemium | Medium | Spreadsheet-database hybrid |
+| **[Google Sheets](https://sheets.google.com)** | Free/Freemium | Medium | Collaborative spreadsheets<br>*Tags: #Productivity, #Analytics* |
+| **[Airtable](https://airtable.com)** | Free/Freemium | Medium | Spreadsheet-database hybrid<br>*Tags: #Productivity, #Automation* |
 | **[NocoDB](https://nocodb.com)** | Free/Freemium<br>OSS | Medium | Open-source Airtable alternative<br>**Alt to:** Mailchimp / Airtable<br>*Tags: #OSS* |
-| **[Grist](https://getgrist.com)** | Free/Freemium<br>OSS | Medium | Powerful spreadsheet with Python formulas |
+| **[Grist](https://getgrist.com)** | Free/Freemium<br>OSS | Medium | Powerful spreadsheet with Python formulas<br>*Tags: #Productivity, #OSS* |
 | **[Rows](https://rows.com)** | Free/Freemium | Medium | Spreadsheets with built-in integrations<br>*Tags: #Design* |
-| **[Odoo](https://www.odoo.com/)** | Free/Freemium<br>OSS | Steep | Open Source ERP and CRM.<br>**Alt to:** HubSpot CRM<br>*Tags: #CRM, #ERP, #Business* |
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -460,25 +453,32 @@ This is a statically generated list of all tools available in the diShine toolki
 
 | Tool | Philosophy | Curve | Description & Metadata |
 |------|------------|-------|------------------------|
-| **[Asana](https://asana.com)** | Free/Freemium | Medium | Team project management |
+| **[Asana](https://asana.com)** | Free/Freemium | Medium | Team project management<br>*Tags: #Project Management, #Productivity* |
 | **[Linear](https://linear.app)** | Free/Freemium | Medium | Fast, developer-focused project management<br>*Tags: #DevTools* |
-| **[Notion](https://notion.so)** | Free/Freemium | Medium | All-in-one workspace (docs, tasks, wikis) |
-| **[ClickUp](https://clickup.com)** | Free/Freemium | Medium | Feature-rich project management |
-| **[Monday.com](https://monday.com)** | Paid | Medium | Visual project management |
+| **[Notion](https://notion.so)** | Free/Freemium | Medium | All-in-one workspace (docs, tasks, wikis)<br>*Tags: #Productivity, #Documentation* |
+| **[ClickUp](https://clickup.com)** | Free/Freemium | Medium | Feature-rich project management<br>*Tags: #Project Management, #Productivity* |
+| **[Monday.com](https://monday.com)** | Paid | Medium | Visual project management<br>*Tags: #Project Management, #Enterprise* |
 | **[Plane](https://plane.so)** | Free/Freemium<br>OSS | Medium | 👑 **diShine Pick**<br>Open-source Linear/Jira alternative<br>**Alt to:** Jira / Linear<br>*Tags: #OSS* |
 | **[Huly](https://huly.io)** | Free/Freemium<br>OSS | Medium | Open-source all-in-one project management<br>**Alt to:** Notion / Linear<br>*Tags: #OSS* |
-| **[Slack](https://slack.com)** | Free/Freemium | Medium | Team messaging (industry standard) |
-| **[Microsoft Teams](https://teams.microsoft.com)** | Free/Freemium | Steep | Enterprise communication |
-| **[Discord](https://discord.com)** | Free/Freemium | Medium | Community and team chat |
-| **[Loom](https://loom.com)** | Free/Freemium | Medium | Async video messaging |
-| **[Tella](https://tella.tv)** | Free/Freemium | Medium | Screen recordings with beautiful presentations |
+| **[Slack](https://slack.com)** | Free/Freemium | Medium | Team messaging (industry standard)<br>*Tags: #Communication, #Productivity* |
+| **[Microsoft Teams](https://teams.microsoft.com)** | Free/Freemium | Steep | Enterprise communication<br>*Tags: #Communication, #Enterprise* |
+| **[Discord](https://discord.com)** | Free/Freemium | Medium | Community and team chat<br>*Tags: #Communication, #Community* |
 | **[Krisp](https://krisp.ai)** | Free/Freemium | Medium | AI noise cancellation for calls<br>*Tags: #AI* |
-| **[Notion](https://notion.so)** | Free/Freemium | Medium | Team wiki and documentation |
-| **[Confluence](https://atlassian.com/confluence)** | Free/Freemium | Steep | Enterprise knowledge management |
-| **[GitBook](https://gitbook.com)** | Free/Freemium | Medium | Technical documentation |
+| **[Notion](https://notion.so)** | Free/Freemium | Medium | Team wiki and documentation<br>*Tags: #Productivity, #Documentation* |
+| **[Confluence](https://atlassian.com/confluence)** | Free/Freemium | Steep | Enterprise knowledge management<br>*Tags: #Documentation, #Enterprise* |
+| **[GitBook](https://gitbook.com)** | Free/Freemium | Medium | Technical documentation<br>*Tags: #Documentation, #DevTools* |
 | **[Outline](https://getoutline.com)** | Free/Freemium<br>OSS | Medium | Open-source Notion alternative for teams<br>*Tags: #OSS* |
 | **[Slite](https://slite.com)** | Free/Freemium | Medium | Team knowledge base with AI search<br>*Tags: #SEO, #AI* |
 | **[Mintlify](https://mintlify.com)** | Free/Freemium | Medium | Beautiful developer documentation<br>*Tags: #DevTools* |
+| **[Jira](https://www.atlassian.com/software/jira)** | Paid | Steep | Enterprise agile project management.<br>*Tags: #Project Management, #Agile, #Enterprise* |
+| **[OpenProject](https://www.openproject.org/)** | Free/Freemium<br>OSS | Medium | Open source project management software.<br>**Alt to:** Jira<br>*Tags: #Project Management, #OSS* |
+| **[Focalboard](https://www.focalboard.com/)** | Free/Freemium<br>OSS | Easy | Open source alternative to Trello, Notion, and Asana.<br>**Alt to:** Asana<br>*Tags: #Project Management, #Kanban* |
+| **[Mattermost](https://mattermost.com/)** | Free/Freemium<br>OSS | Medium | Open-source, self-hostable Slack alternative.<br>**Alt to:** Slack<br>*Tags: #Chat, #Communication, #Self-Hosted* |
+| **[Obsidian](https://obsidian.md/)** | Free/Freemium | Steep | Private and flexible writing app that adapts to the way you think.<br>**Alt to:** Notion<br>*Tags: #Notes, #Markdown, #Local* |
+| **[AppFlowy](https://www.appflowy.io/)** | Free/Freemium<br>OSS | Medium | Open Source Alternative to Notion.<br>**Alt to:** Notion<br>*Tags: #Notes, #Wiki, #OSS* |
+| **[Zoom](https://zoom.us)** | Paid | Easy | Video conferencing, webinars, and team chat. Enterprise standard for remote meetings.<br>**Alt to:** Microsoft Teams<br>*Tags: #Communication, #Enterprise* |
+| **[Guru](https://www.getguru.com)** | Paid | Easy | AI-powered enterprise knowledge management. Team wiki with verified answers.<br>**Alt to:** Notion<br>*Tags: #Documentation, #Enterprise* |
+| **[Tettra](https://tettra.com)** | Paid | Easy | Internal knowledge base with Slack integration and AI-powered search.<br>**Alt to:** Slite<br>*Tags: #Documentation, #Productivity* |
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -488,23 +488,25 @@ This is a statically generated list of all tools available in the diShine toolki
 
 | Tool | Philosophy | Curve | Description & Metadata |
 |------|------------|-------|------------------------|
-| **[Vercel](https://vercel.com)** | Free/Freemium | Medium | Frontend deployment (Next.js native) |
-| **[Netlify](https://netlify.com)** | Free/Freemium | Medium | JAMstack hosting and deployment |
-| **[Cloudflare Pages](https://pages.cloudflare.com)** | Free/Freemium | Medium | Fast, free static site hosting |
-| **[Railway](https://railway.app)** | Free/Freemium | Medium | Deploy anything with minimal config |
-| **[Render](https://render.com)** | Free/Freemium | Medium | Full-stack hosting (web, workers, databases) |
-| **[Fly.io](https://fly.io)** | Free/Freemium | Medium | Deploy containers globally |
-| **[Coolify](https://coolify.io)** | Free/Freemium<br>OSS | Medium | Self-hosted Vercel/Netlify alternative |
-| **[CapRover](https://caprover.com)** | Free/Freemium<br>OSS | Medium | PaaS on your own server |
-| **[AWS](https://aws.amazon.com)** | Paid | Medium | Everything (market leader) |
-| **[Google Cloud](https://cloud.google.com)** | Paid | Medium | Data/ML-focused workloads |
-| **[Azure](https://azure.microsoft.com)** | Paid | Medium | Microsoft ecosystem integration |
-| **[DigitalOcean](https://digitalocean.com)** | Paid | Easy | Simple, affordable cloud hosting |
-| **[Hetzner](https://hetzner.com)** | Paid | Medium | Incredibly affordable European cloud (best value) |
+| **[Vercel](https://vercel.com)** | Free/Freemium | Medium | Frontend deployment (Next.js native)<br>*Tags: #DevTools, #Hosting* |
+| **[Netlify](https://netlify.com)** | Free/Freemium | Medium | JAMstack hosting and deployment<br>*Tags: #DevTools, #Hosting* |
+| **[Cloudflare Pages](https://pages.cloudflare.com)** | Free/Freemium | Medium | Fast, free static site hosting<br>*Tags: #DevTools, #Hosting* |
+| **[Railway](https://railway.app)** | Free/Freemium | Medium | Deploy anything with minimal config<br>*Tags: #DevTools, #Hosting* |
+| **[Render](https://render.com)** | Free/Freemium | Medium | Full-stack hosting (web, workers, databases)<br>*Tags: #DevTools, #Hosting* |
+| **[Fly.io](https://fly.io)** | Free/Freemium | Medium | Deploy containers globally<br>*Tags: #DevTools, #Hosting* |
+| **[Coolify](https://coolify.io)** | Free/Freemium<br>OSS | Medium | Self-hosted Vercel/Netlify alternative<br>*Tags: #DevTools, #Hosting, #Self-Hosted* |
+| **[CapRover](https://caprover.com)** | Free/Freemium<br>OSS | Medium | PaaS on your own server<br>*Tags: #DevTools, #Hosting, #Self-Hosted* |
+| **[AWS](https://aws.amazon.com)** | Paid | Medium | Everything (market leader)<br>*Tags: #Cloud, #Enterprise* |
+| **[Google Cloud](https://cloud.google.com)** | Paid | Medium | Data/ML-focused workloads<br>*Tags: #Cloud, #AI* |
+| **[Azure](https://azure.microsoft.com)** | Paid | Medium | Microsoft ecosystem integration<br>*Tags: #Cloud, #Enterprise* |
+| **[DigitalOcean](https://digitalocean.com)** | Paid | Easy | Simple, affordable cloud hosting<br>*Tags: #Cloud, #Hosting* |
+| **[Hetzner](https://hetzner.com)** | Paid | Medium | Incredibly affordable European cloud (best value)<br>*Tags: #Cloud, #Hosting* |
 | **[OVHcloud](https://ovhcloud.com)** | Paid | Medium | European cloud provider (GDPR-friendly)<br>*Tags: #Privacy* |
-| **[Cloudflare](https://cloudflare.com)** | Free/Freemium | Medium | CDN, DNS, DDoS protection, WAF |
-| **[Bunny.net](https://bunny.net)** | Paid | Medium | Affordable CDN with excellent performance |
-| **[KeyCDN](https://keycdn.com)** | Paid | Medium | Pay-as-you-go CDN |
+| **[Cloudflare](https://cloudflare.com)** | Free/Freemium | Medium | CDN, DNS, DDoS protection, WAF<br>*Tags: #CDN, #Security, #DNS* |
+| **[Bunny.net](https://bunny.net)** | Paid | Medium | Affordable CDN with excellent performance<br>*Tags: #CDN, #Performance* |
+| **[KeyCDN](https://keycdn.com)** | Paid | Medium | Pay-as-you-go CDN<br>*Tags: #CDN, #Performance* |
+| **[AWS Amplify](https://aws.amazon.com/amplify/)** | Paid | Moderate | Full-stack hosting on AWS. CI/CD, custom domains, server-side rendering.<br>**Alt to:** Vercel<br>*Tags: #DevTools, #Hosting, #Cloud* |
+| **[Heroku](https://www.heroku.com)** | Paid | Easy | PaaS for deploying, managing, and scaling apps. Simple git-push deploys.<br>**Alt to:** Railway<br>*Tags: #DevTools, #Hosting* |
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -514,13 +516,13 @@ This is a statically generated list of all tools available in the diShine toolki
 
 | Tool | Philosophy | Curve | Description & Metadata |
 |------|------------|-------|------------------------|
-| **[Apollo.io](https://apollo.io)** | Free/Freemium | Medium | B2B lead database + outreach |
-| **[ZoomInfo](https://zoominfo.com)** | Paid | Steep | Enterprise B2B intelligence |
-| **[Lusha](https://lusha.com)** | Free/Freemium | Medium | Contact information finder |
-| **[RocketReach](https://rocketreach.co)** | Paid | Medium | Professional contact data |
-| **[Clay](https://clay.com)** | Paid | Medium | Data enrichment + AI-powered workflows |
+| **[Apollo.io](https://apollo.io)** | Free/Freemium | Medium | B2B lead database + outreach<br>*Tags: #CRM, #Automation* |
+| **[ZoomInfo](https://zoominfo.com)** | Paid | Steep | Enterprise B2B intelligence<br>*Tags: #CRM, #Enterprise* |
+| **[Lusha](https://lusha.com)** | Free/Freemium | Medium | Contact information finder<br>*Tags: #CRM, #Marketing* |
+| **[RocketReach](https://rocketreach.co)** | Paid | Medium | Professional contact data<br>*Tags: #CRM, #Marketing* |
+| **[Clay](https://clay.com)** | Paid | Medium | Data enrichment + AI-powered workflows<br>*Tags: #CRM, #AI, #Automation* |
 | **[Clearbit (HubSpot)](https://clearbit.com)** | Paid | Medium | Company and contact enrichment API<br>*Tags: #DevTools* |
-| **[Phantombuster](https://phantombuster.com)** | Paid | Medium | Social media data extraction |
+| **[Phantombuster](https://phantombuster.com)** | Paid | Medium | Social media data extraction<br>*Tags: #Automation, #Marketing* |
 | **[Lemlist](https://lemlist.com)** | Paid | Medium | Personalized cold email + LinkedIn<br>*Tags: #Marketing* |
 | **[Instantly.ai](https://instantly.ai)** | Paid | Medium | Scale cold email with multiple inboxes<br>*Tags: #AI, #Marketing* |
 | **[Saleshandy](https://saleshandy.com)** | Paid | Medium | Cold email automation<br>*Tags: #Marketing, #Automation, #CRM* |
@@ -540,22 +542,22 @@ This is a statically generated list of all tools available in the diShine toolki
 
 | Tool | Philosophy | Curve | Description & Metadata |
 |------|------------|-------|------------------------|
-| **[Google Optimize (sunset)](https://optimize.google.com)** | Free/Freemium | Medium | Was free A/B testing (now discontinued) |
-| **[VWO](https://vwo.com)** | Paid | Medium | A/B testing and personalization |
-| **[Optimizely](https://optimizely.com)** | Paid | Steep | Enterprise experimentation platform |
+| **[Google Optimize (sunset)](https://optimize.google.com)** | Free/Freemium | Medium | Was free A/B testing (now discontinued)<br>*Tags: #Analytics, #Marketing* |
+| **[VWO](https://vwo.com)** | Paid | Medium | A/B testing and personalization<br>*Tags: #Analytics, #Marketing* |
+| **[Optimizely](https://optimizely.com)** | Paid | Steep | Enterprise experimentation platform<br>*Tags: #Analytics, #Enterprise* |
 | **[AB Tasty](https://abtasty.com)** | Paid | Medium | A/B testing with AI<br>*Tags: #AI* |
 | **[GrowthBook](https://growthbook.io)** | Free/Freemium<br>OSS | Medium | Open-source A/B testing and feature flags<br>*Tags: #OSS* |
 | **[Statsig](https://statsig.com)** | Free/Freemium | Medium | Feature flags + A/B testing + analytics<br>*Tags: #Analytics* |
-| **[Typeform](https://typeform.com)** | Free/Freemium | Medium | Beautiful interactive forms |
+| **[Typeform](https://typeform.com)** | Free/Freemium | Medium | Beautiful interactive forms<br>*Tags: #Marketing, #Design* |
 | **[Tally](https://tally.so)** | Free/Freemium | Medium | Free form builder (unlimited forms)<br>*Tags: #Design* |
 | **[Formbricks](https://formbricks.com)** | Free/Freemium<br>OSS | Medium | Open-source in-app surveys<br>*Tags: #OSS* |
-| **[SurveyMonkey](https://surveymonkey.com)** | Free/Freemium | Medium | Traditional survey tool |
-| **[Hotjar Surveys](https://hotjar.com)** | Free/Freemium | Medium | On-site feedback and surveys |
+| **[SurveyMonkey](https://surveymonkey.com)** | Free/Freemium | Medium | Traditional survey tool<br>*Tags: #Marketing, #Analytics* |
+| **[Hotjar Surveys](https://hotjar.com)** | Free/Freemium | Medium | On-site feedback and surveys<br>*Tags: #Analytics, #Marketing* |
 | **[Canny](https://canny.io)** | Free/Freemium | Medium | Feature request tracking<br>*Tags: #Analytics* |
-| **[Intercom](https://intercom.com)** | Paid | Medium | Customer messaging platform |
+| **[Intercom](https://intercom.com)** | Paid | Medium | Customer messaging platform<br>*Tags: #CRM, #Automation* |
 | **[Drift](https://drift.com)** | Paid | Medium | Conversational marketing<br>*Tags: #Marketing* |
-| **[Crisp](https://crisp.chat)** | Free/Freemium | Medium | Free live chat for websites |
-| **[Tawk.to](https://tawk.to)** | Free/Freemium | Medium | Free live chat (forever free) |
+| **[Crisp](https://crisp.chat)** | Free/Freemium | Medium | Free live chat for websites<br>*Tags: #CRM, #OSS* |
+| **[Tawk.to](https://tawk.to)** | Free/Freemium | Medium | Free live chat (forever free)<br>*Tags: #CRM, #Marketing* |
 | **[Chatwoot](https://chatwoot.com)** | Free/Freemium<br>OSS | Medium | Open-source Intercom alternative<br>*Tags: #OSS* |
 
 [⬆ Back to Top](#table-of-contents)
@@ -566,24 +568,28 @@ This is a statically generated list of all tools available in the diShine toolki
 
 | Tool | Philosophy | Curve | Description & Metadata |
 |------|------------|-------|------------------------|
-| **[DaVinci Resolve](https://blackmagicdesign.com/products/davinciresolve)** | Free/Freemium | Medium | Professional video editing (free!) |
+| **[DaVinci Resolve](https://blackmagicdesign.com/products/davinciresolve)** | Free/Freemium | Medium | Professional video editing (free!)<br>*Tags: #Video, #Creative* |
 | **[CapCut](https://capcut.com)** | Free/Freemium | Easy | Quick video editing for social media<br>*Tags: #Design* |
-| **[Descript](https://descript.com)** | Free/Freemium | Medium | Edit video by editing text |
+| **[Descript](https://descript.com)** | Free/Freemium | Medium | Edit video by editing text<br>*Tags: #AI, #Video, #Audio* |
 | **[Synthesia](https://synthesia.io)** | Paid | Medium | AI avatar videos<br>*Tags: #AI* |
 | **[HeyGen](https://heygen.com)** | Paid | Medium | AI video generation<br>*Tags: #AI* |
 | **[Runway](https://runwayml.com)** | Free/Freemium | Medium | AI video editing and generation<br>*Tags: #AI* |
-| **[Remotion](https://remotion.dev)** | Free/Freemium<br>OSS | Medium | Create videos programmatically with React |
+| **[Remotion](https://remotion.dev)** | Free/Freemium<br>OSS | Medium | Create videos programmatically with React<br>*Tags: #Video, #DevTools, #OSS* |
 | **[Loom](https://loom.com)** | Free/Freemium | Easy | Quick screen recordings with webcam<br>*Tags: #Design* |
-| **[OBS Studio](https://obsproject.com)** | Free/Freemium<br>OSS | Medium | Professional streaming and recording |
-| **[Screen Studio](https://screen.studio)** | Paid | Medium | Beautiful Mac screen recordings |
-| **[Tella](https://tella.tv)** | Free/Freemium | Medium | Presentable screen recordings |
+| **[OBS Studio](https://obsproject.com)** | Free/Freemium<br>OSS | Medium | Professional streaming and recording<br>*Tags: #Video, #Streaming, #OSS* |
+| **[Screen Studio](https://screen.studio)** | Paid | Medium | Beautiful Mac screen recordings<br>*Tags: #Video, #Design* |
+| **[Tella](https://tella.tv)** | Free/Freemium | Medium | Presentable screen recordings<br>*Tags: #Video, #Communication* |
 | **[Cap](https://cap.so)** | Free/Freemium<br>OSS | Medium | Open-source Loom alternative<br>*Tags: #OSS* |
-| **[Audacity](https://audacityteam.org)** | Free/Freemium<br>OSS | Medium | Free audio editing |
-| **[Riverside.fm](https://riverside.fm)** | Free/Freemium | Medium | Remote podcast and video recording (studio quality) |
-| **[Descript](https://descript.com)** | Free/Freemium | Medium | Podcast editing by editing text |
-| **[Spotify for Podcasters](https://podcasters.spotify.com)** | Free/Freemium | Medium | Podcast hosting and distribution |
+| **[Audacity](https://audacityteam.org)** | Free/Freemium<br>OSS | Medium | Free audio editing<br>*Tags: #Audio, #OSS* |
+| **[Riverside.fm](https://riverside.fm)** | Free/Freemium | Medium | Remote podcast and video recording (studio quality)<br>*Tags: #Audio, #Podcasting* |
+| **[Descript](https://descript.com)** | Free/Freemium | Medium | Podcast editing by editing text<br>*Tags: #AI, #Video, #Audio* |
+| **[Spotify for Podcasters](https://podcasters.spotify.com)** | Free/Freemium | Medium | Podcast hosting and distribution<br>*Tags: #Audio, #Podcasting* |
 | **[Transistor](https://transistor.fm)** | Paid | Medium | Podcast hosting with analytics<br>*Tags: #Analytics* |
-| **[Podcastle](https://podcastle.ai)** | Free/Freemium | Medium | AI-powered podcast creation |
+| **[Podcastle](https://podcastle.ai)** | Free/Freemium | Medium | AI-powered podcast creation<br>*Tags: #Audio, #AI* |
+| **[Adobe Premiere Pro](https://www.adobe.com/)** | Paid | Steep | Industry standard video editing software.<br>*Tags: #Video, #Editing, #Creative* |
+| **[Kdenlive](https://kdenlive.org/)** | Free/Freemium<br>OSS | Medium | Open source video editor.<br>**Alt to:** Adobe Premiere Pro<br>*Tags: #Video, #Editing* |
+| **[Adobe Audition](https://adobe.com/)** | Paid | Steep | Professional audio workstation for mixing and editing.<br>*Tags: #Audio, #Editing, #Creative* |
+| **[Tenacity](https://tenacityaudio.org/)** | Free/Freemium<br>OSS | Medium | Privacy-focused fork of Audacity.<br>**Alt to:** Adobe Audition<br>*Tags: #Audio, #Editing, #Privacy* |
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -597,23 +603,23 @@ This is a statically generated list of all tools available in the diShine toolki
 | **[Google Analytics Academy](https://analytics.google.com/analytics/academy/)** | Free/Freemium | Medium | GA4 certification<br>*Tags: #Analytics* |
 | **[Google Skillshop](https://skillshop.withgoogle.com)** | Free/Freemium | Medium | Google Ads, Analytics, Tag Manager certs<br>*Tags: #Analytics* |
 | **[HubSpot Academy](https://academy.hubspot.com)** | Free/Freemium | Medium | Inbound marketing, content, sales certs<br>*Tags: #Marketing, #CRM* |
-| **[Meta Blueprint](https://facebook.com/business/learn)** | Free/Freemium | Medium | Meta advertising certification |
+| **[Meta Blueprint](https://facebook.com/business/learn)** | Free/Freemium | Medium | Meta advertising certification<br>*Tags: #Marketing, #Certification* |
 | **[Semrush Academy](https://semrush.com/academy/)** | Free/Freemium | Medium | SEO and content marketing courses<br>*Tags: #SEO, #Marketing* |
 | **[freeCodeCamp](https://freecodecamp.org)** | Free/Freemium | Medium | Web development (free, comprehensive)<br>*Tags: #DevTools* |
-| **[The Odin Project](https://theodinproject.com)** | Free/Freemium | Medium | Full-stack web development curriculum |
+| **[The Odin Project](https://theodinproject.com)** | Free/Freemium | Medium | Full-stack web development curriculum<br>*Tags: #DevTools, #OSS* |
 | **[DeepLearning.AI](https://deeplearning.ai)** | Free/Freemium | Medium | AI and machine learning courses<br>*Tags: #AI* |
-| **[Coursera](https://coursera.org)** | Paid | Medium | University-level courses and degrees |
-| **[Udemy](https://udemy.com)** | Paid | Medium | Affordable on-demand courses |
-| **[LinkedIn Learning](https://linkedin.com/learning)** | Paid | Medium | Professional development |
-| **[Pluralsight](https://pluralsight.com)** | Paid | Medium | Tech and development skills |
+| **[Coursera](https://coursera.org)** | Paid | Medium | University-level courses and degrees<br>*Tags: #Education, #Certification* |
+| **[Udemy](https://udemy.com)** | Paid | Medium | Affordable on-demand courses<br>*Tags: #Education* |
+| **[LinkedIn Learning](https://linkedin.com/learning)** | Paid | Medium | Professional development<br>*Tags: #Education, #Marketing* |
+| **[Pluralsight](https://pluralsight.com)** | Paid | Medium | Tech and development skills<br>*Tags: #Education, #DevTools* |
 | **[CXL](https://cxl.com)** | Paid | Medium | Expert-level marketing and growth courses<br>*Tags: #Marketing* |
-| **[Reforge](https://reforge.com)** | Paid | Steep | Advanced growth and product strategy |
-| **[Product Hunt](https://producthunt.com)** | Free/Freemium | Medium | Discover new tools and products |
-| **[Indie Hackers](https://indiehackers.com)** | Free/Freemium | Medium | Founder community and case studies |
+| **[Reforge](https://reforge.com)** | Paid | Steep | Advanced growth and product strategy<br>*Tags: #Marketing, #Education* |
+| **[Product Hunt](https://producthunt.com)** | Free/Freemium | Medium | Discover new tools and products<br>*Tags: #Community, #Marketing* |
+| **[Indie Hackers](https://indiehackers.com)** | Free/Freemium | Medium | Founder community and case studies<br>*Tags: #Community, #Marketing* |
 | **[Dev.to](https://dev.to)** | Free/Freemium | Medium | Developer community and blog platform<br>*Tags: #DevTools* |
-| **[Hacker News](https://news.ycombinator.com)** | Free/Freemium | Medium | Tech news and discussion |
+| **[Hacker News](https://news.ycombinator.com)** | Free/Freemium | Medium | Tech news and discussion<br>*Tags: #Community, #DevTools* |
 | **[Growth Design](https://growth.design)** | Free/Freemium | Medium | UX case studies as comic strips<br>*Tags: #Design* |
-| **[Stratechery](https://stratechery.com)** | Paid | Medium | Deep tech/business strategy analysis |
+| **[Stratechery](https://stratechery.com)** | Paid | Medium | Deep tech/business strategy analysis<br>*Tags: #Marketing, #Analytics* |
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -629,20 +635,8 @@ This is a statically generated list of all tools available in the diShine toolki
 | **[Bitwarden](https://bitwarden.com/)** | Free/Freemium<br>OSS | Easy | Open source password manager.<br>**Alt to:** 1Password / LastPass<br>*Tags: #Privacy, #Security* |
 | **[Google Chrome](https://www.google.com/chrome/)** | Free/Freemium | Easy | The most popular web browser.<br>*Tags: #Browser, #Internet* |
 | **[Brave](https://brave.com/)** | Free/Freemium<br>OSS | Easy | Secure, fast, and private web browser with built-in ad blocker.<br>**Alt to:** Google Chrome<br>*Tags: #Browser, #Privacy, #Crypto* |
-| **[Firefox](https://www.mozilla.org/)** | Free/Freemium<br>OSS | Easy | Free and open-source web browser developed by the Mozilla Foundation.<br>**Alt to:** Google Chrome<br>*Tags: #Browser, #Privacy, #Open-Source* |
+| **[Firefox](https://www.mozilla.org/)** | Free/Freemium<br>OSS | Easy | Free and open-source web browser developed by the Mozilla Foundation.<br>**Alt to:** Google Chrome<br>*Tags: #Browser, #Privacy, #OSS* |
 | **[Mullvad Browser](https://mullvad.net/en/browser)** | Free/Freemium<br>OSS | Medium | A privacy-focused browser built in collaboration with Tor.<br>**Alt to:** Google Chrome<br>*Tags: #Browser, #Privacy, #Anonymous* |
-
-[⬆ Back to Top](#table-of-contents)
-
----
-
-## Email Marketing & CRM
-
-| Tool | Philosophy | Curve | Description & Metadata |
-|------|------------|-------|------------------------|
-| **[Superhuman](https://superhuman.com/)** | Paid | Medium | The fastest email experience made for professionals.<br>*Tags: #Email, #Productivity* |
-| **[Thunderbird](https://www.thunderbird.net/)** | Free/Freemium<br>OSS | Medium | Free, open-source email client backed by Mozilla.<br>**Alt to:** Superhuman<br>*Tags: #Email, #Client, #Open-Source* |
-| **[Mailspring](https://getmailspring.com/)** | Free/Freemium<br>OSS | Easy | Beautiful, fast email client.<br>**Alt to:** Superhuman<br>*Tags: #Email, #Client* |
 
 [⬆ Back to Top](#table-of-contents)
 

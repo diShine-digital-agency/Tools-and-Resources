@@ -111,7 +111,8 @@ That produces cleaner exports and more credible client-facing recommendations.
 
 ## Related files
 
-- `src/lib/toolkit-core.js`
-- `src/lib/toolkit-app.js`
-- `test.js`
-- `build-standalone.js`
+- `src/lib/toolkit-core.js` — matching engine, scoring, report builders
+- `src/lib/toolkit-app.js` — browser-side stack management and export triggers
+- `src/data/tools.json` — tool dataset with all signals used by the engine
+- `test.js` — regression checks for matching quality and export generation
+- `build-standalone.js` — standalone HTML generator (embeds the same engine)
