@@ -15,7 +15,7 @@ const stackPayload = JSON.stringify({
 });
 ---
 <div
-  class="tool-card flex flex-col p-5 rounded-xl border border-gray-800 bg-[#161b22] hover:bg-gray-800/80 transition-all h-full shadow-sm"
+  class="tool-card flex flex-col p-4 rounded-lg border border-gray-800 bg-[#161b22] hover:bg-gray-800/80 hover:border-gray-700 transition-all h-full shadow-sm"
   data-name={tool.name.toLowerCase()}
   data-desc={tool.desc.toLowerCase()}
   data-tags={tool.tags.join(' ').toLowerCase()}
@@ -23,14 +23,14 @@ const stackPayload = JSON.stringify({
   data-subcategory={tool.sub.toLowerCase()}
   data-pricing={tool.pricing}
 >
-  <div class="flex justify-between items-start mb-3 gap-2">
+  <div class="flex justify-between items-start mb-2 gap-2">
     <a href={tool.url} target="_blank" rel="noopener" class="font-semibold text-white hover:text-blue-400 leading-tight">
       {tool.name} {tool.agencyPick && <span title="diShine Top Pick">👑</span>}
     </a>
     <button class="add-to-stack flex-shrink-0 text-xs bg-blue-900/40 hover:bg-blue-600 text-blue-300 px-2 py-1.5 rounded border border-blue-800/60 transition-colors font-medium shadow-sm" data-tool={stackPayload}>+ Stack</button>
   </div>
 
-  <div class="flex flex-wrap gap-1.5 mb-3">
+  <div class="flex flex-wrap gap-1.5 mb-2">
     {tool.sub && (
       <span class="px-1.5 py-0.5 rounded text-[10px] font-semibold border bg-slate-900/50 text-slate-300 border-slate-700/60">
         {tool.sub}
@@ -47,7 +47,7 @@ const stackPayload = JSON.stringify({
     </span>
   </div>
 
-  <p class="text-sm text-gray-400 leading-relaxed flex-grow mb-4">{tool.desc}</p>
+  <p class="text-xs text-gray-400 leading-relaxed flex-grow mb-3">{tool.desc}</p>
 
   {tool.alternativeTo && (
     <div class="mt-auto pt-3 border-t border-gray-800/80">
