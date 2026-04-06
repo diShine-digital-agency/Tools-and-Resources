@@ -3,77 +3,107 @@ import Layout from '../layouts/Layout.astro';
 import ToolCard from '../components/ToolCard.astro';
 import toolsData from '../data/tools.json';
 import stacksData from '../data/stacks.json';
+import { normalizeTools } from '../lib/toolkit-core.js';
 
-const categories = [...new Set(toolsData.map((t: any) => t.category))];
+const normalizedTools = normalizeTools(toolsData);
+const categories = [...new Set(normalizedTools.map((tool) => tool.category))];
+const pricingCounts = normalizedTools.reduce((counts, tool) => {
+  counts[tool.pricing] = (counts[tool.pricing] || 0) + 1;
+  return counts;
+}, { free: 0, freemium: 0, 'open-source': 0, paid: 0 });
 ---
 
 <Layout>
-  <style is:inline>details > summary { list-style: none; } details > summary::-webkit-details-marker { display: none; }</style>
+  <style is:inline>
+    details > summary { list-style: none; }
+    details > summary::-webkit-details-marker { display: none; }
+  </style>
 
   <div class="flex flex-col lg:flex-row gap-6">
     <div class="flex-1 min-w-0">
-      <div class="mb-10 max-w-3xl">
-        <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-6">
-          The Curated Digital <span class="text-blue-500">Toolkit</span>.
+      <div class="mb-10 max-w-4xl">
+        <span class="inline-flex items-center gap-2 rounded-full border border-blue-900/60 bg-blue-950/30 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-blue-300">
+          diShine Digital Agency
+        </span>
+        <h1 class="mt-5 text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-6">
+          Client-ready tool stacks, with smarter <span class="text-blue-500">alternative matching</span>.
         </h1>
         <p class="text-lg text-gray-400 leading-relaxed mb-8">
-          A curated collection of {toolsData.length} tools. Click "+ Stack" to build a toolkit, then use magical alternative generators or add client notes.
+          Curated tools for delivery, growth, design, and operations. Build a stack, compare stronger free and paid alternatives, and export the full recommendation as branded PDF, TXT, or Markdown.
         </p>
+        <div class="grid gap-4 sm:grid-cols-3">
+          <div class="rounded-xl border border-gray-800 bg-[#161b22] p-4">
+            <p class="text-xs uppercase tracking-[0.18em] text-gray-500 mb-2">Audit focus</p>
+            <p class="text-sm text-gray-300">Alternatives now prioritize the same utility before broader same-category fallbacks.</p>
+          </div>
+          <div class="rounded-xl border border-gray-800 bg-[#161b22] p-4">
+            <p class="text-xs uppercase tracking-[0.18em] text-gray-500 mb-2">Export</p>
+            <p class="text-sm text-gray-300">Every export includes the chosen stack plus both free and paid recommendation sets.</p>
+          </div>
+          <div class="rounded-xl border border-gray-800 bg-[#161b22] p-4">
+            <p class="text-xs uppercase tracking-[0.18em] text-gray-500 mb-2">Experience</p>
+            <p class="text-sm text-gray-300">Cleaner pricing filters, clearer stack states, and a more branded client handoff flow.</p>
+          </div>
+        </div>
       </div>
 
-      <div class="bg-[#161b22] border border-gray-800 rounded-xl p-6 mb-12 flex flex-col md:flex-row gap-4 items-center justify-between">
-        <div class="relative w-full md:w-1/2">
-             <input type="text" id="searchInput" placeholder="Search by name, tags or description..." class="w-full pl-4 pr-10 py-3 rounded-lg bg-[#0f1115] text-gray-100 border border-gray-700/80 focus:ring-2 focus:ring-blue-500 transition-all font-medium" />
-             <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
-                <svg class="h-5 w-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-             </div>
+      <div class="bg-[#161b22] border border-gray-800 rounded-xl p-6 mb-12 flex flex-col gap-4">
+        <div class="flex flex-col lg:flex-row gap-4 items-center justify-between">
+          <div class="relative w-full lg:w-1/2">
+            <input type="text" id="searchInput" placeholder="Search by name, category, use case, tags, or description..." class="w-full pl-4 pr-10 py-3 rounded-lg bg-[#0f1115] text-gray-100 border border-gray-700/80 focus:ring-2 focus:ring-blue-500 transition-all font-medium" />
+            <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+              <svg class="h-5 w-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+            </div>
+          </div>
+          <div class="w-full lg:w-auto rounded-lg border border-gray-800 bg-[#0f1115] px-4 py-3 text-sm text-gray-400">
+            <p class="font-semibold text-gray-200">{normalizedTools.length} tools · {categories.length} categories</p>
+            <p>Use search, tags, and pricing filters to narrow the list before stacking.</p>
+          </div>
         </div>
-        <div class="flex gap-4 w-full md:w-auto overflow-x-auto pb-2 md:pb-0">
-          <label class="flex items-center gap-2 cursor-pointer bg-[#0f1115] border border-gray-700 px-4 py-3 rounded-lg hover:border-blue-500 transition-colors whitespace-nowrap">
-            <input type="checkbox" id="freeFilter" class="form-checkbox h-4 w-4 text-blue-500 rounded bg-gray-800 border-gray-600 focus:ring-blue-500" />
-            <span class="text-sm font-semibold text-gray-200">Free / Freemium</span>
-          </label>
-          <label class="flex items-center gap-2 cursor-pointer bg-[#0f1115] border border-gray-700 px-4 py-3 rounded-lg hover:border-blue-500 transition-colors whitespace-nowrap">
-            <input type="checkbox" id="osFilter" class="form-checkbox h-4 w-4 text-blue-500 rounded bg-gray-800 border-gray-600 focus:ring-blue-500" />
-            <span class="text-sm font-semibold text-gray-200">Open Source</span>
-          </label>
+        <div class="flex gap-3 overflow-x-auto pb-2">
+          <button class="pricing-filter active text-[11px] font-bold px-4 py-2.5 rounded-lg border transition-colors whitespace-nowrap bg-blue-600 text-white border-blue-500" data-pricing="all">All ({normalizedTools.length})</button>
+          <button class="pricing-filter text-[11px] font-bold px-4 py-2.5 rounded-lg border transition-colors whitespace-nowrap bg-[#0f1115] text-emerald-400 border-emerald-800/50 hover:bg-emerald-900/30" data-pricing="free">Free ({pricingCounts.free})</button>
+          <button class="pricing-filter text-[11px] font-bold px-4 py-2.5 rounded-lg border transition-colors whitespace-nowrap bg-[#0f1115] text-amber-400 border-amber-800/50 hover:bg-amber-900/30" data-pricing="freemium">Freemium ({pricingCounts.freemium})</button>
+          <button class="pricing-filter text-[11px] font-bold px-4 py-2.5 rounded-lg border transition-colors whitespace-nowrap bg-[#0f1115] text-teal-400 border-teal-800/50 hover:bg-teal-900/30" data-pricing="open-source">Open Source ({pricingCounts['open-source']})</button>
+          <button class="pricing-filter text-[11px] font-bold px-4 py-2.5 rounded-lg border transition-colors whitespace-nowrap bg-[#0f1115] text-rose-400 border-rose-800/50 hover:bg-rose-900/30" data-pricing="paid">Paid ({pricingCounts.paid})</button>
         </div>
       </div>
 
       <div class="mb-20">
-        <h2 class="text-xl font-bold text-white mb-6 flex items-center gap-2 border-b border-gray-800 pb-2">
-          Agency Playbooks
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {stacksData.map((stack: any) => (
-            <div class="p-6 rounded-xl bg-[#161b22] border border-gray-800 hover:border-blue-800 transition-colors">
+        <div class="flex items-center justify-between gap-4 border-b border-gray-800 pb-2 mb-6">
+          <h2 class="text-xl font-bold text-white">Agency Playbooks</h2>
+          <p class="text-sm text-gray-500">Quick-start combinations for common delivery scenarios.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+          {stacksData.map((stack) => (
+            <article class="p-6 rounded-xl bg-[#161b22] border border-gray-800 hover:border-blue-800 transition-colors">
               <h3 class="text-lg font-bold text-white mb-2">{stack.name}</h3>
               <p class="text-sm text-gray-400 mb-5">{stack.description}</p>
               <div class="flex flex-wrap gap-2">
-                {stack.tools.map((t: string) => (
-                  <span class="px-2 py-1 bg-gray-800 rounded font-medium text-xs text-gray-300">{t}</span>
+                {stack.tools.map((toolName) => (
+                  <span class="px-2 py-1 bg-gray-800 rounded font-medium text-xs text-gray-300">{toolName}</span>
                 ))}
               </div>
-            </div>
+            </article>
           ))}
         </div>
       </div>
 
       <div id="toolsContainer">
-        {categories.map((category: unknown, i: number) => (
-          <details class="category-section group mb-6 bg-[#161b22] border border-gray-800 rounded-xl overflow-hidden transition-colors" data-category={category as string} open={i < 3}>
+        {categories.map((category, index) => (
+          <details class="category-section group mb-6 bg-[#161b22] border border-gray-800 rounded-xl overflow-hidden transition-colors" data-category={category.toLowerCase()} open={index < 3}>
             <summary class="text-xl font-bold text-gray-100 p-5 cursor-pointer flex justify-between items-center hover:bg-[#1f262e] transition-colors outline-none focus:ring-2 focus:ring-blue-500 inset-0">
               <div class="flex items-center gap-3">
-                  {category}
-                  <span class="text-xs font-semibold text-gray-400 px-2.5 py-0.5 bg-[#0f1115] border border-gray-800 rounded-full">
-                    {toolsData.filter((t: any) => t.category === category).length} tools
-                  </span>
+                {category}
+                <span class="text-xs font-semibold text-gray-400 px-2.5 py-0.5 bg-[#0f1115] border border-gray-800 rounded-full">
+                  {normalizedTools.filter((tool) => tool.category === category).length} tools
+                </span>
               </div>
               <svg class="w-5 h-5 text-gray-500 transform group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
             </summary>
             <div class="p-5 border-t border-gray-800 bg-[#0f1115]/50">
               <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
-                {toolsData.filter((t: any) => t.category === category).map((tool: any) => (
+                {normalizedTools.filter((tool) => tool.category === category).map((tool) => (
                   <ToolCard tool={tool} />
                 ))}
               </div>
@@ -83,249 +113,61 @@ const categories = [...new Set(toolsData.map((t: any) => t.category))];
       </div>
     </div>
 
-    <!-- Stack Sidebar -->
-    <div class="w-[340px] flex-shrink-0 hidden lg:block sticky top-8 h-[calc(100vh-4rem)]">
-      <div class="rounded-xl border border-gray-800 bg-[#161b22] h-full flex flex-col shadow-2xl">
-        <div class="p-5 border-b border-gray-800 bg-[#0f1115] rounded-t-xl">
-          <div class="flex justify-between items-center mb-3">
-             <h2 class="text-lg font-extrabold text-white flex items-center gap-2">
-               <svg class="w-5 h-5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
-               My Stack
-             </h2>
-             <span id="stackCounter" class="bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded-full">0</span>
+    <aside class="w-full lg:w-[360px] flex-shrink-0 lg:sticky lg:top-8 lg:self-start">
+      <div class="rounded-xl border border-gray-800 bg-[#161b22] flex flex-col shadow-2xl overflow-hidden">
+        <div class="p-5 border-b border-gray-800 bg-[#0f1115]">
+          <div class="flex justify-between items-center mb-3 gap-3">
+            <div>
+              <h2 class="text-lg font-extrabold text-white flex items-center gap-2">
+                <svg class="w-5 h-5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+                My Stack
+              </h2>
+              <p id="stackSummary" class="mt-2 text-xs text-gray-400">Build a stack and export the chosen tools plus both alternative views.</p>
+              <p id="stackStatus" class="mt-1 text-[11px] font-semibold text-gray-500">Ready for discovery</p>
+            </div>
+            <span id="stackCounter" class="bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded-full">0</span>
           </div>
-          <div class="grid grid-cols-2 gap-2 mt-2">
-             <button id="btnConvertFree" class="text-[10px] font-bold py-1.5 px-2 bg-emerald-900/30 text-emerald-400 border border-emerald-800/50 hover:bg-emerald-800 transition rounded shadow-sm">🪄 Find Free Alts</button>
-             <button id="btnConvertPro" class="text-[10px] font-bold py-1.5 px-2 bg-purple-900/30 text-purple-400 border border-purple-800/50 hover:bg-purple-800 transition rounded shadow-sm">💎 Upgrade Stack</button>
+          <div class="grid grid-cols-3 gap-2 mt-3">
+            <button id="btnConvertFree" class="text-[10px] font-bold py-2 px-2 bg-emerald-900/30 text-emerald-400 border border-emerald-800/50 hover:bg-emerald-800 transition rounded shadow-sm">Free Alts</button>
+            <button id="btnConvertPro" class="text-[10px] font-bold py-2 px-2 bg-purple-900/30 text-purple-400 border border-purple-800/50 hover:bg-purple-800 transition rounded shadow-sm">Paid Alts</button>
+            <button id="btnResetStack" class="text-[10px] font-bold py-2 px-2 bg-gray-800 text-gray-300 border border-gray-700 hover:bg-gray-700 transition rounded shadow-sm hidden" style="display:none;">Reset</button>
           </div>
         </div>
-        
-        <div id="stackItems" class="flex-1 overflow-y-auto p-4 space-y-3 bg-[#0f1115]">
-           <p id="emptyStackMsg" class="text-sm text-gray-500 text-center mt-10 px-4">Your stack is empty.<br/><br/>Click <b class="text-blue-400">"+ Stack"</b> on tools to curate a consultancy list.</p>
+
+        <div id="stackItems" class="max-h-[420px] lg:max-h-[calc(100vh-28rem)] overflow-y-auto p-4 space-y-3 bg-[#0f1115]">
+          <p id="emptyStackMsg" class="text-sm text-gray-500 text-center mt-10 px-4">
+            Your stack is empty.<br /><br />
+            Click <b class="text-blue-400">“+ Stack”</b> on any tool card to curate a client recommendation.
+          </p>
         </div>
-        
-        <div class="p-4 border-t border-gray-800 bg-[#161b22] rounded-b-xl">
-          <textarea id="stackNotes" placeholder="Client intro note... (optional)" class="w-full bg-[#0f1115] border border-gray-700 rounded p-2 text-xs text-gray-300 mb-3 h-16 resize-none focus:ring-1 focus:ring-blue-500 outline-none"></textarea>
-          <button id="exportMdBtn" disabled class="w-full py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-lg shadow-lg transition-colors flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed">
-            Export Markdown
-          </button>
+
+        <div class="p-4 border-t border-gray-800 bg-[#161b22]">
+          <div class="rounded-lg border border-blue-900/40 bg-blue-950/20 p-3 text-xs text-blue-100 mb-3">
+            Exports always include the chosen stack plus both free and paid alternatives in a branded diShine format.
+          </div>
+          <textarea id="stackNotes" placeholder="Client context or delivery note… (optional)" class="w-full bg-[#0f1115] border border-gray-700 rounded p-3 text-xs text-gray-300 mb-3 h-24 resize-none focus:ring-1 focus:ring-blue-500 outline-none"></textarea>
+          <div class="grid grid-cols-2 gap-2 mb-2">
+            <button id="previewReportBtn" class="py-2.5 bg-slate-700 hover:bg-slate-600 text-white text-[11px] font-bold rounded-lg shadow-lg transition-colors flex items-center justify-center gap-1">
+              Preview
+            </button>
+            <button id="exportPdfBtn" disabled class="export-btn py-2.5 bg-rose-600 hover:bg-rose-500 text-white text-[11px] font-bold rounded-lg shadow-lg transition-colors flex items-center justify-center gap-1 disabled:opacity-50 disabled:cursor-not-allowed">
+              PDF
+            </button>
+            <button id="exportMdBtn" disabled class="export-btn py-2.5 bg-blue-600 hover:bg-blue-500 text-white text-[11px] font-bold rounded-lg shadow-lg transition-colors flex items-center justify-center gap-1 disabled:opacity-50 disabled:cursor-not-allowed">
+              Markdown
+            </button>
+            <button id="exportTxtBtn" disabled class="export-btn py-2.5 bg-gray-600 hover:bg-gray-500 text-white text-[11px] font-bold rounded-lg shadow-lg transition-colors flex items-center justify-center gap-1 disabled:opacity-50 disabled:cursor-not-allowed">
+              TXT
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+    </aside>
   </div>
 
-  <script define:vars={{ toolsData }}>
-    // We attach the Astro parsed JSON directly to window so vanilla JS inside the browser has access to the full DB to do AI Alt swapping!
-    window.ALL_TOOLS = toolsData.map(t => ({name: t.name, url: t.url, desc: t.description, isFree: t.isFree, cat: t.category, alt: t.alternativeTo, tags: t.tags || []}));
-  </script>
+  <script type="module" define:vars={{ toolsData }}>
+    import { initToolkitApp } from '../lib/toolkit-app.js';
 
-  <script>
-    const searchInput = document.getElementById('searchInput');
-    const freeFilter = document.getElementById('freeFilter');
-    const osFilter = document.getElementById('osFilter');
-    const sections = document.querySelectorAll('.category-section');
-    const tagBadges = document.querySelectorAll('.tag-badge');
-    
-    let myStack: any[] = [];
-    const stackItemsContainer = document.getElementById('stackItems');
-    const emptyStackMsg = document.getElementById('emptyStackMsg');
-    const stackCounter = document.getElementById('stackCounter');
-    const exportBtn = document.getElementById('exportMdBtn');
-    
-    function findBestAlternative(originalToolName: string, needFree: boolean) {
-      const originalTool = (window as any).ALL_TOOLS.find((t: any) => t.name === originalToolName);
-      if (!originalTool) return null;
-      
-      let explicit = (window as any).ALL_TOOLS.find((t: any) => t.isFree === needFree && t.name !== originalTool.name && (t.alt === originalTool.name || originalTool.alt === t.name));
-      if (explicit) return explicit;
-      
-      let pool = (window as any).ALL_TOOLS.filter((t: any) => t.isFree === needFree && t.name !== originalTool.name && t.cat === originalTool.cat);
-      if (pool.length === 0) return null;
-      
-      let bestAlt = pool[0];
-      let maxScore = -1;
-      const originalTags = (originalTool.tags || []).map((tg: string) => Math.abs(tg.length)); // Simple string weight logic
-      const targetTagVals = (originalTool.tags || []).map((t: string) => t.toLowerCase());
-      
-      pool.forEach((t: any) => {
-          const candidateTags = (t.tags || []).map((tg: string) => tg.toLowerCase());
-          let score = candidateTags.filter((tg: string) => targetTagVals.includes(tg)).length;
-          if (score > maxScore) { maxScore = score; bestAlt = t; }
-      });
-      return bestAlt;
-    }
-
-    document.getElementById('btnConvertFree')?.addEventListener('click', () => {
-        if(myStack.length === 0) return;
-        myStack = myStack.map(st => {
-           if(st.free === 'true') return st; 
-           let alt = findBestAlternative(st.name, true);
-           if(alt) return {name: alt.name, url: alt.url, desc: alt.desc, free: 'true', cat: alt.cat};
-           return st;
-        });
-        renderStack();
-    });
-
-    document.getElementById('btnConvertPro')?.addEventListener('click', () => {
-        if(myStack.length === 0) return;
-        myStack = myStack.map(st => {
-           if(st.free === 'false') return st; 
-           let alt = findBestAlternative(st.name, false);
-           if(alt) return {name: alt.name, url: alt.url, desc: alt.desc, free: 'false', cat: alt.cat};
-           return st;
-        });
-        renderStack();
-    });
-
-    function renderStack() {
-      if(!stackCounter || !emptyStackMsg || !exportBtn || !stackItemsContainer) return;
-      
-      stackCounter.innerText = myStack.length.toString();
-      if (myStack.length === 0) {
-        emptyStackMsg.style.display = 'block';
-        (exportBtn as HTMLButtonElement).disabled = true;
-        stackItemsContainer.querySelectorAll('.stack-item').forEach(el => el.remove());
-        return;
-      }
-      emptyStackMsg.style.display = 'none';
-      (exportBtn as HTMLButtonElement).disabled = false;
-      stackItemsContainer.querySelectorAll('.stack-item').forEach(el => el.remove());
-      
-      let freeCount = myStack.filter(t => t.free === 'true').length;
-      let ratioText = freeCount === myStack.length ? '<span class="text-emerald-400">100% Free Stack!</span>' : `${freeCount} Free / ${myStack.length - freeCount} Paid`;
-      const statsDiv = document.createElement('div');
-      statsDiv.className = 'stack-item text-[10px] text-center font-bold bg-gray-800 rounded p-1 mb-2';
-      statsDiv.innerHTML = ratioText;
-      stackItemsContainer.appendChild(statsDiv);
-      
-      myStack.forEach((tool, index) => {
-        const div = document.createElement('div');
-        div.className = 'stack-item p-3 bg-[#161b22] border border-gray-700/50 rounded-lg flex justify-between items-start gap-2 shadow-sm';
-        div.innerHTML = `
-          <div class="overflow-hidden">
-            <h4 class="text-sm font-semibold text-blue-400 leading-tight truncate">${tool.name} ${tool.free === 'true' ? '🍏':'💎'}</h4>
-            <span class="text-[9px] bg-gray-800 text-gray-400 px-1 rounded mt-1 inline-block">${tool.cat}</span>
-          </div>
-          <button class="remove-btn flex-shrink-0 text-gray-500 hover:text-red-400 text-xs font-bold p-1 transition-colors" data-idx="${index}">✕</button>
-        `;
-        stackItemsContainer.appendChild(div);
-      });
-
-      document.querySelectorAll('.remove-btn').forEach(btn => {
-        btn.addEventListener('click', (e) => {
-          const target = e.target as HTMLElement;
-          myStack.splice(parseInt(target.dataset.idx || "0"), 1);
-          renderStack();
-        });
-      });
-    }
-
-    document.querySelectorAll('.add-to-stack').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        const target = e.target as HTMLElement;
-        const rawData = target.dataset.tool;
-        if(!rawData) return;
-        const toolData = JSON.parse(rawData);
-        if (!myStack.find(t => t.name === toolData.name)) {
-          myStack.push(toolData);
-          renderStack();
-          
-          const origText = target.innerText;
-          target.innerText = '✓ Added';
-          target.classList.replace('bg-blue-900/40', 'bg-emerald-900/60');
-          target.classList.replace('text-blue-300', 'text-emerald-300');
-          setTimeout(() => {
-            target.innerText = origText;
-            target.classList.replace('bg-emerald-900/60', 'bg-blue-900/40');
-            target.classList.replace('text-emerald-300', 'text-blue-300');
-          }, 1000);
-        }
-      });
-    });
-
-    exportBtn?.addEventListener('click', () => {
-      if (myStack.length === 0) return;
-      const notesEl = document.getElementById('stackNotes') as HTMLTextAreaElement;
-      const notes = notesEl ? notesEl.value.trim() : '';
-      
-      let md = '# 🚀 Digital Agency Tech Stack\\n\\n';
-      if(notes) md += `> ${notes}\\n\\n`;
-      
-      const grouped: Record<string, any[]> = {};
-      myStack.forEach(t => {
-         if(!grouped[t.cat]) grouped[t.cat] = [];
-         grouped[t.cat].push(t);
-      });
-      
-      Object.keys(grouped).forEach(cat => {
-         md += `\\n### ${cat}\\n`;
-         grouped[cat].forEach(t => {
-            md += `- **[${t.name}](${t.url})**: ${t.desc}\\n`;
-         });
-      });
-      
-      navigator.clipboard.writeText(md).then(() => {
-        const orig = exportBtn.innerHTML;
-        exportBtn.innerHTML = '✓ Copied Output!';
-        exportBtn.classList.replace('bg-blue-600', 'bg-emerald-600');
-        setTimeout(() => {
-           exportBtn.innerHTML = orig;
-           exportBtn.classList.replace('bg-emerald-600', 'bg-blue-600');
-        }, 2000);
-      });
-    });
-
-    let currentTagFilter = "";
-
-    function filterTools() {
-      if(!searchInput || !freeFilter || !osFilter) return;
-      
-      if (currentTagFilter) {
-          (searchInput as HTMLInputElement).value = "#" + currentTagFilter;
-      }
-      
-      const term = (searchInput as HTMLInputElement).value.toLowerCase().replace('#', '');
-      const needsFree = (freeFilter as HTMLInputElement).checked;
-      const needsOS = (osFilter as HTMLInputElement).checked;
-
-      sections.forEach((secEl) => {
-        let hasMatch = false;
-        secEl.querySelectorAll('.tool-card').forEach((cardEl) => {
-          const card = cardEl as HTMLElement;
-          const matchText = (card.dataset.name||"").includes(term) || (card.dataset.desc||"").includes(term) || (card.dataset.tags||"").includes(term);
-          const matchFree = !needsFree || card.dataset.free === 'true';
-          const matchOS = !needsOS || card.dataset.os === 'true';
-
-          if (matchText && matchFree && matchOS) {
-            card.style.display = 'flex';
-            hasMatch = true;
-          } else {
-             card.style.display = 'none';
-          }
-        });
-        
-        const sec = secEl as HTMLDetailsElement;
-        if(term.length > 0 || needsFree || needsOS) {
-           sec.open = hasMatch;
-        }
-        sec.style.display = hasMatch ? 'block' : 'none';
-      });
-    }
-
-    searchInput?.addEventListener('input', () => { currentTagFilter = ''; filterTools(); });
-    freeFilter?.addEventListener('change', filterTools);
-    osFilter?.addEventListener('change', filterTools);
-
-    tagBadges.forEach(badge => {
-      badge.addEventListener('click', (e) => {
-        const target = e.target as HTMLElement;
-        const tag = target.dataset.tag;
-        if(!tag) return;
-        currentTagFilter = (currentTagFilter === tag) ? "" : tag;
-        if(!currentTagFilter && searchInput) (searchInput as HTMLInputElement).value = "";
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-        filterTools();
-      });
-    });
+    initToolkitApp({ tools: toolsData });
   </script>
 </Layout>
