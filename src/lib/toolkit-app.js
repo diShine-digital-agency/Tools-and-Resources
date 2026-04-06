@@ -269,11 +269,15 @@ export function initToolkitApp({ tools = [], brand = BRAND_CONFIG } = {}) {
   function handlePreviewExport() {
     if (state.myStack.length === 0) return;
     const html = buildHtmlReport(buildExportModel());
-    const preview = window.open('', '_blank', 'noopener,noreferrer');
-    if (!preview) return;
-    preview.document.open();
-    preview.document.write(html);
-    preview.document.close();
+    const previewUrl = URL.createObjectURL(new Blob([html], { type: 'text/html' }));
+    const link = document.createElement('a');
+    link.href = previewUrl;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    setTimeout(() => URL.revokeObjectURL(previewUrl), 60_000);
   }
 
   function filterTools() {

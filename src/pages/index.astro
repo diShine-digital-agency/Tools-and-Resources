@@ -165,9 +165,13 @@ const pricingCounts = normalizedTools.reduce((counts, tool) => {
     </aside>
   </div>
 
-  <script type="module" define:vars={{ toolsData }}>
-    import { initToolkitApp } from '../lib/toolkit-app.js';
+  <script define:vars={{ toolsData }}>
+    window.__DISHINE_TOOLS__ = toolsData;
+  </script>
 
-    initToolkitApp({ tools: toolsData });
+  <script type="module">
+    import { initToolkitApp } from '/src/lib/toolkit-app.js';
+
+    initToolkitApp({ tools: window.__DISHINE_TOOLS__ || [] });
   </script>
 </Layout>

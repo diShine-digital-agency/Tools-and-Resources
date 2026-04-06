@@ -1,149 +1,94 @@
-# Ressource&Apps Toolkit | Your Tech Stack Companion
+# diShine Toolkit | Tools & Resources
 
-**426 digital tools. 4-tier pricing. Intelligent alternative matching (v1.4). One HTML file.**
+**426 curated tools. Smarter utility-based matching. Branded full-stack exports in PDF, Markdown, and TXT.**
 
-Tool / Repo in corso di sviluppo.
-
-An interactive toolkit for companies, agencies, consultants, and digital teams. Browse, filter, build tech stacks, and export client-ready reports in Markdown or plain text -- all offline, all in a single HTML file with zero dependencies.
+A client-ready toolkit for agencies, consultants, and digital teams. Browse the directory, build a stack, compare free and paid alternatives, and export a branded recommendation pack prepared as diShine Digital Agency.
 
 ---
 
-## 3 Ways to Access
+## What ships now
 
-### 1. Standalone HTML (Recommended)
+- **Utility-first matching engine** that prioritizes the same use-case before broader same-category fallbacks
+- **Full stack exports** with the chosen stack, free alternatives, and paid alternatives in every file
+- **Branded outputs** in **PDF**, **Markdown**, and **TXT**
+- **Shared runtime logic** across the Astro app, standalone HTML build, and regression tests
+- **Improved stack UX** with pricing filters, clearer stack state, reset support, and report preview
 
-Open **[`standalone.html`](standalone.html)** in any browser. No install, no server, works offline.
+---
 
-- **Search & filter** 422 tools by name, tags, description, and pricing tier
-- **Click any tag** to instantly filter the directory
-- **4-tier pricing filters**: Free / Freemium / Open Source / Paid -- with exact counts
-- **Collapsible accordions** per category (closed by default)
-
-### 2. Markdown Directory
-
-Open **[`DIRECTORY.md`](DIRECTORY.md)** for a clean, scrollable text list of every tool with categories, descriptions, and pricing.
-
-### 3. Astro Dev Server
+## Run locally
 
 ```bash
-npm install && npm run dev
+npm install
+npm run build
+npm test
+npm run build:standalone
 ```
 
-Full static site at `http://localhost:4321`. See [GUIDE.md](GUIDE.md) for details.
+### Available scripts
+
+| Command | Purpose |
+|---|---|
+| `npm run dev` | Start the Astro app locally |
+| `npm run build` | Build the Astro app |
+| `npm test` | Run matching and export regression checks |
+| `npm run build:standalone` | Regenerate `standalone.html` |
+| `npm run preview` | Preview the production build |
 
 ---
 
-## The Stack Builder
+## Product behavior
 
-The right sidebar turns the toolkit from a directory into a consulting instrument.
+### Stack builder
 
-### Building a stack
+- Add any tool to **My Stack**
+- Switch between **Chosen stack**, **Free alternatives**, and **Paid alternatives** views
+- Reset back to the original hand-picked selection at any time
+- Add optional client notes before export
 
-Click **`+ Stack`** on any tool card to add it. The button toggles to **`- Remove`** (red) so you can remove directly from the card. The sidebar shows a live pricing breakdown (`2 free / 1 OS / 3 freemium / 1 paid`).
+### Export package
 
-### Alternative matching
+Every export includes:
 
-Two buttons transform your stack:
+1. **Chosen Stack**
+2. **Free Alternatives**
+3. **Paid Alternatives**
 
-| Button | What it does |
-|--------|-------------|
-| **Free Alts** | Replaces paid/freemium tools with free or open-source alternatives |
-| **Upgrade** | Replaces free/freemium tools with premium paid alternatives |
-| **Reset** | Appears after any swap -- restores your original hand-picked stack |
+The report is generated with diShine branding and can be exported as:
 
-Your original stack is preserved in memory. Clicking **Free Alts** or **Upgrade** swaps the view but never destroys your selections. Click **Reset** to go back.
+- **PDF** — branded downloadable report
+- **Markdown** — easy to paste into proposals, docs, and Notion
+- **TXT** — clean plain-text handoff
 
-### Three export formats
+### Matching rules
 
-Three buttons at the bottom of the sidebar:
+The engine only searches inside the **same category**, then strongly prioritizes the **same subcategory / utility cluster**. If no strong match exists, it returns no recommendation instead of forcing a weak one.
 
-| Button | Action |
-|--------|--------|
-| **Copy** | Copies the full Markdown report to clipboard |
-| **.md** | Downloads a `tech-stack.md` file |
-| **.txt** | Downloads a `tech-stack.txt` file (stripped of Markdown syntax) |
-
-All three generate a consulting report with three sections:
-
-1. **Chosen Stack** -- your original hand-picked tools, grouped by category
-2. **Free & Open-Source Alternatives** -- a comparison table showing each tool alongside its best free/OS match
-3. **Premium Upgrade Alternatives** -- a comparison table showing each tool alongside its best paid match
-
-The report includes pricing labels, category groupings, clickable links, and a footer. The `.txt` version strips all Markdown formatting (bold, links, headings) for pasting into plain-text contexts. Ready to paste into a proposal, Notion page, or client email.
+For the technical details, see [ALGORITHM.md](ALGORITHM.md).
 
 ---
 
-## Matching Algorithm
+## Project structure
 
-The alternative engine uses a **multi-signal weighted scoring system** with 5 signals (subCategory match +50, tag overlap +10 each, keyword overlap +20, category fallback +5/+15) and a minimum score threshold of 5. It only searches within the same category — no cross-category fallback, no forced bad matches.
-
-**Current quality (v1.4):** 79.9% exact subcategory match, 15.1% same-category, 0.2% cross-category, 4.7% graceful null.
-
-For the full scoring pipeline, weight rationale, concentration analysis, quality evolution, and data architecture: **[ALGORITHM.md](ALGORITHM.md)**
+- `src/pages/index.astro` — main Astro experience
+- `src/components/ToolCard.astro` — tool card UI
+- `src/lib/toolkit-core.js` — shared matching, report, and PDF helpers
+- `src/lib/toolkit-app.js` — shared browser-side stack behavior
+- `src/data/tools.json` — tool dataset
+- `standalone.html` — generated single-file delivery build
+- `build-standalone.js` — standalone generator
+- `test.js` — regression checks for matching and exports
 
 ---
 
 ## Dataset
 
-`src/data/tools.json` -- 426 tools across 21 categories and 60+ subcategories.
-
-### Match quality (v1.4)
-
-Tested against the full dataset (426 tools x 2 modes = 852 match attempts):
-
-| Quality | Count | % |
-|---------|-------|---|
-| Good (same subCategory) | 681 | 79.9% |
-| Acceptable (same category) | 129 | 15.1% |
-| Cross-category | 2 | 0.2% |
-| Null (no match exists) | 40 | 4.7% |
-
-The 2 cross-category matches are Hunter.io (intentionally listed in two categories). The 40 nulls are legitimate data gaps (no free ad platforms, no paid browsers, etc.).
-
-### Pricing tiers
-
-| Tier | Count | Definition |
-|------|-------|------------|
-| **Free** | ~85 | No paid plan exists at all |
-| **Freemium** | ~93 | Free tier available, paid upgrades exist |
-| **Open Source** | ~107 | Source code is public, self-hostable |
-| **Paid** | ~141 | No free tier -- subscription or license only |
-
-### Sources
-
-- Agency field experience across 50+ client engagements
-- [FMHY compendium](https://fmhy.pages.dev/) for privacy, self-hosted, and open-source tools
-- Manual verification of every pricing classification
-
----
-
-## Contributing
-
-1. Open `src/data/tools.json`
-2. Add a tool object:
-   ```json
-   {
-     "name": "Tool Name",
-     "url": "https://example.com",
-     "category": "Category Name",
-     "subCategory": "SubCategory Name",
-     "type": "[F]",
-     "description": "What it does.",
-     "learningCurve": "Easy",
-     "agencyPick": false,
-     "alternativeTo": "",
-     "isFree": true,
-     "isOpenSource": false,
-     "tags": ["tag1", "tag2"],
-     "pricing": "free"
-   }
-   ```
-3. Run `node build-standalone.js` and `node build-md.js` to regenerate outputs.
-
-> See [GUIDE.md](GUIDE.md) for detailed development instructions.
+- **426 tools**
+- **21 categories**
+- Structured metadata for category, subcategory, pricing, tags, learning curve, and curated `alternativeTo` relationships
 
 ---
 
 ## License
 
-Built and maintained by Kevin Escoda | [diShine Digital Agency](https://dishine.it). Licensed under the MIT License.
+Built and maintained by [diShine Digital Agency](https://dishine.it). Licensed under the MIT License.

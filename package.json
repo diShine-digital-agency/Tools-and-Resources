@@ -8,7 +8,9 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "build:standalone": "node build-standalone.js",
     "preview": "astro preview",
+    "test": "node test.js",
     "astro": "astro"
   },
   "dependencies": {
