@@ -1,8 +1,18 @@
-# diShine Toolkit | Tools & Resources
+# diShine Toolkit | Define or challenge your Tech Stack with this toolkit. Smart matching & Paid/Premium alternatives for each solution.
 
 **426 curated tools. Smarter utility-based matching. Branded full-stack exports in PDF, Markdown, and TXT.**
 
+<p align="center">
+  <img src="images/techstack_02_stack_builder_workflow.webp" alt="Tech stack window" width="65%">
+</p>
+
 A client-ready toolkit for agencies, consultants, and digital teams. Browse the directory, build a stack, compare free and paid alternatives, and export a branded recommendation pack prepared as diShine Digital Agency.
+Built by [diShine Digital Agency](https://dishine.it).
+
+<p align="center">
+  <img src="images/techstack_05_alternatives_report_detail.webp" alt="Tech stack alternatives tools" width="49%">
+  <img src="images/techstack_04_branded_report_preview.webp" alt="Tech stack report" width="49%">
+</p>
 
 ## 📖 Documentation
 
