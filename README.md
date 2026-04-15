@@ -1,18 +1,32 @@
-# diShine Toolkit | Define or challenge your Tech Stack with this toolkit. Smart matching & Paid/Premium alternatives for each solution.
+# 🌟 TechStack Toolkit: 426 curated tools, smart utility-based matching and full-stack exports in PDF, Markdown, and TXT
 
-**426 curated tools. Smarter utility-based matching. Branded full-stack exports in PDF, Markdown, and TXT.**
+<div align="center">
+  
+[![diShine Logo](https://dishine.it/favicon.ico)](https://dishine.it/)
+
+***Transform. Automate. Shine!***
+
+[![Website](https://img.shields.io/badge/Website-dishine.it-blue)](https://dishine.it/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-diShine-blue)](https://linkedin.com/company/100682596)
+[![Location](https://img.shields.io/badge/Location-Milan%2C%20Italy-green)]()
+[![License: CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey)](LICENSE)
 
 <p align="center">
-  <img src="images/techstack_02_stack_builder_workflow.webp" alt="Tech stack window" width="65%">
+  <img src="images/techstack_02_stack_builder_workflow.webp" alt="Tech stack window" width="90%">
 </p>
 
-A client-ready toolkit for agencies, consultants, and digital teams. Browse the directory, build a stack, compare free and paid alternatives, and export a branded recommendation pack prepared as diShine Digital Agency.
+*A client-ready toolkit for agencies, consultants, and digital teams. Browse the directory, build a stack, compare free and paid alternatives, and export a branded recommendation pack prepared as diShine Digital Agency.*
+
 Built by [diShine Digital Agency](https://dishine.it).
+
+</div>
 
 <p align="center">
   <img src="images/techstack_05_alternatives_report_detail.webp" alt="Tech stack alternatives tools" width="49%">
   <img src="images/techstack_04_branded_report_preview.webp" alt="Tech stack report" width="49%">
-</p>
+</p>mages/prismo_04_report_review_window.webp" alt="Prismo review window" width="60%">
+
+---
 
 ## 📖 Documentation
 
