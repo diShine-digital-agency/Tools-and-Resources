@@ -1,4 +1,4 @@
-# 🌟 TechStack Toolkit: 426 curated tools, smart utility-based matching and full-stack exports in PDF, Markdown, and TXT
+# 📚 TechStack Toolkit: 426 curated tools, smart utility-based matching and full-stack exports in PDF, Markdown, and TXT
 
 <div align="center">
   
@@ -182,3 +182,14 @@ For the technical details, see [ALGORITHM.md](ALGORITHM.md).
 ## License
 
 Built and maintained by [diShine Digital Agency](https://dishine.it). Licensed under the [CC0 1.0 Universal](LICENSE) license.
+
+---
+
+## About diShine
+
+[diShine](https://dishine.it) is a creative tech agency based in Milan. We create digital strategies, design process and build tools for clients, help businesses with AI strategy and MarTech architecture, and open-source some things we wish existed.
+
+- Web: [dishine.it](https://dishine.it)
+- GitHub: [github.com/diShine-digital-agency](https://github.com/diShine-digital-agency)
+- Contact: kevin@dishine.it
+
