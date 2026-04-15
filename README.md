@@ -24,7 +24,7 @@ Built by [diShine Digital Agency](https://dishine.it).
 <p align="center">
   <img src="images/techstack_05_alternatives_report_detail.webp" alt="Tech stack alternatives tools" width="49%">
   <img src="images/techstack_04_branded_report_preview.webp" alt="Tech stack report" width="49%">
-</p>mages/prismo_04_report_review_window.webp" alt="Prismo review window" width="60%">
+</p>
 
 ---
 
