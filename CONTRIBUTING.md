@@ -76,7 +76,11 @@ Thank you for helping improve the diShine Toolkit! This guide explains how to ad
 
 ## Code of conduct
 
-Be respectful, constructive, and inclusive. Focus on improving the toolkit for everyone.
+Be respectful, constructive, and inclusive. Focus on improving the toolkit for everyone. See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for the full policy.
+
+## Security
+
+To report a vulnerability, follow the process in [SECURITY.md](SECURITY.md). Do not open a public issue.
 
 ---
 

@@ -15,7 +15,7 @@
   <img src="images/techstack_02_stack_builder_workflow.webp" alt="Tech stack window" width="90%">
 </p>
 
-*A client-ready toolkit for agencies, consultants, and digital teams. Browse the directory, build a stack, compare free and paid alternatives, and export a branded recommendation pack prepared as diShine Digital Agency.*
+*A client-ready toolkit for agencies, consultants, and digital teams. Browse the directory, build a stack, compare free and paid alternatives, and export a branded recommendation pack prepared by diShine Digital Agency.*
 
 Built by [diShine Digital Agency](https://dishine.it).
 
@@ -36,7 +36,7 @@ Built by [diShine Digital Agency](https://dishine.it).
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to add tools, field reference, and matching tips |
 | [ALGORITHM.md](ALGORITHM.md) | Technical reference for the matching engine scoring and thresholds |
 | [DIRECTORY.md](DIRECTORY.md) | Static Markdown listing of all 426 tools with metadata and statistics |
-| [changelog.md](changelog.md) | Release notes and version history |
+| [CHANGELOG.md](CHANGELOG.md) | Release notes and version history |
 
 ---
 
@@ -160,7 +160,9 @@ For the technical details, see [ALGORITHM.md](ALGORITHM.md).
 - `GUIDE.md`: end-user guide for browsing, stacking, and exporting
 - `CONTRIBUTING.md`: contributor guide with field reference and tips
 - `ALGORITHM.md`: matching engine technical reference
-- `changelog.md`: release notes
+- `CHANGELOG.md`: release notes
+- `CODE_OF_CONDUCT.md`: community standards
+- `SECURITY.md`: vulnerability reporting policy
 
 ### Utilities
 
