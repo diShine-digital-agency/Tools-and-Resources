@@ -1,4 +1,4 @@
-# 📚 TechStack Toolkit: 426 curated tools, smart utility-based matching and full-stack exports in PDF, Markdown, and TXT
+# 📚 TechStack Toolkit: 427 curated tools, smart utility-based matching and full-stack exports in PDF, Markdown, and TXT
 
 <div align="center">
   
@@ -35,7 +35,7 @@ Built by [diShine Digital Agency](https://dishine.it).
 | [GUIDE.md](GUIDE.md) | End-user guide (browsing, stacking, exporting) |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to add tools, field reference, and matching tips |
 | [ALGORITHM.md](ALGORITHM.md) | Technical reference for the matching engine scoring and thresholds |
-| [DIRECTORY.md](DIRECTORY.md) | Static Markdown listing of all 426 tools with metadata and statistics |
+| [DIRECTORY.md](DIRECTORY.md) | Static Markdown listing of all 427 tools with metadata and statistics |
 | [CHANGELOG.md](CHANGELOG.md) | Release notes and version history |
 
 ---
@@ -139,7 +139,7 @@ For the technical details, see [ALGORITHM.md](ALGORITHM.md).
 
 ### Data
 
-- `src/data/tools.json`: tool dataset (426 entries)
+- `src/data/tools.json`: tool dataset (427 entries)
 - `src/data/stacks.json`: Agency Playbook definitions (9 playbooks)
 
 ### Build & test
@@ -173,10 +173,10 @@ For the technical details, see [ALGORITHM.md](ALGORITHM.md).
 
 ## Dataset
 
-- **426 tools** across **21 categories** and **63 subcategories**
+- **427 tools** across **21 categories** and **63 subcategories**
 - **11 agency picks** (curated top recommendations)
 - **46 curated `alternativeTo` relationships** for direct competitor matching
-- Pricing distribution: 89 free · 106 open-source · 92 freemium · 139 paid
+- Pricing distribution: 89 free · 106 open-source · 93 freemium · 139 paid
 - Structured metadata for category, subcategory, pricing, tags, learning curve, and curated relationships
 
 ---
