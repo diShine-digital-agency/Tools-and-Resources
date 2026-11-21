@@ -1,6 +1,6 @@
 # User Guide: diShine Toolkit
 
-A practical guide to the **426-tool** diShine digital toolkit.
+A practical guide to the **427-tool** diShine digital toolkit.
 
 > See also: [README](README.md) · [ALGORITHM.md](ALGORITHM.md) · [DIRECTORY.md](DIRECTORY.md) · [CONTRIBUTING.md](CONTRIBUTING.md) · [changelog.md](changelog.md)
 
@@ -70,7 +70,7 @@ Export filenames include a date stamp (`YYYY-MM-DD`) to prevent overwrites when 
 
 ## 2. Text-Only Access
 
-Open **[`DIRECTORY.md`](DIRECTORY.md)** for a static Markdown list of all 426 tools with categories, descriptions, pricing, learning curves, tags, and a dataset statistics summary.
+Open **[`DIRECTORY.md`](DIRECTORY.md)** for a static Markdown list of all 427 tools with categories, descriptions, pricing, learning curves, tags, and a dataset statistics summary.
 
 ---
 

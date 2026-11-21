@@ -7504,5 +7504,25 @@
       "Productivity"
     ],
     "pricing": "paid"
+  },
+  {
+    "name": "Crosy",
+    "url": "https://crosy.app/",
+    "category": "Design & Visual",
+    "subCategory": "Design Platforms",
+    "type": "[$]",
+    "description": "Converts user images or blank charts into cross-stitch patterns with DMC thread color editing, digital stitch previews, and progress marking; standard editing and previews are currently free, while complete exports require an account and 30 credits per pattern unlock.",
+    "learningCurve": "Medium",
+    "agencyPick": false,
+    "alternativeTo": "",
+    "isFree": true,
+    "isOpenSource": false,
+    "tags": [
+      "Design",
+      "Image Editing",
+      "Cross Stitch",
+      "Pattern Editing"
+    ],
+    "pricing": "freemium"
   }
 ]

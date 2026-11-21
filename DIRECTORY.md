@@ -6,13 +6,13 @@ This is a statically generated list of all tools available in the diShine toolki
 
 | Metric | Value |
 |--------|-------|
-| **Total tools** | 426 |
+| **Total tools** | 427 |
 | **Categories** | 21 |
 | **Subcategories** | 63 |
 | **Agency picks** | 11 |
 | **alternativeTo pairs** | 46 |
 | **Free** | 89 |
-| **Freemium** | 92 |
+| **Freemium** | 93 |
 | **Open Source** | 106 |
 | **Paid** | 139 |
 
@@ -197,6 +197,7 @@ This is a statically generated list of all tools available in the diShine toolki
 | **[Inkscape](https://inkscape.org/)** | Free/Freemium<br>OSS | Medium | Professional quality vector graphics software.<br>**Alt to:** Adobe Illustrator<br>*Tags: #Design, #Vector, #OSS* |
 | **[Adobe Photoshop](https://adobe.com/)** | Paid | Steep | Standard for image editing and digital art.<br>*Tags: #Design, #Image Editing, #Creative* |
 | **[Krita](https://krita.org/)** | Free/Freemium<br>OSS | Medium | Professional free and open source painting program.<br>**Alt to:** Adobe Photoshop<br>*Tags: #Design, #Image Editing, #Painting* |
+| **[Crosy](https://crosy.app/)** | Free/Freemium | Medium | Converts user images or blank charts into cross-stitch patterns with DMC thread color editing, digital stitch previews, and progress marking; standard editing and previews are currently free, while complete exports require an account and 30 credits per pattern unlock.<br>*Tags: #Design, #Image Editing, #Cross Stitch, #Pattern Editing* |
 
 [⬆ Back to Top](#table-of-contents)
 
